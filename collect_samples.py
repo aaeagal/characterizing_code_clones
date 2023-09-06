@@ -28,9 +28,10 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a java function that given an integer array nums of length n and an integer target, finds three integers in nums such that the sum is closest to target. Return the sum of the three integers. Please only give me the source code. No explanation."
+    prompt = "Write a java function that implements pow(x, n), which calculates x raised to the power n (i.e., x^n). Do not provide explanation, only provide the source code."
 
-    prompt_id = "3SumClosest5"
+
+    prompt_id = "powxN9"
 
    # Create a directory to store the samples
     if not os.path.exists("data"):
