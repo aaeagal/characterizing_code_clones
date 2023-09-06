@@ -28,8 +28,9 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a java function that given a string s, find the length of the longest substring without repeating characters without an explanation. \n\n" 
-    prompt_id = "LongestSubstringWithoutRepeatingCharacters"
+    prompt = "Write a java function that given an integer array nums of length n and an integer target, finds three integers in nums such that the sum is closest to target. Return the sum of the three integers. Please only give me the source code. No explanation."
+
+    prompt_id = "3SumClosest5"
 
    # Create a directory to store the samples
     if not os.path.exists("data"):
