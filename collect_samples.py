@@ -28,9 +28,9 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a java function that given a string s and a dictionary of strings wordDict, returns true if s can be segmented into a space-separated sequence of one or more dictionary words. Note that the same word in the dictionary may be reused multiple times in the segmentation. Do not provide an explanation. Just give me the source code."    
-    prompt_id = "wordBreak15"
-   # Create a directory to store the samples
+    prompt = "Write a java function that given strings s1, s2, and s3, finds whether s3 is formed by an interleaving of s1 and s2. An interleaving of two strings s and t is a configuration where s and t are divided into n and m substrings respectively, such that: s = s1 + s2 + ... + sn, t = t1 + t2 + ... + tm,|n - m| <= 1. The interleaving is s1 + t1 + s2 + t2 + s3 + t3 + ... or t1 + s1 + t2 + s2 + t3 + s3 + ... Note: a + b is the concatenation of strings a and b. Do not provide an explanation. Just give me the source code."    
+    prompt_id = "interleavingString20"
+    # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
 
