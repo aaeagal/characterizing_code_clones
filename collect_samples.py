@@ -28,11 +28,8 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a java function that implements pow(x, n), which calculates x raised to the power n (i.e., x^n). Do not provide explanation, only provide the source code."
-
-
-    prompt_id = "powxN9"
-
+    prompt = "Write a java function that given a string s and a dictionary of strings wordDict, returns true if s can be segmented into a space-separated sequence of one or more dictionary words. Note that the same word in the dictionary may be reused multiple times in the segmentation. Do not provide an explanation. Just give me the source code."    
+    prompt_id = "wordBreak15"
    # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
@@ -71,10 +68,6 @@ def main():
                hashes.add(code_hash)
         print(f"Total samples: {total_samples}")
         print(f"Unique samples: {unique_samples}")
-
-
-
-        
 
 
 if __name__ == "__main__":
