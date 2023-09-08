@@ -28,8 +28,8 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a Java function that given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. Here are the constraints: m == grid.length, n == grid[i].length, 1 <= m, n <= 300, grid[i][j] is '0' or '1'.Do not provide an explanation. Just give me the source code."
-    prompt_id = "numberOfIslands26"
+    prompt = "An additive number is a string whose digits can form an additive sequence. A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two. Write a Java function that given a string containing only digits, return true if it is an additive number or false otherwise. Constraints: 1 <= num.length <= 35, num consists only of digits. Do not provide an explanation. Just give me the source code."
+    prompt_id = "additiveNumber30"
    # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
