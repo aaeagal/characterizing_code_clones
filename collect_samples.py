@@ -28,9 +28,9 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a java function that given strings s1, s2, and s3, finds whether s3 is formed by an interleaving of s1 and s2. An interleaving of two strings s and t is a configuration where s and t are divided into n and m substrings respectively, such that: s = s1 + s2 + ... + sn, t = t1 + t2 + ... + tm,|n - m| <= 1. The interleaving is s1 + t1 + s2 + t2 + s3 + t3 + ... or t1 + s1 + t2 + s2 + t3 + s3 + ... Note: a + b is the concatenation of strings a and b. Do not provide an explanation. Just give me the source code."    
-    prompt_id = "interleavingString20"
-    # Create a directory to store the samples
+    prompt = "Write a Java function that given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. Here are the constraints: m == grid.length, n == grid[i].length, 1 <= m, n <= 300, grid[i][j] is '0' or '1'.Do not provide an explanation. Just give me the source code."
+    prompt_id = "numberOfIslands26"
+   # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
 
