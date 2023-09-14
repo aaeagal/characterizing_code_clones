@@ -29,8 +29,8 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a Java function that given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and returns an array of the non-overlapping intervals that cover all the intervals in the input. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"
-    prompt_id = "mergeIntervals10"
+    prompt = "Write a java function that given an unsorted array of integers nums, returns the length of the longest consecutive elements sequence. You must write an algorithm that runs in O(n) time. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"    
+    prompt_id = "LongestConsecutiveSequence21"
    # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
@@ -54,6 +54,8 @@ def main():
 
             #get the code
             code = get_code(prompt)
+
+            print("Code before preprocessing: -------------------------------------------------------------------------------\n", code)
 
             # write a regular expression to remove everything outside of source code
             regex = "//CODESTART(.*?)//CODEEND"
