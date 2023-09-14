@@ -29,8 +29,8 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "Write a java function that given an unsorted array of integers nums, returns the length of the longest consecutive elements sequence. You must write an algorithm that runs in O(n) time. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"    
-    prompt_id = "LongestConsecutiveSequence21"
+    prompt = " Write a Java function that given a string containing only digits, returns true if it is an additive number or false otherwise. An additive number is a string whose digits can form an additive sequence. A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two. Constraints: 1 <= num.length <= 35, num consists only of digits. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"
+    prompt_id = "additiveNumber30"
    # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
