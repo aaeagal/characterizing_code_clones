@@ -5,6 +5,7 @@ import sys
 import json
 import random
 import openai
+import re
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
@@ -28,14 +29,14 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = "An additive number is a string whose digits can form an additive sequence. A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two. Write a Java function that given a string containing only digits, return true if it is an additive number or false otherwise. Constraints: 1 <= num.length <= 35, num consists only of digits. Do not provide an explanation. Just give me the source code."
-    prompt_id = "additiveNumber30"
+    prompt = "Write a Java function that given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and returns an array of the non-overlapping intervals that cover all the intervals in the input. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"
+    prompt_id = "mergeIntervals10"
    # Create a directory to store the samples
     if not os.path.exists("data"):
         os.mkdir("data")
 
     # Create a file to store the samples
-    with open(f"data/nl_prompt/{prompt_id}.Java", "w") as f:
+    with open(f"data/gpt_3.5/{prompt_id}.Java", "w") as f:
         #write the prompt to the file & add a new line
         #f.write(prompt + "\n")
 
@@ -46,7 +47,6 @@ def main():
         #set of hashes for the samples
         hashes = set()
 
-
         #loop until we have 20 unique samples
         while unique_samples < 20:
             #increment the number of samples
@@ -54,8 +54,21 @@ def main():
 
             #get the code
             code = get_code(prompt)
-            print("Code: ", code)
 
+            # write a regular expression to remove everything outside of source code
+            regex = "//CODESTART(.*?)//CODEEND"
+
+            code = re.findall(regex, code, re.DOTALL)
+
+            #check if code and if there's anything in code outside of " " characters 
+            if code and code[0].strip(): 
+                code = code[0]
+            else:
+                print("No code found")
+                continue
+
+
+            print("Code after preprocessing: -------------------------------------------------------------------------------\n", code)
             #hash the code
             code_hash = hashlib.sha256(code.encode()).hexdigest()
 
@@ -65,6 +78,7 @@ def main():
                 #write the code to the file
                f.write(code + "\n")
                unique_samples += 1
+               print("Unique samples: ", unique_samples)
                hashes.add(code_hash)
         print(f"Total samples: {total_samples}")
         print(f"Unique samples: {unique_samples}")
@@ -72,3 +86,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
