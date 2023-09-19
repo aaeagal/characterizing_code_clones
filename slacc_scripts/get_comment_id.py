@@ -30,7 +30,11 @@ def main():
                 print("Function counter: ", function_counter)
                 output_lines.append(line)
                 continue
-
+            
+            if 'return' in line:
+                output_lines.append(line)
+                continue
+            
             # if the line only has whitespace or is empty, then skip it
             stripped_line = line.strip()
             if stripped_line and not any(c not in (' ', '\t', '\n', '{', '}') for c in stripped_line):

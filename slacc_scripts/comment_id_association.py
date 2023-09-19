@@ -31,7 +31,7 @@ def main():
                 function_dict[current_function].append(comment)
 
     # Do something with output_lines, such as writing to a new file:
-    with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/function_id_info.txt', 'w') as f:
+    with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/function_id_info.json', 'w') as f:
         json.dump(function_dict, f)
 
 
