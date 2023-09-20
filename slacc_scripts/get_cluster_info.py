@@ -35,32 +35,33 @@ def main():
             # For every value in the function_dict and data, if the value is the same, then print the corresponding keys
             matches = {}
             for key1, val1 in function_dict.items():
+                matches[key1] = []
                 for key2, val2 in data.items():
                     if val1 == val2:
-                        matches.update({key1: key2})
+                        matches[key1].append(key2)
 
             thresholds_dict.update({threshold: matches})
+
+            print(thresholds_dict)
             
             file.seek(0)
             tmp = {}
             for line in file:
                 line = line.strip()  # remove leading/trailing whitespace
-                
+
                 if line.startswith('****** Cluster'):
                     current_cluster = line  # get cluster number
 
                 if line.startswith('public static'):
                     func_name = line.split()[3].split('(')[0]  # get function name
-                    if func_name in matches.values(): # if the function name is in the matches dictionary
-                        #replace the value with current_cluster
-                        for key, value in matches.items():
-                            if value == func_name:
-                                tmp.update({key: current_cluster})
-            
+                    for key, values in matches.items(): # if the function name is in the matches dictionary
+                        if func_name in values: # replace the value with current_cluster
+                            tmp.update({key: current_cluster})
+
             clusters_dict.update({threshold: tmp})
-            
+
             print(clusters_dict)
-                   
+                            
     # Write the dictionary to a json file
     with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/function_key.json', 'w') as f:
         json.dump(thresholds_dict, f, indent=4)
