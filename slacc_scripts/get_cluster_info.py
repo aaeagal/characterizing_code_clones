@@ -45,7 +45,7 @@ def main():
             print(thresholds_dict)
             
             file.seek(0)
-            tmp = {}
+            tmp = dict(matches)  # copy the dictionary
             for line in file:
                 line = line.strip()  # remove leading/trailing whitespace
 
@@ -54,14 +54,12 @@ def main():
 
                 if line.startswith('public static'):
                     func_name = line.split()[3].split('(')[0]  # get function name
-                    for key, values in matches.items(): # if the function name is in the matches dictionary
-                        if func_name in values: # replace the value with current_cluster
-                            tmp.update({key: current_cluster})
+                    for key, values in tmp.items(): # if the function name is in the matches dictionary
+                        tmp[key] = [current_cluster if value == func_name else value for value in values] 
 
             clusters_dict.update({threshold: tmp})
 
-            print(clusters_dict)
-                            
+        print(clusters_dict)
     # Write the dictionary to a json file
     with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/function_key.json', 'w') as f:
         json.dump(thresholds_dict, f, indent=4)
