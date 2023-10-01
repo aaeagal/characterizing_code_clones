@@ -27,9 +27,13 @@ def main():
 
             # If inside a function, extract the comment
             if current_function and '//' in line:
+         
                 comment = line.split(' // ')[1].strip()
-                function_dict[current_function].append(comment)
+                function_dict[current_function].append(int(comment))
 
+            if current_function and 'return' in line:
+                function_dict[current_function].append(line)
+                
     # Do something with output_lines, such as writing to a new file:
     with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/function_id_info.json', 'w') as f:
         json.dump(function_dict, f)
