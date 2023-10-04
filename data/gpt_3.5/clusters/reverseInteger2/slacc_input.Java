@@ -5,331 +5,331 @@ public class Prelim{
             int digit = x % 10; // 3
             int newResult = result * 10 + digit; // 4
             if ((newResult - digit) / 10 != result) { // 5
-                return 0; // 6
+                return 0;
             }
-            result = newResult; // 7
-            x = x / 10; // 8
+            result = newResult; // 6
+            x = x / 10; // 7
         }
-        return result; // 9
+        return result;
     }
 
 
 
 
     public int reverse2(int x) {
-        int rev = 0; // 10
-        while (x != 0) { // 11
-            int pop = x % 10; // 12
-            x = x / 10; // 13
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 14
-                return 0; // 15
+        int rev = 0; // 8
+        while (x != 0) { // 9
+            int pop = x % 10; // 10
+            x = x / 10; // 11
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 12
+                return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 16
-                return 0; // 17
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 13
+                return 0;
             }
-            rev = rev * 10 + pop; // 18
+            rev = rev * 10 + pop; // 14
         }
-        return rev; // 19
+        return rev;
     }
 
 
 
     public static int reverse3(int x) {
-        int reversed = 0; // 20
-        while (x != 0) { // 21
-            int digit = x % 10; // 22
-            x /= 10; // 23
-            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) { // 24
-                return 0; // 25
+        int reversed = 0; // 15
+        while (x != 0) { // 16
+            int digit = x % 10; // 17
+            x /= 10; // 18
+            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) { // 19
+                return 0;
             }
-            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) { // 26
-                return 0; // 27
+            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) { // 20
+                return 0;
             }
-            reversed = reversed * 10 + digit; // 28
+            reversed = reversed * 10 + digit; // 21
         }
-        return reversed; // 29
+        return reversed;
     }
 
 
     public int reverse4(int x) {
-        int rev = 0; // 30
-        while (x != 0) { // 31
-            int pop = x % 10; // 32
-            x /= 10; // 33
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 34
-                return 0; // 35
+        int rev = 0; // 22
+        while (x != 0) { // 23
+            int pop = x % 10; // 24
+            x /= 10; // 25
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 26
+                return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 36
-                return 0; // 37
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 27
+                return 0;
             }
-            rev = rev * 10 + pop; // 38
+            rev = rev * 10 + pop; // 28
         }
-        return rev; // 39
+        return rev;
     }
 
 
 
 
     public int reverse5(int x) {
-        long rev = 0; // 40
-        while (x != 0) { // 41
-            rev = rev * 10 + x % 10; // 42
-            x /= 10; // 43
+        long rev = 0; // 29
+        while (x != 0) { // 30
+            rev = rev * 10 + x % 10; // 31
+            x /= 10; // 32
         }
-        if (rev < Integer.MIN_VALUE || rev > Integer.MAX_VALUE) { // 44
-            return 0; // 45
+        if (rev < Integer.MIN_VALUE || rev > Integer.MAX_VALUE) { // 33
+            return 0;
         }
-        return (int) rev; // 46
+        return (int) rev;
     }
 
 
 
 
     public static int reverse6(int x) {
-        int result = 0; // 47
+        int result = 0; // 34
 
-        while (x != 0) { // 48
-            int digit = x % 10; // 49
+        while (x != 0) { // 35
+            int digit = x % 10; // 36
 
-            if (result > Integer.MAX_VALUE / 10 || // 50
-                    (result == Integer.MAX_VALUE / 10 && digit > 7)) // 51
-                return 0; // 52
+            if (result > Integer.MAX_VALUE / 10 || // 37
+                    (result == Integer.MAX_VALUE / 10 && digit > 7)) // 38
+                return 0;
 
-            if (result < Integer.MIN_VALUE / 10 || // 53
-                    (result == Integer.MIN_VALUE / 10 && digit < -8)) // 54
-                return 0; // 55
+            if (result < Integer.MIN_VALUE / 10 || // 39
+                    (result == Integer.MIN_VALUE / 10 && digit < -8)) // 40
+                return 0;
 
-            result = result * 10 + digit; // 56
-            x /= 10; // 57
+            result = result * 10 + digit; // 41
+            x /= 10; // 42
         }
 
-        return result; // 58
+        return result;
     }
 
 
 
     public int reverse7(int x) {
-        int reversed = 0; // 59
+        int reversed = 0; // 43
 
-        while (x != 0) { // 60
-            int lastDigit = x % 10; // 61
-            x /= 10; // 62
+        while (x != 0) { // 44
+            int lastDigit = x % 10; // 45
+            x /= 10; // 46
 
-            if (reversed > Integer.MAX_VALUE/10 || (reversed == Integer.MAX_VALUE/10 && lastDigit > 7)) { // 63
-                return 0; // 64
+            if (reversed > Integer.MAX_VALUE/10 || (reversed == Integer.MAX_VALUE/10 && lastDigit > 7)) { // 47
+                return 0;
             }
-            if (reversed < Integer.MIN_VALUE/10 || (reversed == Integer.MIN_VALUE/10 && lastDigit < -8)) { // 65
-                return 0; // 66
+            if (reversed < Integer.MIN_VALUE/10 || (reversed == Integer.MIN_VALUE/10 && lastDigit < -8)) { // 48
+                return 0;
             }
 
-            reversed = reversed * 10 + lastDigit; // 67
+            reversed = reversed * 10 + lastDigit; // 49
         }
 
-        return reversed; // 68
+        return reversed;
     }
 
 
 
 
     public static int reverse8(int x) {
-        int reversed = 0; // 69
-        while (x != 0) { // 70
-            int digit = x % 10; // 71
-            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) { // 72
-                return 0; // 73
+        int reversed = 0; // 50
+        while (x != 0) { // 51
+            int digit = x % 10; // 52
+            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) { // 53
+                return 0;
             }
-            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) { // 74
-                return 0; // 75
+            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) { // 54
+                return 0;
             }
-            reversed = reversed * 10 + digit; // 76
-            x /= 10; // 77
+            reversed = reversed * 10 + digit; // 55
+            x /= 10; // 56
         }
-        return reversed; // 78
+        return reversed;
     }
 
 
     public int reverse9(int x) {
-        int reversed = 0; // 79
-        while (x != 0) { // 80
-            int digit = x % 10; // 81
-            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) { // 82
-                return 0; // 83
+        int reversed = 0; // 57
+        while (x != 0) { // 58
+            int digit = x % 10; // 59
+            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && digit > 7)) { // 60
+                return 0;
             }
-            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) { // 84
-                return 0; // 85
+            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && digit < -8)) { // 61
+                return 0;
             }
-            reversed = reversed * 10 + digit; // 86
-            x = x / 10; // 87
+            reversed = reversed * 10 + digit; // 62
+            x = x / 10; // 63
         }
-        return reversed; // 88
+        return reversed;
     }
 
 
 
         public int reverse10(int x) {
-            long result = 0; // 89
-            while (x != 0) { // 90
-                result = result * 10 + x % 10; // 91
-                x /= 10; // 92
+            long result = 0; // 64
+            while (x != 0) { // 65
+                result = result * 10 + x % 10; // 66
+                x /= 10; // 67
             }
-            if (result < Integer.MIN_VALUE || result > Integer.MAX_VALUE) { // 93
-                return 0; // 94
+            if (result < Integer.MIN_VALUE || result > Integer.MAX_VALUE) { // 68
+                return 0;
             }
-            return (int) result; // 95
+            return (int) result;
         }
 
 
 
 
     public int reverse11(int x) {
-        int rev = 0; // 96
-        while (x != 0) { // 97
-            int pop = x % 10; // 98
-            x /= 10; // 99
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 100
-                return 0; // 101
+        int rev = 0; // 69
+        while (x != 0) { // 70
+            int pop = x % 10; // 71
+            x /= 10; // 72
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 73
+                return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 102
-                return 0; // 103
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 74
+                return 0;
             }
-            rev = rev * 10 + pop; // 104
+            rev = rev * 10 + pop; // 75
         }
-        return rev; // 105
+        return rev;
     }
 
 
 
 
     public int reverse12(int x) {
-        long result = 0; // 106
-        while (x != 0) { // 107
-            result = result * 10 + x % 10; // 108
-            x /= 10; // 109
+        long result = 0; // 76
+        while (x != 0) { // 77
+            result = result * 10 + x % 10; // 78
+            x /= 10; // 79
         }
-        if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) { // 110
-            return 0; // 111
+        if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) { // 80
+            return 0;
         }
-        return (int) result; // 112
+        return (int) result;
     }
 
 
 
     public int reverse13(int x) {
-        int result = 0; // 113
-        while (x != 0) { // 114
-            int digit = x % 10; // 115
-            int newResult = result * 10 + digit; // 116
-            if ((newResult - digit) / 10 != result) { // 117
-                return 0; // 118
+        int result = 0; // 81
+        while (x != 0) { // 82
+            int digit = x % 10; // 83
+            int newResult = result * 10 + digit; // 84
+            if ((newResult - digit) / 10 != result) { // 85
+                return 0;
             }
-            result = newResult; // 119
-            x /= 10; // 120
+            result = newResult; // 86
+            x /= 10; // 87
         }
-        return result; // 121
+        return result;
     }
 
 
 
     public int reverse14(int x) {
-        long result = 0; // 122
-        while (x != 0) { // 123
-            result = result * 10 + x % 10; // 124
-            x /= 10; // 125
+        long result = 0; // 88
+        while (x != 0) { // 89
+            result = result * 10 + x % 10; // 90
+            x /= 10; // 91
         }
 
-        if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) { // 126
-            return 0; // 127
+        if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) { // 92
+            return 0;
         }
 
-        return (int) result; // 128
+        return (int) result;
     }
 
 
 
 
     public int reverse15(int x) {
-        int reversed = 0; // 129
-        while (x != 0) { // 130
-            int pop = x % 10; // 131
-            x /= 10; // 132
+        int reversed = 0; // 93
+        while (x != 0) { // 94
+            int pop = x % 10; // 95
+            x /= 10; // 96
 
-            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && pop > 7)) { // 133
-                return 0; // 134
+            if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && pop > 7)) { // 97
+                return 0;
             }
-            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && pop < -8)) { // 135
-                return 0; // 136
+            if (reversed < Integer.MIN_VALUE / 10 || (reversed == Integer.MIN_VALUE / 10 && pop < -8)) { // 98
+                return 0;
             }
-            reversed = reversed * 10 + pop; // 137
+            reversed = reversed * 10 + pop; // 99
         }
-        return reversed; // 138
+        return reversed;
     }
 
 
 
 
     public static int reverse16(int x) {
-        int rev = 0; // 139
-        while (x != 0) { // 140
-            int pop = x % 10; // 141
-            x /= 10; // 142
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 143
-                return 0; // 144
+        int rev = 0; // 100
+        while (x != 0) { // 101
+            int pop = x % 10; // 102
+            x /= 10; // 103
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 104
+                return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 145
-                return 0; // 146
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 105
+                return 0;
             }
-            rev = rev * 10 + pop; // 147
+            rev = rev * 10 + pop; // 106
         }
-        return rev; // 148
+        return rev;
     }
 
 
     public int reverse17(int x) {
-        long result = 0; // 149
+        long result = 0; // 107
 
-        while (x != 0) { // 150
-            result = result * 10 + x % 10; // 151
-            x /= 10; // 152
+        while (x != 0) { // 108
+            result = result * 10 + x % 10; // 109
+            x /= 10; // 110
         }
 
-        if (result < Integer.MIN_VALUE || result > Integer.MAX_VALUE) { // 153
-            return 0; // 154
+        if (result < Integer.MIN_VALUE || result > Integer.MAX_VALUE) { // 111
+            return 0;
         }
 
-        return (int)result; // 155
+        return (int)result;
     }
 
 
     public int reverse18(int x) {
-        long reversed = 0; // 156
+        long reversed = 0; // 112
 
-        while (x != 0) { // 157
-            reversed = reversed * 10 + x % 10; // 158
-            x /= 10; // 159
+        while (x != 0) { // 113
+            reversed = reversed * 10 + x % 10; // 114
+            x /= 10; // 115
         }
 
-        if (reversed < Integer.MIN_VALUE || reversed > Integer.MAX_VALUE) { // 160
-            return 0; // 161
+        if (reversed < Integer.MIN_VALUE || reversed > Integer.MAX_VALUE) { // 116
+            return 0;
         }
 
-        return (int) reversed; // 162
+        return (int) reversed;
     }
 
 
     public int reverse19(int x) {
-        int rev = 0; // 163
-        while (x != 0) { // 164
-            int digit = x % 10; // 165
-            x /= 10; // 166
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && digit > 7)) { // 167
-                return 0; // 168
+        int rev = 0; // 117
+        while (x != 0) { // 118
+            int digit = x % 10; // 119
+            x /= 10; // 120
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && digit > 7)) { // 121
+                return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && digit < -8)) { // 169
-                return 0; // 170
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && digit < -8)) { // 122
+                return 0;
             }
-            rev = rev * 10 + digit; // 171
+            rev = rev * 10 + digit; // 123
         }
-        return rev; // 172
+        return rev;
     }
 
 
@@ -337,18 +337,18 @@ public class Prelim{
 
 
     public int reverse20(int x) {
-        int rev = 0; // 173
-        while (x != 0) { // 174
-            int pop = x % 10; // 175
-            x /= 10; // 176
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 177
-                return 0; // 178
+        int rev = 0; // 124
+        while (x != 0) { // 125
+            int pop = x % 10; // 126
+            x /= 10; // 127
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) { // 128
+                return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 179
-                return 0; // 180
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) { // 129
+                return 0;
             }
-            rev = rev * 10 + pop; // 181
+            rev = rev * 10 + pop; // 130
         }
-        return rev; // 182
+        return rev;
     }
 }

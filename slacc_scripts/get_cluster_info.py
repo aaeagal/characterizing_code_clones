@@ -53,12 +53,19 @@ def main():
             for key1, val1 in function_dict.items():
                 matches[key1] = []
                 for key2, val2 in data.items():
+
+
+                    
                     # make sure same type
                     val1 = [str(i) for i in val1]
                     val2 = [str(i) for i in val2]
                     # make sure strip whitespace
                     val1 = [i.strip() for i in val1]
                     val2 = [i.strip() for i in val2]
+                    # remove all spaces and newlines
+                    val1 = [i.replace(' ', '') for i in val1]
+                    val2 = [i.replace(' ', '') for i in val2]
+
                     # compare the two lists, if the same outside of one differing value, then append the key to the matches dictionary
                     if val1 == val2:
                         matches[key1].append(key2)

@@ -1,0 +1,179 @@
+{
+    "0.01": {
+        "longestConsecutive1": [
+            "func_b5ac6cebd98b47389177b553767ddbcb"
+        ],
+        "longestConsecutive2": [
+            "func_04366ef7b1e64c918849cb2f3712b3b2"
+        ],
+        "longestConsecutive3": [
+            "func_cee775e9458442c48ed0916474a1316f"
+        ],
+        "longestConsecutive4": [
+            "func_c442b696056b428a81bfdca36dcac575"
+        ],
+        "longestConsecutive5": [
+            "func_fbe8cb0461cd42868c2b2c5690734a18"
+        ],
+        "longestConsecutive6": [
+            "func_2b84dcfb483d4aa09d5f62294c5b24b3"
+        ],
+        "longestConsecutive7": [
+            "func_296011f21c3e494cbb8d50241d1b69f3"
+        ],
+        "longestConsecutive8": [
+            "func_2537178f1f27413f98de646dae556872"
+        ],
+        "longestConsecutive9": [
+            "func_3f979710885d4266957b4a36238cccbe"
+        ],
+        "longestConsecutive10": [
+            "func_c6fe3ba6a918468faa2d7965aa5ed391"
+        ],
+        "longestConsecutive11": [
+            "func_8242785ae7e845fca5d1e42be8acaf90"
+        ],
+        "longestConsecutive12": [
+            "func_b9c6728c9e0d4c65bde0f62a269c916b"
+        ],
+        "longestConsecutive13": [
+            "func_87358e1089dc4f64a49927302ca62255"
+        ],
+        "longestConsecutive14": [
+            "func_43257c689d42404cbb8a0b487dd73de5"
+        ],
+        "longestConsecutive15": [
+            "func_b4cdabe963f043f48054be421e229896"
+        ],
+        "longestConsecutive16": [
+            "func_63237019b7c44ad98134c99a856f77c6"
+        ],
+        "longestConsecutive17": [
+            "func_03773e32eb2f4a89948c806055d8f193"
+        ],
+        "longestConsecutive18": [
+            "func_502234b235eb4ab8a54f9e61cb205438"
+        ],
+        "longestConsecutive19": [
+            "func_29eae09c715e4bd4b252f1aa957a90ed"
+        ]
+    },
+    "0.05": {
+        "longestConsecutive1": [
+            "func_b5ac6cebd98b47389177b553767ddbcb"
+        ],
+        "longestConsecutive2": [
+            "func_04366ef7b1e64c918849cb2f3712b3b2"
+        ],
+        "longestConsecutive3": [
+            "func_cee775e9458442c48ed0916474a1316f"
+        ],
+        "longestConsecutive4": [
+            "func_c442b696056b428a81bfdca36dcac575"
+        ],
+        "longestConsecutive5": [
+            "func_fbe8cb0461cd42868c2b2c5690734a18"
+        ],
+        "longestConsecutive6": [
+            "func_2b84dcfb483d4aa09d5f62294c5b24b3"
+        ],
+        "longestConsecutive7": [
+            "func_296011f21c3e494cbb8d50241d1b69f3"
+        ],
+        "longestConsecutive8": [
+            "func_2537178f1f27413f98de646dae556872"
+        ],
+        "longestConsecutive9": [
+            "func_3f979710885d4266957b4a36238cccbe"
+        ],
+        "longestConsecutive10": [
+            "func_c6fe3ba6a918468faa2d7965aa5ed391"
+        ],
+        "longestConsecutive11": [
+            "func_8242785ae7e845fca5d1e42be8acaf90"
+        ],
+        "longestConsecutive12": [
+            "func_b9c6728c9e0d4c65bde0f62a269c916b"
+        ],
+        "longestConsecutive13": [
+            "func_87358e1089dc4f64a49927302ca62255"
+        ],
+        "longestConsecutive14": [
+            "func_43257c689d42404cbb8a0b487dd73de5"
+        ],
+        "longestConsecutive15": [
+            "func_b4cdabe963f043f48054be421e229896"
+        ],
+        "longestConsecutive16": [
+            "func_63237019b7c44ad98134c99a856f77c6"
+        ],
+        "longestConsecutive17": [
+            "func_03773e32eb2f4a89948c806055d8f193"
+        ],
+        "longestConsecutive18": [
+            "func_502234b235eb4ab8a54f9e61cb205438"
+        ],
+        "longestConsecutive19": [
+            "func_29eae09c715e4bd4b252f1aa957a90ed"
+        ]
+    },
+    "0.25": {
+        "longestConsecutive1": [
+            "func_b5ac6cebd98b47389177b553767ddbcb"
+        ],
+        "longestConsecutive2": [
+            "func_04366ef7b1e64c918849cb2f3712b3b2"
+        ],
+        "longestConsecutive3": [
+            "func_cee775e9458442c48ed0916474a1316f"
+        ],
+        "longestConsecutive4": [
+            "func_c442b696056b428a81bfdca36dcac575"
+        ],
+        "longestConsecutive5": [
+            "func_fbe8cb0461cd42868c2b2c5690734a18"
+        ],
+        "longestConsecutive6": [
+            "func_2b84dcfb483d4aa09d5f62294c5b24b3"
+        ],
+        "longestConsecutive7": [
+            "func_296011f21c3e494cbb8d50241d1b69f3"
+        ],
+        "longestConsecutive8": [
+            "func_2537178f1f27413f98de646dae556872"
+        ],
+        "longestConsecutive9": [
+            "func_3f979710885d4266957b4a36238cccbe"
+        ],
+        "longestConsecutive10": [
+            "func_c6fe3ba6a918468faa2d7965aa5ed391"
+        ],
+        "longestConsecutive11": [
+            "func_8242785ae7e845fca5d1e42be8acaf90"
+        ],
+        "longestConsecutive12": [
+            "func_b9c6728c9e0d4c65bde0f62a269c916b"
+        ],
+        "longestConsecutive13": [
+            "func_87358e1089dc4f64a49927302ca62255"
+        ],
+        "longestConsecutive14": [
+            "func_43257c689d42404cbb8a0b487dd73de5"
+        ],
+        "longestConsecutive15": [
+            "func_b4cdabe963f043f48054be421e229896"
+        ],
+        "longestConsecutive16": [
+            "func_63237019b7c44ad98134c99a856f77c6"
+        ],
+        "longestConsecutive17": [
+            "func_03773e32eb2f4a89948c806055d8f193"
+        ],
+        "longestConsecutive18": [
+            "func_502234b235eb4ab8a54f9e61cb205438"
+        ],
+        "longestConsecutive19": [
+            "func_29eae09c715e4bd4b252f1aa957a90ed"
+        ]
+    }
+}

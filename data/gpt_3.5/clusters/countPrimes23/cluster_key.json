@@ -1,0 +1,177 @@
+{
+    "0.01": {
+        "countPrimes1": [
+            "****** Cluster 2 ******"
+        ],
+        "countPrimes2": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes3": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes4": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes5": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers6": [],
+        "countPrimeNumbers7": [
+            "****** Cluster 2 ******"
+        ],
+        "countPrimeNumbers8": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes9": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes10": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers11": [
+            "****** Cluster 2 ******"
+        ],
+        "countPrimeNumbers12": [
+            "****** Cluster 2 ******"
+        ],
+        "countPrimeNumbers13": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes15": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers16": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes17": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes18": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes19": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers20": [
+            "****** Cluster 8 ******"
+        ]
+    },
+    "0.05": {
+        "countPrimes1": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes2": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes3": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes4": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes5": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers6": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers7": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers8": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes9": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes10": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers11": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers12": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers13": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes15": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers16": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes17": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes18": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes19": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers20": [
+            "****** Cluster 8 ******"
+        ]
+    },
+    "0.25": {
+        "countPrimes1": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes2": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes3": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes4": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes5": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers6": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers7": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers8": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes9": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes10": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers11": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers12": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers13": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes15": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers16": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes17": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes18": [
+            "****** Cluster 8 ******"
+        ],
+        "countPrimes19": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimeNumbers20": [
+            "****** Cluster 8 ******"
+        ]
+    }
+}

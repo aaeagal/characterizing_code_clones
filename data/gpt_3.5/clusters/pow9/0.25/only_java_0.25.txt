@@ -1,0 +1,1972 @@
+
+
+****** Cluster 0 ******
+public static Double func_c5de510569c345d6a78ee02e3b159958(Double x, Integer n){
+    // 7
+    // 8
+    x = 1 / x;
+    // 9
+    n = -n;
+    return x;
+}
+public static Double func_42f7f8e88b3b4fce80012ce581881730(Double x, Integer n){
+    // 15
+    // 16
+    x = 1 / x;
+    // 17
+    n = -n;
+    return x;
+}
+public static Double func_c206311e6d984ada9ad952c83811d447(Double x, Integer n){
+    // 77
+    // 78
+    x = 1 / x;
+    // 79
+    n = -n;
+    return x;
+}
+
+
+****** Cluster 1 ******
+public static Double func_c7d7a45a39ed4b24a6d106dcc10e8de7(Integer n, Double x){
+    // 7
+    // 8
+    x = 1 / x;
+    // 9
+    n = -n;
+    return x;
+}
+public static Double func_abc60a6aedfa4bf39fc92fc460faadd5(Integer n, Double x){
+    // 15
+    // 16
+    x = 1 / x;
+    // 17
+    n = -n;
+    return x;
+}
+public static Double func_c00ab614f1c14925bc5ba2274711c54a(Integer n, Double x){
+    // 77
+    // 78
+    x = 1 / x;
+    // 79
+    n = -n;
+    return x;
+}
+
+
+****** Cluster 2 ******
+public static double func_1a2fa49fd34442a2b9b9ef64f7258d91(Integer n, Double x){
+    // 3
+    // 4
+    double halfPow = Interleave.pow1(x, n / 2);
+    return halfPow * halfPow;
+}
+public static double func_f12e5b5d148146c5ac4c8c3fc3721c4f(Integer n, Double x){
+    // 29
+    // 30
+    double result = Interleave.pow5(x, n / 2);
+    return result * result;
+}
+public static double func_2d279ac4a4d147b5826a84d7b669deed(Integer n, Double x){
+    // 50
+    // 51
+    double half = Interleave.pow9(x, n / 2);
+    return half * half;
+}
+public static double func_5fc73efc4f9c4b6aa45992e5b9c79497(Integer n, Double x){
+    // 110
+    // 111
+    double temp = Interleave.pow19(x, n / 2);
+    return temp * temp;
+}
+public static double func_f5765174dda64c6da101be7b6705ac88(Integer n, Double x){
+    // 115
+    // 116
+    double temp = Interleave.pow20(x, n / 2);
+    return temp * temp;
+}
+
+
+****** Cluster 3 ******
+public static double func_14826165e33e4570b4279e7e0ee2ccf3(Double x, Integer n){
+    // 3
+    // 4
+    double halfPow = Interleave.pow1(x, n / 2);
+    return halfPow * halfPow;
+}
+public static double func_769384f03f20493984f35a1a71d8ae78(Double x, Integer n){
+    // 29
+    // 30
+    double result = Interleave.pow5(x, n / 2);
+    return result * result;
+}
+public static double func_b1b586c24f2143d388fe11364a5dff8a(Double x, Integer n){
+    // 50
+    // 51
+    double half = Interleave.pow9(x, n / 2);
+    return half * half;
+}
+public static double func_e6399f7b2f8b418a894478a70ece1010(Double x, Integer n){
+    // 110
+    // 111
+    double temp = Interleave.pow19(x, n / 2);
+    return temp * temp;
+}
+public static double func_506c597bcf664fa0912c965ee1f7b5b4(Double x, Integer n){
+    // 115
+    // 116
+    double temp = Interleave.pow20(x, n / 2);
+    return temp * temp;
+}
+
+
+****** Cluster 4 ******
+public static Integer func_b212744656844b80aab8c5b6855f4a88(Double x, Integer n){
+    // 7
+    // 8
+    x = 1 / x;
+    // 9
+    n = -n;
+    return n;
+}
+public static Integer func_c7441d5787054895b8be85fc8982323e(Double x, Integer n){
+    // 15
+    // 16
+    x = 1 / x;
+    // 17
+    n = -n;
+    return n;
+}
+public static Integer func_1711046781c843f39bcf328abd538093(Double x, Integer n){
+    // 77
+    // 78
+    x = 1 / x;
+    // 79
+    n = -n;
+    return n;
+}
+
+
+****** Cluster 5 ******
+public static Integer func_039b89390cae4199a707558e1064e441(Integer n, Double x){
+    // 7
+    // 8
+    x = 1 / x;
+    // 9
+    n = -n;
+    return n;
+}
+public static Integer func_768ad5236e17402ea4fc8f5a26cc6bd5(Integer n, Double x){
+    // 15
+    // 16
+    x = 1 / x;
+    // 17
+    n = -n;
+    return n;
+}
+public static Integer func_69e3d2c8111d41c799888505a4992cea(Integer n, Double x){
+    // 77
+    // 78
+    x = 1 / x;
+    // 79
+    n = -n;
+    return n;
+}
+
+
+****** Cluster 10 ******
+public static Double func_7ffa0c1a314042f197cb45cb17699750(Double x, Integer n){
+    if (n < 0) {
+        // 7
+        // 8
+        x = 1 / x;
+        // 9
+        n = -n;
+    }
+    return x;
+}
+public static Double func_55a11a7fc971483d9957f25a286afd89(Double x, Integer n){
+    if (n < 0) {
+        // 15
+        // 16
+        x = 1 / x;
+        // 17
+        n = -n;
+    }
+    return x;
+}
+public static Double func_b3ea806a0c6243dfa4b17e3a4a42379a(Double x, Integer n){
+    if (n < 0) {
+        // 77
+        // 78
+        x = 1 / x;
+        // 79
+        n = -n;
+    }
+    return x;
+}
+
+
+****** Cluster 11 ******
+public static Double func_23d632d558ae4bae9c902ab3603378b8(Integer n, Double x){
+    if (n < 0) {
+        // 7
+        // 8
+        x = 1 / x;
+        // 9
+        n = -n;
+    }
+    return x;
+}
+public static Double func_81adbc984b284b1386c73c0845287456(Integer n, Double x){
+    if (n < 0) {
+        // 15
+        // 16
+        x = 1 / x;
+        // 17
+        n = -n;
+    }
+    return x;
+}
+public static Double func_fafbbfa7979f4a7582a57f2947516560(Integer n, Double x){
+    if (n < 0) {
+        // 77
+        // 78
+        x = 1 / x;
+        // 79
+        n = -n;
+    }
+    return x;
+}
+
+
+****** Cluster 12 ******
+public static Integer func_1b3058b9ce144a1cb87f96027045f97a(Double x, Integer n){
+    if (n < 0) {
+        // 7
+        // 8
+        x = 1 / x;
+        // 9
+        n = -n;
+    }
+    return n;
+}
+public static Integer func_c4aedd5489304bfd8f247361a8d9f970(Double x, Integer n){
+    if (n < 0) {
+        // 15
+        // 16
+        x = 1 / x;
+        // 17
+        n = -n;
+    }
+    return n;
+}
+public static Integer func_ef121797c5554fd8bc331c7b3e5ed6ec(Double x, Integer n){
+    if (n < 0) {
+        // 77
+        // 78
+        x = 1 / x;
+        // 79
+        n = -n;
+    }
+    return n;
+}
+
+
+****** Cluster 14 ******
+public static Integer func_07d70f8b4ebc4802b5a1189668358451(Integer n, Double x){
+    if (n < 0) {
+        // 7
+        // 8
+        x = 1 / x;
+        // 9
+        n = -n;
+    }
+    return n;
+}
+public static Integer func_c933e47af8dc4d58b868589da2c3d073(Integer n, Double x){
+    if (n < 0) {
+        // 15
+        // 16
+        x = 1 / x;
+        // 17
+        n = -n;
+    }
+    return n;
+}
+public static Integer func_6fa8d041d8434deca494d6a40d25ee84(Integer n, Double x){
+    if (n < 0) {
+        // 77
+        // 78
+        x = 1 / x;
+        // 79
+        n = -n;
+    }
+    return n;
+}
+
+
+****** Cluster 18 ******
+public static Double func_becd748148194508a42f51937a536e14(Double res, Integer n, Double x){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return res;
+}
+public static Double func_a12f229752604bd5ad3b2b4045137075(Double result, Long absN, Double x){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return result;
+}
+
+
+****** Cluster 19 ******
+public static Double func_91efe32e80094feea7bedc550cc49010(Integer n, Double res, Double x){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return res;
+}
+public static Double func_9f54cbb533ac45468c3b45fe1f452819(Long absN, Double result, Double x){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return result;
+}
+
+
+****** Cluster 20 ******
+public static Double func_a2dee2838ada4920ae67d0d9f626a212(Integer n, Double x, Double res){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return res;
+}
+public static Double func_8c3395951e8a4bec83fab7e56792609d(Long absN, Double x, Double result){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return result;
+}
+
+
+****** Cluster 21 ******
+public static Double func_94d4939dfc6c4f31b3d51167b4bafa97(Double res, Double x, Integer n){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return res;
+}
+public static Double func_137170c4458b497d9929c2f6d463fa39(Double result, Double x, Integer n){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return result;
+}
+public static Double func_45cadbf92ed441358e1001ebab4e1a41(Double result, Double x, Long absN){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return result;
+}
+
+
+****** Cluster 22 ******
+public static Double func_f4aa6790bf5f40e29530e1fc707bcf7c(Double x, Integer n, Double res){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return res;
+}
+public static Double func_349c0b559ea54168ad93161adeaa2629(Double x, Long absN, Double result){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return result;
+}
+
+
+****** Cluster 23 ******
+public static Double func_4f75dd4539e8442e8d36c0da2608eeb0(Double x, Double res, Integer n){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return res;
+}
+public static Double func_2feb3fe95d5544d0b325e603a3400937(Double x, Double result, Integer n){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return result;
+}
+public static Double func_0f0f376d00d34d089afcab899efd8e9d(Double x, Double result, Long absN){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return result;
+}
+
+
+****** Cluster 24 ******
+public static Integer func_d1504f85073043b980d0f5a95c86dad6(Integer n, Double res, Double x){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return n;
+}
+public static Integer func_30d4035b80ce4ed68ad4487fd3fc4870(Integer n, Double x, Double res){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return n;
+}
+public static Integer func_cf96494fd66d4e0a96e7d865337892c2(Integer n, Double x, Double result){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return n;
+}
+public static Integer func_e327b2ee996343e6a7432d48221c77c8(Integer n, Double result, Double x){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return n;
+}
+public static Long func_201504d072f14de2905ca2987d0a5600(Long absN, Double x, Double result){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return absN;
+}
+public static Long func_46e17ee8d6e8417d90f7d89b52867f92(Long absN, Double result, Double x){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return absN;
+}
+
+
+****** Cluster 25 ******
+public static Integer func_f1eb419aa7e541bb94201d2b26650f22(Double res, Integer n, Double x){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return n;
+}
+public static Integer func_cf547d6d83e147549cc3518698b850dd(Double x, Integer n, Double res){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return n;
+}
+public static Integer func_b2eda1cd7f584a0385884709945cec37(Double x, Integer n, Double result){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return n;
+}
+public static Integer func_9df6c7900d644cccbd31a0277f32fe96(Double result, Integer n, Double x){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return n;
+}
+public static Long func_b200086e0e554093b65422194b5ff089(Double result, Long absN, Double x){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return absN;
+}
+public static Long func_781a5595c5fe44d7850727aaf1b83d2c(Double x, Long absN, Double result){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return absN;
+}
+
+
+****** Cluster 27 ******
+public static Integer func_c55369dbe40f4a9383b3229b652469cf(Double res, Double x, Integer n){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return n;
+}
+public static Integer func_8acc71189de940cd9cb20f8719768e3d(Double x, Double res, Integer n){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return n;
+}
+public static Integer func_c3e04e91751145c989c2675a0067b700(Double x, Double result, Integer n){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return n;
+}
+public static Integer func_3ef1861e819440dfac49716300a48928(Double result, Double x, Integer n){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return n;
+}
+public static Long func_fec62c313a1b48058eb0d46c29489078(Double x, Double result, Long absN){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return absN;
+}
+public static Long func_d264fe52c947459f9ebe75e8054db2e2(Double result, Double x, Long absN){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return absN;
+}
+
+
+****** Cluster 30 ******
+public static Double func_fcc71dcfb063409db8dc30be96f776fe(Double res, Integer n, Double x){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return x;
+}
+public static Double func_f447cc87814c424aa7f64b8384d10f09(Double result, Integer n, Double x){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return x;
+}
+public static Double func_34298e27ede04865bea851a28f13cf15(Double result, Long absN, Double x){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return x;
+}
+
+
+****** Cluster 31 ******
+public static Double func_8b803fdedc60408484025ea22a5aa282(Integer n, Double res, Double x){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return x;
+}
+public static Double func_eafc2c283bfb490d8476e2d64312583a(Integer n, Double result, Double x){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return x;
+}
+public static Double func_1065123ba479472baf1ca60e828e651d(Long absN, Double result, Double x){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return x;
+}
+
+
+****** Cluster 32 ******
+public static Double func_16fe6a5ecf2e4eb88c05d3caf46d4708(Integer n, Double x, Double res){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return x;
+}
+public static Double func_d0a34d1842e04aa89436485e14449ea5(Integer n, Double x, Double result){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return x;
+}
+public static Double func_2ad9350ca5354fe386d58c5082f06649(Long absN, Double x, Double result){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return x;
+}
+
+
+****** Cluster 33 ******
+public static Double func_2c77a44d1b80465ab4ce4a07e3e94610(Double res, Double x, Integer n){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return x;
+}
+public static Double func_60160e16ce014b3f9041b29f9a06d24c(Double result, Double x, Integer n){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return x;
+}
+public static Double func_7886042ffe8b43f0856efaf58a6d2f7e(Double result, Double x, Long absN){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return x;
+}
+
+
+****** Cluster 34 ******
+public static Double func_e371039a7fea48c7a2620798e094b353(Double x, Double res, Integer n){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return x;
+}
+public static Double func_bf77bf35bf2d4924bc25919aa95f9ac1(Double x, Double result, Integer n){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return x;
+}
+public static Double func_59eb59189f5e46cc937c55d6a9a5af27(Double x, Double result, Long absN){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return x;
+}
+
+
+****** Cluster 35 ******
+public static Double func_017c66554b8746968d99e212774ba2db(Double x, Integer n, Double res){
+    // 19
+    if (n % 2 != 0) {
+        // 20
+        // 21
+        res *= x;
+    }
+    // 22
+    x *= x;
+    // 23
+    n /= 2;
+    return x;
+}
+public static Double func_321ae4be29d742cdbc8db26583f596dc(Double x, Integer n, Double result){
+    // 80
+    if (n % 2 == 1) {
+        // 81
+        // 82
+        result *= x;
+    }
+    // 83
+    x *= x;
+    // 84
+    n /= 2;
+    return x;
+}
+public static Double func_fa8faa6a9cbf499b919a4ee2d7b16d28(Double x, Long absN, Double result){
+    // 98
+    if (absN % 2 != 0) {
+        // 99
+        // 100
+        result *= x;
+    }
+    // 101
+    x *= x;
+    // 102
+    absN /= 2;
+    return x;
+}
+
+
+****** Cluster 36 ******
+public static double func_650c8437c09f4b7fa99c1ba9947d8cac(Double x, Integer n){
+    if (n == 0) {
+        // 14
+        return 1.0;
+    }
+    if (n < 0) {
+        // 15
+        // 16
+        x = 1 / x;
+        // 17
+        n = -n;
+    }
+    // 18
+    double res = 1.0;
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static double func_b4bf8ecff8a942de895fabfb80e066ff(Double x, Integer n){
+    if (// 75
+    n == 0)
+        return 1;
+    // 76
+    double result = 1.0;
+    if (n < 0) {
+        // 77
+        // 78
+        x = 1 / x;
+        // 79
+        n = -n;
+    }
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 37 ******
+public static double func_d509719e393c4ed18e84f82ca167dd5f(Integer n, Double x){
+    if (n == 0) {
+        // 14
+        return 1.0;
+    }
+    if (n < 0) {
+        // 15
+        // 16
+        x = 1 / x;
+        // 17
+        n = -n;
+    }
+    // 18
+    double res = 1.0;
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static double func_1cd869656b254f4d851a0581d342235a(Integer n, Double x){
+    if (// 75
+    n == 0)
+        return 1;
+    // 76
+    double result = 1.0;
+    if (n < 0) {
+        // 77
+        // 78
+        x = 1 / x;
+        // 79
+        n = -n;
+    }
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 42 ******
+public static Double func_f7a3b84d01f54c61a9f317484a3d3eb7(Double res, Integer n, Double x){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static Double func_227131c45e8b4ef08f3a2f89682fab2c(Double result, Integer n, Double x){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+public static Double func_6656c3cf8e994f0e919cd7918c345883(Double result, Long absN, Double x){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 43 ******
+public static Double func_9a30d1d571ce406e802a49e43d186ffd(Integer n, Double res, Double x){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static Double func_1301f068197c4870b4961823b97ec837(Integer n, Double result, Double x){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+public static Double func_0ab8f5f0f538488eb93a15585530d9bf(Long absN, Double result, Double x){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 44 ******
+public static Double func_fc96bd6fd6764e7a82c84e98fd51e15d(Integer n, Double x, Double res){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static Double func_7268b821a09b4df38aeb65ff2c69db43(Integer n, Double x, Double result){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+public static Double func_53c9ea2415f4467b9ba7ab055fc225d1(Long absN, Double x, Double result){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 45 ******
+public static Double func_f89a04473d314642944714152ae8b15c(Double res, Double x, Integer n){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static Double func_464bf11180f14d4b94c8facd0520493b(Double result, Double x, Integer n){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+public static Double func_7f035dba054b4039bfaa6e223f34c165(Double result, Double x, Long absN){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 46 ******
+public static Double func_0dae82572b0a4b159402eab7ca486f00(Double x, Double res, Integer n){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static Double func_25bce9254a2540339944737d3b2139fe(Double x, Double result, Integer n){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+public static Double func_a97aea9bfaca42be9ec791f1bf77dda9(Double x, Double result, Long absN){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 47 ******
+public static Double func_040d25a3772c4f649a21efb34d3a6f06(Double x, Integer n, Double res){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return res;
+}
+public static Double func_3c7aa3e46d57400fb7a3707c1c7baa27(Double x, Integer n, Double result){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return result;
+}
+public static Double func_e5b5b1a87845468c8d6c3fd161a97839(Double x, Long absN, Double result){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return result;
+}
+
+
+****** Cluster 48 ******
+public static Integer func_246d9b47f4384848a231295c8919b1d2(Double res, Integer n, Double x){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_a0a99306af8c49fcad9c5cbd6d5ddf44(Double x, Integer n, Double res){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_5723fca0d2874b6e9faad8b66d80a6b0(Double x, Integer n, Double result){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_12a99bb332c942edb544a1f9fdd1cc80(Double result, Integer n, Double x){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return n;
+}
+public static Long func_6410a17e60494f2888b5e10cdffb091e(Double result, Long absN, Double x){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return absN;
+}
+public static Long func_a692a1c1028545dc920b36524b401cdb(Double x, Long absN, Double result){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return absN;
+}
+
+
+****** Cluster 49 ******
+public static Integer func_21d0796456aa4d1cbaa22e925b3571d6(Integer n, Double res, Double x){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_f968ee12ca694185a4f922221f4e9113(Integer n, Double x, Double res){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_09a7911a2b77493280cf1af59289e1ae(Integer n, Double x, Double result){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_be7ae0983a5f4f09a07e3fb293123069(Integer n, Double result, Double x){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return n;
+}
+public static Long func_36318e05616a445681717507787ba265(Long absN, Double x, Double result){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return absN;
+}
+public static Long func_b1fa961ae8444358b0c70031f6b25eaa(Long absN, Double result, Double x){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return absN;
+}
+
+
+****** Cluster 51 ******
+public static Integer func_aa085d60ca6a4e4eb3872f5fb0543bdd(Double res, Double x, Integer n){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_d963ba3160384182ba6275eb1a125210(Double x, Double res, Integer n){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_9d68b416491842f5a22e8fa1946e9fa3(Double x, Double result, Integer n){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return n;
+}
+public static Integer func_253dcf5f174249fd82a79b3fb3f69d52(Double result, Double x, Integer n){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return n;
+}
+public static Long func_002de45cfefc4ba3ad5878fbd56ef743(Double x, Double result, Long absN){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return absN;
+}
+public static Long func_c443cfee9472408a890b3afcbb16e61e(Double result, Double x, Long absN){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return absN;
+}
+
+
+****** Cluster 54 ******
+public static Double func_54ca473f28764519a3fea965b6ed5f46(Double res, Integer n, Double x){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_319ec438ec4d41ce819330db4b37b4d7(Double result, Integer n, Double x){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_d270e9b03f044548b061cbfe9ec4d7f4(Double result, Long absN, Double x){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return x;
+}
+
+
+****** Cluster 55 ******
+public static Double func_49ce9c970a2c4862b5caba8fcb0e4ac6(Integer n, Double res, Double x){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_ccde2361cb394045836c5334d275bd16(Integer n, Double result, Double x){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_68e89673697e4bd59b7325b799db0a0b(Long absN, Double result, Double x){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return x;
+}
+
+
+****** Cluster 56 ******
+public static Double func_ddf81ec92fcd4e73ab4742c52cdb0825(Integer n, Double x, Double res){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_44111762ca7d4bed865bb67a0e0e3af1(Integer n, Double x, Double result){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_30cbc62356714f4a88d7990a292601de(Long absN, Double x, Double result){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return x;
+}
+
+
+****** Cluster 57 ******
+public static Double func_92b8faf77b9d457bbba84392ba538aef(Double res, Double x, Integer n){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_a1021e4645d04b69898e09c663cc534a(Double result, Double x, Integer n){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_569a5bd8c7f5426899a45fceecba6e15(Double result, Double x, Long absN){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return x;
+}
+
+
+****** Cluster 58 ******
+public static Double func_54a65b4802014144b0fb4cab774f85db(Double x, Integer n, Double res){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_72aa194b6c8f4057b8511124f0011c8d(Double x, Integer n, Double result){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_b744840dcabd4e0d84a878de0e0dab8a(Double x, Long absN, Double result){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return x;
+}
+
+
+****** Cluster 59 ******
+public static Double func_fdafa5743f84440a9cb94f540d0b2786(Double x, Double res, Integer n){
+    while (n > 0) {
+        // 19
+        if (n % 2 != 0) {
+            // 20
+            // 21
+            res *= x;
+        }
+        // 22
+        x *= x;
+        // 23
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_74b5888ab5974fcaacf8bb130f8114db(Double x, Double result, Integer n){
+    while (n > 0) {
+        // 80
+        if (n % 2 == 1) {
+            // 81
+            // 82
+            result *= x;
+        }
+        // 83
+        x *= x;
+        // 84
+        n /= 2;
+    }
+    return x;
+}
+public static Double func_5d4df4c02897450fab7f004a14ce932a(Double x, Double result, Long absN){
+    while (absN > 0) {
+        // 98
+        if (absN % 2 != 0) {
+            // 99
+            // 100
+            result *= x;
+        }
+        // 101
+        x *= x;
+        // 102
+        absN /= 2;
+    }
+    return x;
+}

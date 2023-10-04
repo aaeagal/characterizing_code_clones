@@ -1,0 +1,152 @@
+{
+    "0.01": {
+        "nthSuperUglyNumber1": [
+            "func_550f63cceda54eceb6e1da03c7f21029",
+            "func_c33cf5b8d11044d0bcfae0c317993a6e"
+        ],
+        "nthSuperUglyNumber2": [
+            "func_7ef237922af44df89d1d975495bccbf1",
+            "func_2ff3095e70a3494484dba040a13775a0"
+        ],
+        "nthSuperUglyNumber3": [
+            "func_e0cd76fbde914d18b748d8bd84bed653",
+            "func_d7047f7eafd34d3ba91556c62538a964"
+        ],
+        "nthSuperUglyNumber4": [],
+        "nthSuperUglyNumber5": [
+            "func_36d43ce7951f440291a8a0e6702aa849",
+            "func_7f76ea2422b34010b86a53afe1faf0fb"
+        ],
+        "nthSuperUglyNumber6": [
+            "func_ad18774fd7404476a162de264bf7a44e",
+            "func_82f5bd1873c04781b77d8409c01d76c5"
+        ],
+        "nthSuperUglyNumber7": [
+            "func_9ffd3b474e234b9e96ecd3670eccc2e8",
+            "func_e34f45311a6f4a1c97d03e1bc575bea7"
+        ],
+        "nthSuperUglyNumber8": [],
+        "nthSuperUglyNumber9": [
+            "func_a418768124444dc9b879ef63cc7fdd14",
+            "func_acddcd87693449a690a73224b956b10e"
+        ],
+        "nthSuperUglyNumber11": [
+            "func_57b2836896c444afbbd660998f69e02f",
+            "func_bbac8bb96aad4d46a272123eeb1dc5bc"
+        ],
+        "nthSuperUglyNumber12": [
+            "func_8c5f8af55a9049e483a68a9e26ace265",
+            "func_d0537cf6a5f0404e8721eb6f377d3591"
+        ],
+        "min12": [],
+        "nthSuperUglyNumber13": [
+            "func_773642abd49a4ef985af5bb7bd1693c8",
+            "func_61bf484bb8f44ff8b6efc5961309aa0b"
+        ],
+        "nthSuperUglyNumber14": [],
+        "nthSuperUglyNumber15": [
+            "func_a3883e3c0df14058957a54270cb6ef1a",
+            "func_97ff187dc86046e9947bbefd221cf5a9"
+        ]
+    },
+    "0.05": {
+        "nthSuperUglyNumber1": [
+            "func_550f63cceda54eceb6e1da03c7f21029",
+            "func_c33cf5b8d11044d0bcfae0c317993a6e"
+        ],
+        "nthSuperUglyNumber2": [
+            "func_7ef237922af44df89d1d975495bccbf1",
+            "func_2ff3095e70a3494484dba040a13775a0"
+        ],
+        "nthSuperUglyNumber3": [
+            "func_e0cd76fbde914d18b748d8bd84bed653",
+            "func_d7047f7eafd34d3ba91556c62538a964"
+        ],
+        "nthSuperUglyNumber4": [],
+        "nthSuperUglyNumber5": [
+            "func_36d43ce7951f440291a8a0e6702aa849",
+            "func_7f76ea2422b34010b86a53afe1faf0fb"
+        ],
+        "nthSuperUglyNumber6": [
+            "func_ad18774fd7404476a162de264bf7a44e",
+            "func_82f5bd1873c04781b77d8409c01d76c5"
+        ],
+        "nthSuperUglyNumber7": [
+            "func_9ffd3b474e234b9e96ecd3670eccc2e8",
+            "func_e34f45311a6f4a1c97d03e1bc575bea7"
+        ],
+        "nthSuperUglyNumber8": [],
+        "nthSuperUglyNumber9": [
+            "func_a418768124444dc9b879ef63cc7fdd14",
+            "func_acddcd87693449a690a73224b956b10e"
+        ],
+        "nthSuperUglyNumber11": [
+            "func_57b2836896c444afbbd660998f69e02f",
+            "func_bbac8bb96aad4d46a272123eeb1dc5bc"
+        ],
+        "nthSuperUglyNumber12": [
+            "func_8c5f8af55a9049e483a68a9e26ace265",
+            "func_d0537cf6a5f0404e8721eb6f377d3591"
+        ],
+        "min12": [],
+        "nthSuperUglyNumber13": [
+            "func_773642abd49a4ef985af5bb7bd1693c8",
+            "func_61bf484bb8f44ff8b6efc5961309aa0b"
+        ],
+        "nthSuperUglyNumber14": [],
+        "nthSuperUglyNumber15": [
+            "func_a3883e3c0df14058957a54270cb6ef1a",
+            "func_97ff187dc86046e9947bbefd221cf5a9"
+        ]
+    },
+    "0.25": {
+        "nthSuperUglyNumber1": [
+            "func_550f63cceda54eceb6e1da03c7f21029",
+            "func_c33cf5b8d11044d0bcfae0c317993a6e"
+        ],
+        "nthSuperUglyNumber2": [
+            "func_7ef237922af44df89d1d975495bccbf1",
+            "func_2ff3095e70a3494484dba040a13775a0"
+        ],
+        "nthSuperUglyNumber3": [
+            "func_e0cd76fbde914d18b748d8bd84bed653",
+            "func_d7047f7eafd34d3ba91556c62538a964"
+        ],
+        "nthSuperUglyNumber4": [],
+        "nthSuperUglyNumber5": [
+            "func_36d43ce7951f440291a8a0e6702aa849",
+            "func_7f76ea2422b34010b86a53afe1faf0fb"
+        ],
+        "nthSuperUglyNumber6": [
+            "func_ad18774fd7404476a162de264bf7a44e",
+            "func_82f5bd1873c04781b77d8409c01d76c5"
+        ],
+        "nthSuperUglyNumber7": [
+            "func_9ffd3b474e234b9e96ecd3670eccc2e8",
+            "func_e34f45311a6f4a1c97d03e1bc575bea7"
+        ],
+        "nthSuperUglyNumber8": [],
+        "nthSuperUglyNumber9": [
+            "func_a418768124444dc9b879ef63cc7fdd14",
+            "func_acddcd87693449a690a73224b956b10e"
+        ],
+        "nthSuperUglyNumber11": [
+            "func_57b2836896c444afbbd660998f69e02f",
+            "func_bbac8bb96aad4d46a272123eeb1dc5bc"
+        ],
+        "nthSuperUglyNumber12": [
+            "func_8c5f8af55a9049e483a68a9e26ace265",
+            "func_d0537cf6a5f0404e8721eb6f377d3591"
+        ],
+        "min12": [],
+        "nthSuperUglyNumber13": [
+            "func_773642abd49a4ef985af5bb7bd1693c8",
+            "func_61bf484bb8f44ff8b6efc5961309aa0b"
+        ],
+        "nthSuperUglyNumber14": [],
+        "nthSuperUglyNumber15": [
+            "func_a3883e3c0df14058957a54270cb6ef1a",
+            "func_97ff187dc86046e9947bbefd221cf5a9"
+        ]
+    }
+}

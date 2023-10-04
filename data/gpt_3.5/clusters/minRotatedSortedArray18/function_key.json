@@ -1,0 +1,218 @@
+{
+    "0.01": {
+        "search1": [
+            "func_9b8866b7b46044529603e163337dbadc",
+            "func_22d10c7d3312447883d5b4db66e71b16"
+        ],
+        "search2": [
+            "func_b9effb788e5b4cf389a7691e277be235",
+            "func_60834ec2bb884c558fb9089495e8b897"
+        ],
+        "findMin3": [
+            "func_997ab78b648d4b4bb88f401904d7e3f6"
+        ],
+        "findMin4": [
+            "func_c0d8fea3fb204610afb836ac80dd02bc"
+        ],
+        "search5": [
+            "func_6fed7d0b99d443a482ba88a235f0fe3e",
+            "func_7c07cea1dae04acc8b4ba08d6845c55f"
+        ],
+        "search6": [
+            "func_4f697d28f09842e08930681433d58cea",
+            "func_1b2cecea98314eae8e4c1f5582acf08b"
+        ],
+        "findMin7": [
+            "func_920356c48c39453696e035d315049a50"
+        ],
+        "search8": [
+            "func_2ae66e216cec4f3ebb7ecd819a5d5bc8",
+            "func_ccef75a0600c45fa93269d35ffbe35c3"
+        ],
+        "search9": [
+            "func_950384c867ff43b2878bea97453e9ac5",
+            "func_6d4cf8ef75c5412dace5f13c71cdb492"
+        ],
+        "search10": [
+            "func_3d6709854f384652980e5c2f2706cb05",
+            "func_cc83221ee6b8454c8ada8b04c93f55d2"
+        ],
+        "findMin11": [
+            "func_2663d32a82df481888957b2a47ee0fc8"
+        ],
+        "search12": [
+            "func_4f52b6ab09ae43449cf21bb145291a82",
+            "func_c82dfd5b5e4945ecac912a30e8071155"
+        ],
+        "findMin13": [
+            "func_25409ce83cc446af94275a3b3f4b74f3"
+        ],
+        "search14": [
+            "func_3fac105c747841bb8e94ac101361ff52",
+            "func_5825b88251234f188ce844948e3e4571"
+        ],
+        "search15": [
+            "func_34874cbe9ee447b4901c8605b9145bbd",
+            "func_32746df9341745b2be355591440b7cbb"
+        ],
+        "search16": [
+            "func_b4941ea3167d4625bbe615b52cb476dc",
+            "func_2faa1ae36df74ae5834a324851d08914"
+        ],
+        "findMin17": [
+            "func_77c79c63a0cc421dac39c59493b334cc"
+        ],
+        "search18": [
+            "func_8f11f94180b44a5ca917c90cba1a7cfa",
+            "func_960422c12ee041f4bdd1c22103499557"
+        ],
+        "search19": [
+            "func_d295b9789c184e6184cfd38017137df0",
+            "func_3d64ef64750749dbbf3ed333792d4791"
+        ]
+    },
+    "0.05": {
+        "search1": [
+            "func_9b8866b7b46044529603e163337dbadc",
+            "func_22d10c7d3312447883d5b4db66e71b16"
+        ],
+        "search2": [
+            "func_b9effb788e5b4cf389a7691e277be235",
+            "func_60834ec2bb884c558fb9089495e8b897"
+        ],
+        "findMin3": [
+            "func_997ab78b648d4b4bb88f401904d7e3f6"
+        ],
+        "findMin4": [
+            "func_c0d8fea3fb204610afb836ac80dd02bc"
+        ],
+        "search5": [
+            "func_6fed7d0b99d443a482ba88a235f0fe3e",
+            "func_7c07cea1dae04acc8b4ba08d6845c55f"
+        ],
+        "search6": [
+            "func_4f697d28f09842e08930681433d58cea",
+            "func_1b2cecea98314eae8e4c1f5582acf08b"
+        ],
+        "findMin7": [
+            "func_920356c48c39453696e035d315049a50"
+        ],
+        "search8": [
+            "func_2ae66e216cec4f3ebb7ecd819a5d5bc8",
+            "func_ccef75a0600c45fa93269d35ffbe35c3"
+        ],
+        "search9": [
+            "func_950384c867ff43b2878bea97453e9ac5",
+            "func_6d4cf8ef75c5412dace5f13c71cdb492"
+        ],
+        "search10": [
+            "func_3d6709854f384652980e5c2f2706cb05",
+            "func_cc83221ee6b8454c8ada8b04c93f55d2"
+        ],
+        "findMin11": [
+            "func_2663d32a82df481888957b2a47ee0fc8"
+        ],
+        "search12": [
+            "func_4f52b6ab09ae43449cf21bb145291a82",
+            "func_c82dfd5b5e4945ecac912a30e8071155"
+        ],
+        "findMin13": [
+            "func_25409ce83cc446af94275a3b3f4b74f3"
+        ],
+        "search14": [
+            "func_3fac105c747841bb8e94ac101361ff52",
+            "func_5825b88251234f188ce844948e3e4571"
+        ],
+        "search15": [
+            "func_34874cbe9ee447b4901c8605b9145bbd",
+            "func_32746df9341745b2be355591440b7cbb"
+        ],
+        "search16": [
+            "func_b4941ea3167d4625bbe615b52cb476dc",
+            "func_2faa1ae36df74ae5834a324851d08914"
+        ],
+        "findMin17": [
+            "func_77c79c63a0cc421dac39c59493b334cc"
+        ],
+        "search18": [
+            "func_8f11f94180b44a5ca917c90cba1a7cfa",
+            "func_960422c12ee041f4bdd1c22103499557"
+        ],
+        "search19": [
+            "func_d295b9789c184e6184cfd38017137df0",
+            "func_3d64ef64750749dbbf3ed333792d4791"
+        ]
+    },
+    "0.25": {
+        "search1": [
+            "func_9b8866b7b46044529603e163337dbadc",
+            "func_22d10c7d3312447883d5b4db66e71b16"
+        ],
+        "search2": [
+            "func_b9effb788e5b4cf389a7691e277be235",
+            "func_60834ec2bb884c558fb9089495e8b897"
+        ],
+        "findMin3": [
+            "func_997ab78b648d4b4bb88f401904d7e3f6"
+        ],
+        "findMin4": [
+            "func_c0d8fea3fb204610afb836ac80dd02bc"
+        ],
+        "search5": [
+            "func_6fed7d0b99d443a482ba88a235f0fe3e",
+            "func_7c07cea1dae04acc8b4ba08d6845c55f"
+        ],
+        "search6": [
+            "func_4f697d28f09842e08930681433d58cea",
+            "func_1b2cecea98314eae8e4c1f5582acf08b"
+        ],
+        "findMin7": [
+            "func_920356c48c39453696e035d315049a50"
+        ],
+        "search8": [
+            "func_2ae66e216cec4f3ebb7ecd819a5d5bc8",
+            "func_ccef75a0600c45fa93269d35ffbe35c3"
+        ],
+        "search9": [
+            "func_950384c867ff43b2878bea97453e9ac5",
+            "func_6d4cf8ef75c5412dace5f13c71cdb492"
+        ],
+        "search10": [
+            "func_3d6709854f384652980e5c2f2706cb05",
+            "func_cc83221ee6b8454c8ada8b04c93f55d2"
+        ],
+        "findMin11": [
+            "func_2663d32a82df481888957b2a47ee0fc8"
+        ],
+        "search12": [
+            "func_4f52b6ab09ae43449cf21bb145291a82",
+            "func_c82dfd5b5e4945ecac912a30e8071155"
+        ],
+        "findMin13": [
+            "func_25409ce83cc446af94275a3b3f4b74f3"
+        ],
+        "search14": [
+            "func_3fac105c747841bb8e94ac101361ff52",
+            "func_5825b88251234f188ce844948e3e4571"
+        ],
+        "search15": [
+            "func_34874cbe9ee447b4901c8605b9145bbd",
+            "func_32746df9341745b2be355591440b7cbb"
+        ],
+        "search16": [
+            "func_b4941ea3167d4625bbe615b52cb476dc",
+            "func_2faa1ae36df74ae5834a324851d08914"
+        ],
+        "findMin17": [
+            "func_77c79c63a0cc421dac39c59493b334cc"
+        ],
+        "search18": [
+            "func_8f11f94180b44a5ca917c90cba1a7cfa",
+            "func_960422c12ee041f4bdd1c22103499557"
+        ],
+        "search19": [
+            "func_d295b9789c184e6184cfd38017137df0",
+            "func_3d64ef64750749dbbf3ed333792d4791"
+        ]
+    }
+}

@@ -1,0 +1,706 @@
+
+
+****** Cluster 0 ******
+public static int func_550f63cceda54eceb6e1da03c7f21029(Integer[] primes, Integer n){
+    // 1
+    int[] dp = new int[n];
+    // 2
+    dp[0] = 1;
+    // 3
+    int[] indices = new int[primes.length];
+    for (int i = 1; i < n; i++) {
+        // 4
+        // 5
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 6
+            // 7
+            min = Math.min(min, primes[j] * dp[indices[j]]);
+        }
+        // 8
+        dp[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 9
+            if (min == primes[j] * dp[indices[j]]) {
+                // 10
+                // 11
+                indices[j]++;
+            }
+        }
+    }
+    return dp[n - 1];
+}
+public static int func_7ef237922af44df89d1d975495bccbf1(Integer[] primes, Integer n){
+    // 12
+    int[] ugly = new int[n];
+    // 13
+    int[] indexes = new int[primes.length];
+    // 14
+    int[] factors = new int[primes.length];
+    // 15
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 16
+        // 17
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 18
+            // 19
+            factors[j] = primes[j] * ugly[indexes[j]];
+            // 20
+            min = Math.min(min, factors[j]);
+        }
+        // 21
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 22
+            if (factors[j] == min) {
+                // 23
+                // 24
+                indexes[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_e0cd76fbde914d18b748d8bd84bed653(Integer[] primes, Integer n){
+    // 25
+    int[] ugly = new int[n];
+    // 26
+    int[] idx = new int[primes.length];
+    // 27
+    int[] vals = new int[primes.length];
+    // 28
+    Arrays.fill(vals, 1);
+    // 29
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 30
+        // 31
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 32
+            if (vals[j] == ugly[i - 1]) {
+                // 33
+                // 34
+                vals[j] = primes[j] * ugly[idx[j]];
+                // 35
+                idx[j]++;
+            }
+            // 36
+            min = Math.min(min, vals[j]);
+        }
+        // 37
+        ugly[i] = min;
+    }
+    return ugly[n - 1];
+}
+public static int func_ad18774fd7404476a162de264bf7a44e(Integer[] primes, Integer n){
+    // 64
+    int[] uglyNums = new int[n];
+    // 65
+    uglyNums[0] = 1;
+    // 66
+    int[] primeIndices = new int[primes.length];
+    for (int i = 1; i < n; i++) {
+        // 67
+        // 68
+        int[] nextNums = new int[primes.length];
+        // 69
+        int minNextNum = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 70
+            // 71
+            nextNums[j] = uglyNums[primeIndices[j]] * primes[j];
+            // 72
+            minNextNum = Math.min(minNextNum, nextNums[j]);
+        }
+        // 73
+        uglyNums[i] = minNextNum;
+        for (int j = 0; j < primes.length; j++) {
+            // 74
+            if (nextNums[j] == minNextNum) {
+                // 75
+                // 76
+                primeIndices[j]++;
+            }
+        }
+    }
+    return uglyNums[n - 1];
+}
+public static int func_36d43ce7951f440291a8a0e6702aa849(Integer[] primes, Integer n){
+    // 51
+    int[] ugly = new int[n];
+    // 52
+    int[] idx = new int[primes.length];
+    // 53
+    int[] val = new int[primes.length];
+    // 54
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 55
+        // 56
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 57
+            // 58
+            val[j] = primes[j] * ugly[idx[j]];
+            // 59
+            min = Math.min(min, val[j]);
+        }
+        // 60
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 61
+            if (val[j] == min) {
+                // 62
+                // 63
+                idx[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_9ffd3b474e234b9e96ecd3670eccc2e8(Integer[] primes, Integer n){
+    // 77
+    int[] ugly = new int[n];
+    // 78
+    int[] index = new int[primes.length];
+    // 79
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 80
+        // 81
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 82
+            // 83
+            min = Math.min(min, primes[j] * ugly[index[j]]);
+        }
+        // 84
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 85
+            if (min == primes[j] * ugly[index[j]]) {
+                // 86
+                // 87
+                index[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_a418768124444dc9b879ef63cc7fdd14(Integer[] primes, Integer n){
+    // 114
+    int[] ugly = new int[n];
+    // 115
+    int[] index = new int[primes.length];
+    // 116
+    int[] nextMultiple = new int[primes.length];
+    // 117
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 118
+        // 119
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 120
+            // 121
+            int multiple = primes[j] * ugly[index[j]];
+            // 122
+            nextMultiple[j] = multiple;
+            // 123
+            min = Math.min(min, multiple);
+        }
+        // 124
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 125
+            if (nextMultiple[j] == min) {
+                // 126
+                // 127
+                index[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_8c5f8af55a9049e483a68a9e26ace265(Integer[] primes, Integer n){
+    // 140
+    int[] ugly = new int[n];
+    // 141
+    int[] idx = new int[primes.length];
+    // 142
+    int[] vals = new int[primes.length];
+    // 143
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 144
+        // 145
+        Arrays.fill(vals, Integer.MAX_VALUE);
+        for (int j = 0; j < primes.length; j++) {
+            // 146
+            // 147
+            vals[j] = ugly[idx[j]] * primes[j];
+        }
+        // 148
+        int min = Interleave.min12(vals);
+        // 149
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 150
+            if (// 151
+            min == vals[j])
+                // 152
+                idx[j]++;
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_57b2836896c444afbbd660998f69e02f(Integer[] primes, Integer n){
+    // 128
+    int[] uglyNumbers = new int[n];
+    // 129
+    uglyNumbers[0] = 1;
+    // 130
+    int[] primeIndices = new int[primes.length];
+    // 131
+    Arrays.fill(primeIndices, 0);
+    for (int i = 1; i < n; i++) {
+        // 132
+        // 133
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 134
+            // 135
+            min = Math.min(min, uglyNumbers[primeIndices[j]] * primes[j]);
+        }
+        // 136
+        uglyNumbers[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 137
+            if (uglyNumbers[primeIndices[j]] * primes[j] == min) {
+                // 138
+                // 139
+                primeIndices[j]++;
+            }
+        }
+    }
+    return uglyNumbers[n - 1];
+}
+public static int func_773642abd49a4ef985af5bb7bd1693c8(Integer[] primes, Integer n){
+    // 157
+    int[] uglyNumbers = new int[n];
+    // 158
+    uglyNumbers[0] = 1;
+    // 159
+    int[] primeIndices = new int[primes.length];
+    for (int i = 1; i < n; i++) {
+        // 160
+        // 161
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 162
+            // 163
+            min = Math.min(min, primes[j] * uglyNumbers[primeIndices[j]]);
+        }
+        for (int j = 0; j < primes.length; j++) {
+            // 164
+            if (primes[j] * uglyNumbers[primeIndices[j]] == min) {
+                // 165
+                // 166
+                primeIndices[j]++;
+            }
+        }
+        // 167
+        uglyNumbers[i] = min;
+    }
+    return uglyNumbers[n - 1];
+}
+public static int func_a3883e3c0df14058957a54270cb6ef1a(Integer[] primes, Integer n){
+    // 181
+    int[] uglyNumbers = new int[n];
+    // 182
+    uglyNumbers[0] = 1;
+    // 183
+    int[] primeIndices = new int[primes.length];
+    // 184
+    Arrays.fill(primeIndices, 0);
+    for (int i = 1; i < n; i++) {
+        // 185
+        // 186
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 187
+            if (uglyNumbers[primeIndices[j]] * primes[j] < min) {
+                // 188
+                // 189
+                min = uglyNumbers[primeIndices[j]] * primes[j];
+            }
+        }
+        // 190
+        uglyNumbers[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 191
+            if (uglyNumbers[primeIndices[j]] * primes[j] == min) {
+                // 192
+                // 193
+                primeIndices[j] += 1;
+            }
+        }
+    }
+    return uglyNumbers[n - 1];
+}
+
+
+****** Cluster 1 ******
+public static int func_2ff3095e70a3494484dba040a13775a0(Integer n, Integer[] primes){
+    // 12
+    int[] ugly = new int[n];
+    // 13
+    int[] indexes = new int[primes.length];
+    // 14
+    int[] factors = new int[primes.length];
+    // 15
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 16
+        // 17
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 18
+            // 19
+            factors[j] = primes[j] * ugly[indexes[j]];
+            // 20
+            min = Math.min(min, factors[j]);
+        }
+        // 21
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 22
+            if (factors[j] == min) {
+                // 23
+                // 24
+                indexes[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_c33cf5b8d11044d0bcfae0c317993a6e(Integer n, Integer[] primes){
+    // 1
+    int[] dp = new int[n];
+    // 2
+    dp[0] = 1;
+    // 3
+    int[] indices = new int[primes.length];
+    for (int i = 1; i < n; i++) {
+        // 4
+        // 5
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 6
+            // 7
+            min = Math.min(min, primes[j] * dp[indices[j]]);
+        }
+        // 8
+        dp[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 9
+            if (min == primes[j] * dp[indices[j]]) {
+                // 10
+                // 11
+                indices[j]++;
+            }
+        }
+    }
+    return dp[n - 1];
+}
+public static int func_d7047f7eafd34d3ba91556c62538a964(Integer n, Integer[] primes){
+    // 25
+    int[] ugly = new int[n];
+    // 26
+    int[] idx = new int[primes.length];
+    // 27
+    int[] vals = new int[primes.length];
+    // 28
+    Arrays.fill(vals, 1);
+    // 29
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 30
+        // 31
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 32
+            if (vals[j] == ugly[i - 1]) {
+                // 33
+                // 34
+                vals[j] = primes[j] * ugly[idx[j]];
+                // 35
+                idx[j]++;
+            }
+            // 36
+            min = Math.min(min, vals[j]);
+        }
+        // 37
+        ugly[i] = min;
+    }
+    return ugly[n - 1];
+}
+public static int func_7f76ea2422b34010b86a53afe1faf0fb(Integer n, Integer[] primes){
+    // 51
+    int[] ugly = new int[n];
+    // 52
+    int[] idx = new int[primes.length];
+    // 53
+    int[] val = new int[primes.length];
+    // 54
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 55
+        // 56
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 57
+            // 58
+            val[j] = primes[j] * ugly[idx[j]];
+            // 59
+            min = Math.min(min, val[j]);
+        }
+        // 60
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 61
+            if (val[j] == min) {
+                // 62
+                // 63
+                idx[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_82f5bd1873c04781b77d8409c01d76c5(Integer n, Integer[] primes){
+    // 64
+    int[] uglyNums = new int[n];
+    // 65
+    uglyNums[0] = 1;
+    // 66
+    int[] primeIndices = new int[primes.length];
+    for (int i = 1; i < n; i++) {
+        // 67
+        // 68
+        int[] nextNums = new int[primes.length];
+        // 69
+        int minNextNum = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 70
+            // 71
+            nextNums[j] = uglyNums[primeIndices[j]] * primes[j];
+            // 72
+            minNextNum = Math.min(minNextNum, nextNums[j]);
+        }
+        // 73
+        uglyNums[i] = minNextNum;
+        for (int j = 0; j < primes.length; j++) {
+            // 74
+            if (nextNums[j] == minNextNum) {
+                // 75
+                // 76
+                primeIndices[j]++;
+            }
+        }
+    }
+    return uglyNums[n - 1];
+}
+public static int func_e34f45311a6f4a1c97d03e1bc575bea7(Integer n, Integer[] primes){
+    // 77
+    int[] ugly = new int[n];
+    // 78
+    int[] index = new int[primes.length];
+    // 79
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 80
+        // 81
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 82
+            // 83
+            min = Math.min(min, primes[j] * ugly[index[j]]);
+        }
+        // 84
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 85
+            if (min == primes[j] * ugly[index[j]]) {
+                // 86
+                // 87
+                index[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_acddcd87693449a690a73224b956b10e(Integer n, Integer[] primes){
+    // 114
+    int[] ugly = new int[n];
+    // 115
+    int[] index = new int[primes.length];
+    // 116
+    int[] nextMultiple = new int[primes.length];
+    // 117
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 118
+        // 119
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 120
+            // 121
+            int multiple = primes[j] * ugly[index[j]];
+            // 122
+            nextMultiple[j] = multiple;
+            // 123
+            min = Math.min(min, multiple);
+        }
+        // 124
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 125
+            if (nextMultiple[j] == min) {
+                // 126
+                // 127
+                index[j]++;
+            }
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_bbac8bb96aad4d46a272123eeb1dc5bc(Integer n, Integer[] primes){
+    // 128
+    int[] uglyNumbers = new int[n];
+    // 129
+    uglyNumbers[0] = 1;
+    // 130
+    int[] primeIndices = new int[primes.length];
+    // 131
+    Arrays.fill(primeIndices, 0);
+    for (int i = 1; i < n; i++) {
+        // 132
+        // 133
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 134
+            // 135
+            min = Math.min(min, uglyNumbers[primeIndices[j]] * primes[j]);
+        }
+        // 136
+        uglyNumbers[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 137
+            if (uglyNumbers[primeIndices[j]] * primes[j] == min) {
+                // 138
+                // 139
+                primeIndices[j]++;
+            }
+        }
+    }
+    return uglyNumbers[n - 1];
+}
+public static int func_d0537cf6a5f0404e8721eb6f377d3591(Integer n, Integer[] primes){
+    // 140
+    int[] ugly = new int[n];
+    // 141
+    int[] idx = new int[primes.length];
+    // 142
+    int[] vals = new int[primes.length];
+    // 143
+    ugly[0] = 1;
+    for (int i = 1; i < n; i++) {
+        // 144
+        // 145
+        Arrays.fill(vals, Integer.MAX_VALUE);
+        for (int j = 0; j < primes.length; j++) {
+            // 146
+            // 147
+            vals[j] = ugly[idx[j]] * primes[j];
+        }
+        // 148
+        int min = Interleave.min12(vals);
+        // 149
+        ugly[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 150
+            if (// 151
+            min == vals[j])
+                // 152
+                idx[j]++;
+        }
+    }
+    return ugly[n - 1];
+}
+public static int func_61bf484bb8f44ff8b6efc5961309aa0b(Integer n, Integer[] primes){
+    // 157
+    int[] uglyNumbers = new int[n];
+    // 158
+    uglyNumbers[0] = 1;
+    // 159
+    int[] primeIndices = new int[primes.length];
+    for (int i = 1; i < n; i++) {
+        // 160
+        // 161
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 162
+            // 163
+            min = Math.min(min, primes[j] * uglyNumbers[primeIndices[j]]);
+        }
+        for (int j = 0; j < primes.length; j++) {
+            // 164
+            if (primes[j] * uglyNumbers[primeIndices[j]] == min) {
+                // 165
+                // 166
+                primeIndices[j]++;
+            }
+        }
+        // 167
+        uglyNumbers[i] = min;
+    }
+    return uglyNumbers[n - 1];
+}
+public static int func_97ff187dc86046e9947bbefd221cf5a9(Integer n, Integer[] primes){
+    // 181
+    int[] uglyNumbers = new int[n];
+    // 182
+    uglyNumbers[0] = 1;
+    // 183
+    int[] primeIndices = new int[primes.length];
+    // 184
+    Arrays.fill(primeIndices, 0);
+    for (int i = 1; i < n; i++) {
+        // 185
+        // 186
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < primes.length; j++) {
+            // 187
+            if (uglyNumbers[primeIndices[j]] * primes[j] < min) {
+                // 188
+                // 189
+                min = uglyNumbers[primeIndices[j]] * primes[j];
+            }
+        }
+        // 190
+        uglyNumbers[i] = min;
+        for (int j = 0; j < primes.length; j++) {
+            // 191
+            if (uglyNumbers[primeIndices[j]] * primes[j] == min) {
+                // 192
+                // 193
+                primeIndices[j] += 1;
+            }
+        }
+    }
+    return uglyNumbers[n - 1];
+}

@@ -1,0 +1,774 @@
+
+
+****** Cluster 0 ******
+public static Integer func_a48f5da6e2f044a8af157b11566b75f8(Integer[] nums, Integer maxProd, Integer currProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_8e3af82a5b334b24b5b0bd6ca2320652(Integer[] nums, Integer maxProduct, Integer currentProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 1 ******
+public static Integer func_97df31f6aeed4ed0a489e316e6c79fca(Integer maxProd, Integer[] nums, Integer currProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_f5b9c0e981a842c294098943b2bcf0f3(Integer maxProduct, Integer[] nums, Integer currentProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 2 ******
+public static Integer func_135814381e064cd589852a556fb5c332(Integer[] nums, Integer currProd, Integer maxProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_d0edd3c8a8564240995ee181158575bc(Integer[] nums, Integer currentProduct, Integer maxProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 3 ******
+public static Integer func_32fe1ed6da204269be3b5e018250108d(Integer maxProd, Integer currProd, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_9e70d97a8cca4c09a20159b45d2ffbe8(Integer maxProduct, Integer currentProduct, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 4 ******
+public static Integer func_b86b9db216644adab4e653e9489070b8(Integer[] nums, Integer maxProd, Integer currProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_88c36dd1ef1544ed82ecae6c8976fde1(Integer[] nums, Integer maxProd, Integer currProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_6a8f208dba044e14be1919e8fd04eb07(Integer[] nums, Integer maxProduct, Integer currentProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+public static Integer func_e3d3473ba5ee4b549dad10f7f29b2e46(Integer[] nums, Integer maxProduct, Integer currentProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+
+
+****** Cluster 5 ******
+public static Integer func_5282aceca12e411e93a48cff2a3ff1e0(Integer currProd, Integer[] nums, Integer maxProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_ea5fc1880f7249a3ba25947f65f7a2d7(Integer currentProduct, Integer[] nums, Integer maxProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 6 ******
+public static Integer func_1429caf6ba3340e3ab5cc4ee7eeaff88(Integer currProd, Integer maxProd, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_9d05001a1be849808c87f253ba55a208(Integer currentProduct, Integer maxProduct, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 7 ******
+public static Integer func_9ba305c0ab7e4619b716026c50c79df3(Integer maxProd, Integer[] nums, Integer currProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_17b870e5d7964e479981d3f2e246a6ab(Integer maxProd, Integer[] nums, Integer currProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_b823ebee8d9d4df48ef1299792c2e68a(Integer maxProduct, Integer[] nums, Integer currentProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+public static Integer func_d27a023d3a91468e8e2b4e11c7865108(Integer maxProduct, Integer[] nums, Integer currentProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+
+
+****** Cluster 8 ******
+public static Integer func_3bca492a80844759a9047ce0a1f43ea2(Integer[] nums, Integer currProd, Integer maxProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_865a5ee30d714e5ea5d47c124c41c6fa(Integer[] nums, Integer currProd, Integer maxProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_42353c4f4a854e168e25efab3753f756(Integer[] nums, Integer currentProduct, Integer maxProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+public static Integer func_af760141fd604caebee122f40ef54e13(Integer[] nums, Integer currentProduct, Integer maxProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+
+
+****** Cluster 9 ******
+public static Integer func_8d844e40c5274264b8b199900e47b604(Integer currProd, Integer[] nums, Integer maxProd){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_543353870a5c44e9bc6aec4345bc93d0(Integer currProd, Integer[] nums, Integer maxProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_df3666895219436d8963f0514524b8c7(Integer currentProduct, Integer[] nums, Integer maxProduct){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+public static Integer func_4396ef10bf3646d493c1216e92e1960c(Integer currentProduct, Integer[] nums, Integer maxProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+
+
+****** Cluster 10 ******
+public static Integer func_d5761abfac3d422387749edd9cc299c7(Integer maxProd, Integer currProd, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_ec61f38e295948e9bd8117612e7633b9(Integer maxProd, Integer currProd, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_53f6473edbb54871a34f1b2bb56ebd66(Integer maxProduct, Integer currentProduct, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+public static Integer func_ed5650ec16bb4895a3d9baff996a8c56(Integer maxProduct, Integer currentProduct, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+
+
+****** Cluster 11 ******
+public static Integer func_890e121b73f54a4381156dd01217f988(Integer currProd, Integer maxProd, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 158
+        // 159
+        currProd *= nums[i];
+        // 160
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 161
+            // 162
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_49c38b827d3a470293e2ebf66429795f(Integer currProd, Integer maxProd, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return currProd;
+}
+public static Integer func_8348ad45295f4d65b35b2fbed6ad4067(Integer currentProduct, Integer maxProduct, Integer[] nums){
+    for (int i = 0; i < nums.length; i++) {
+        // 34
+        // 35
+        currentProduct *= nums[i];
+        // 36
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 37
+            // 38
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+public static Integer func_a15ceb285baf4310a999ceb3786480a2(Integer currentProduct, Integer maxProduct, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return currentProduct;
+}
+
+
+****** Cluster 12 ******
+public static Integer func_8114a4a8f1264e0fb67b4ddfa55c1907(Integer maxProd, Integer[] nums, Integer currProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_1790f6392b244aa6a5ebd2441ab6b11f(Integer maxProduct, Integer[] nums, Integer currentProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 13 ******
+public static Integer func_a88e2da958a84e33914ad2e789185248(Integer[] nums, Integer maxProd, Integer currProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_ec3b66c5cb3b451fb593c6b824e5d8f7(Integer[] nums, Integer maxProduct, Integer currentProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 14 ******
+public static Integer func_42cfcaf61158403da49589df220ac8d6(Integer maxProd, Integer currProd, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_6f9052216ebe4c338241ac04c176aed8(Integer maxProduct, Integer currentProduct, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 15 ******
+public static Integer func_67c18a5b193349e98e329cbaa30044e5(Integer[] nums, Integer currProd, Integer maxProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_dbda978780b84ea7b9400c5ae146b283(Integer[] nums, Integer currentProduct, Integer maxProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 16 ******
+public static Integer func_a29c1eb28573488a93856804c93d1042(Integer currProd, Integer[] nums, Integer maxProd){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_2fa6cb3a7f02498b83ce8967201428eb(Integer currentProduct, Integer[] nums, Integer maxProduct){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}
+
+
+****** Cluster 17 ******
+public static Integer func_9fd265391fc54a158b10fc51993881ac(Integer currProd, Integer maxProd, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 164
+        // 165
+        currProd *= nums[i];
+        // 166
+        maxProd = Math.max(maxProd, currProd);
+        if (currProd == 0) {
+            // 167
+            // 168
+            currProd = 1;
+        }
+    }
+    return maxProd;
+}
+public static Integer func_bb2a8f0920554c2a8a6e813323a4b7cf(Integer currentProduct, Integer maxProduct, Integer[] nums){
+    for (int i = nums.length - 1; i >= 0; i--) {
+        // 40
+        // 41
+        currentProduct *= nums[i];
+        // 42
+        maxProduct = Math.max(maxProduct, currentProduct);
+        if (currentProduct == 0) {
+            // 43
+            // 44
+            currentProduct = 1;
+        }
+    }
+    return maxProduct;
+}

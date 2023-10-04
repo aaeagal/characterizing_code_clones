@@ -1,0 +1,34 @@
+
+
+****** Cluster 11 ******
+public static int func_f9b3f2106f1749f8b6e4cb77d2965228(Integer ay2, Integer bx2, Integer ay1, Integer bx1, Integer ax1, Integer by2, Integer by1, Integer ax2) { 
+// 53
+int areaA = Math.abs(ax2 - ax1) * Math.abs(ay2 - ay1);
+// 54
+int areaB = Math.abs(bx2 - bx1) * Math.abs(by2 - by1);
+// 55
+int overlapWidth = Math.max(0, Math.min(ax2, bx2) - Math.max(ax1, bx1));
+// 56
+int overlapHeight = Math.max(0, Math.min(ay2, by2) - Math.max(ay1, by1));
+// 57
+int overlapArea = overlapWidth * overlapHeight;
+return areaA + areaB - overlapArea;
+
+}
+
+
+public static int func_63e59ae6e52746dfb3bef6631c1551c9(Integer by1, Integer ax2, Integer by2, Integer ax1, Integer bx1, Integer ay1, Integer ay2, Integer bx2) { 
+// 105
+int areaA = Math.abs(ax1 - ax2) * Math.abs(ay1 - ay2);
+// 106
+int areaB = Math.abs(bx1 - bx2) * Math.abs(by1 - by2);
+// 107
+int intersectionWidth = Math.max(0, Math.min(ax2, bx2) - Math.max(ax1, bx1));
+// 108
+int intersectionHeight = Math.max(0, Math.min(ay2, by2) - Math.max(ay1, by1));
+// 109
+int intersectionArea = intersectionWidth * intersectionHeight;
+return areaA + areaB - intersectionArea;
+
+}
+

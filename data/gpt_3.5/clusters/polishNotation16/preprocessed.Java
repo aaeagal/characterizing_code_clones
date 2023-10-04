@@ -1,15 +1,11 @@
-
-import java.util.Stack;
-
-public class RPNCalculator {
-    public static int evaluateRPN(String[] tokens) {
+    public static int evaluateRPN1(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for(String token : tokens) {
-            if(isOperator(token)) {
+            if(isOperator1(token)) {
                 int secondOperand = stack.pop();
                 int firstOperand = stack.pop();
-                int result = evaluate(token, firstOperand, secondOperand);
+                int result = evaluate1(token, firstOperand, secondOperand);
                 stack.push(result);
             } else {
                 stack.push(Integer.parseInt(token));
@@ -19,11 +15,11 @@ public class RPNCalculator {
         return stack.pop();
     }
 
-    private static boolean isOperator(String token) {
+    private static boolean isOperator1(String token) {
         return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
 
-    private static int evaluate(String operator, int operand1, int operand2) {
+    private static int evaluate1(String operator, int operand1, int operand2) {
         if(operator.equals("+")) {
             return operand1 + operand2;
         } else if(operator.equals("-")) {
@@ -36,20 +32,15 @@ public class RPNCalculator {
             throw new IllegalArgumentException("Invalid operator: " + operator);
         }
     }
-}
 
-
-import java.util.Stack;
-
-public class ReversePolishNotationEvaluation {
-    public static int evaluateExpression(String[] tokens) {
+    public static int evaluateExpression2(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
-            if (isOperator(token)) {
+            if (isOperator2(token)) {
                 int operand2 = stack.pop();
                 int operand1 = stack.pop();
-                int result = performOperation(token, operand1, operand2);
+                int result = performOperation2(token, operand1, operand2);
                 stack.push(result);
             } else {
                 stack.push(Integer.parseInt(token));
@@ -59,11 +50,11 @@ public class ReversePolishNotationEvaluation {
         return stack.peek();
     }
 
-    private static boolean isOperator(String token) {
+    private static boolean isOperator2(String token) {
         return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
 
-    private static int performOperation(String operator, int operand1, int operand2) {
+    private static int performOperation2(String operator, int operand1, int operand2) {
         switch (operator) {
             case "+":
                 return operand1 + operand2;
@@ -78,18 +69,7 @@ public class ReversePolishNotationEvaluation {
         }
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println("Result: " + result);
-    }
-}
-
-
-import java.util.Stack;
-
-public class RPNCalculator {
-    public static int evaluateRPN(String[] tokens) {
+    public static int evaluateRPN3(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         
         for (String token : tokens) {
@@ -117,31 +97,14 @@ public class RPNCalculator {
         return stack.pop();
     }
     
-    public static void main(String[] args) {
-        String[] tokens = new String[] { "2", "1", "+", "3", "*" };
-        int result = evaluateRPN(tokens);
-        System.out.println("Result: " + result); // Expected output: 9
-    }
-}
 
-
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println("Result: " + result);
-    }
-    
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-    public static int evaluateExpression(String[] tokens) {
+    public static int evaluateExpression4(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         for (String token : tokens) {
-            if (isOperator(token)) {
+            if (isOperator4(token)) {
                 int operand2 = stack.pop();
                 int operand1 = stack.pop();
-                int result = evaluateOperation(token, operand1, operand2);
+                int result = evaluateOperation4(token, operand1, operand2);
                 stack.push(result);
             } else {
                 int operand = Integer.parseInt(token);
@@ -151,11 +114,11 @@ public class ReversePolishNotation {
         return stack.pop();
     }
 
-    private static boolean isOperator(String token) {
+    private static boolean isOperator4(String token) {
         return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
 
-    private static int evaluateOperation(String operator, int operand1, int operand2) {
+    private static int evaluateOperation4(String operator, int operand1, int operand2) {
         switch (operator) {
             case "+":
                 return operand1 + operand2;
@@ -169,18 +132,8 @@ public class ReversePolishNotation {
         return 0;
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println(result); // Output: 9
-    }
-}
-
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-    public static int evaluateExpression(String[] tokens) {
+  
+    public static int evaluateExpression5(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
@@ -208,31 +161,9 @@ public class ReversePolishNotation {
         return stack.pop();
     }
 
-    public static void main(String[] args) {
-        String[] tokens1 = {"2", "1", "+", "3", "*"};
-        String[] tokens2 = {"4", "13", "5", "/", "+"};
-        String[] tokens3 = {"3", "4", "*", "2", "5", "*", "+"};
-        System.out.println("Result 1: " + evaluateExpression(tokens1));
-        System.out.println("Result 2: " + evaluateExpression(tokens2));
-        System.out.println("Result 3: " + evaluateExpression(tokens3));
-    }
-}
 
-
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        System.out.println(evaluateExpression(tokens)); // Output: 9
-        
-        tokens = {"4", "13", "5", "/", "+"};
-        System.out.println(evaluateExpression(tokens)); // Output: 6
-    }
-    
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
   
-  public int evalRPN(String[] tokens) {
+  public int evalRPN6(String[] tokens) {
     Stack<Integer> stack = new Stack<>();
     
     for (String token : tokens) {
@@ -260,19 +191,8 @@ public class ReversePolishNotation {
     return stack.pop();
   }
   
-  public static void main(String[] args) {
-    ReversePolishNotation rpn = new ReversePolishNotation();
-    String[] tokens = {"2", "1", "+", "3", "*"};
-    int result = rpn.evalRPN(tokens);
-    System.out.println(result); // Output: 9
-  }
-}
 
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-    public static int evaluateExpression(String[] tokens) {
+    public static int evaluateExpression7(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
@@ -300,18 +220,8 @@ public class ReversePolishNotation {
         return stack.pop();
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println("Result: " + result);
-    }
-}
 
-
-import java.util.Stack;
-
-public class RPNCalculator {
-  public int evaluateExpression(String[] tokens) {
+  public int evaluateExpression8(String[] tokens) {
     Stack<Integer> stack = new Stack<>();
 
     for (String token : tokens) {
@@ -340,13 +250,8 @@ public class RPNCalculator {
 
     return stack.pop();
   }
-}
 
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-    public static int evalRPN(String[] tokens) {
+    public static int evalRPN9(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
@@ -374,33 +279,22 @@ public class ReversePolishNotation {
         return stack.pop();
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"4", "13", "5", "/", "+"};
-        int result = evalRPN(tokens);
-        System.out.println("Result: " + result);
-    }
-}
-
-
-import java.util.Stack;
-
-public class RPNExpressionEvaluator {
-    public static int evaluateRPN(String[] tokens) {
+    public static int evaluateRPN10(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         for (String token : tokens) {
-            if (isNumber(token)) {
+            if (isNumber10(token)) {
                 stack.push(Integer.parseInt(token));
             } else {
                 int num2 = stack.pop();
                 int num1 = stack.pop();
-                int result = performOperation(token, num1, num2);
+                int result = performOperation10(token, num1, num2);
                 stack.push(result);
             }
         }
         return stack.pop();
     }
 
-    private static boolean isNumber(String token) {
+    private static boolean isNumber10(String token) {
         try {
             Integer.parseInt(token);
             return true;
@@ -409,7 +303,7 @@ public class RPNExpressionEvaluator {
         }
     }
 
-    private static int performOperation(String operator, int num1, int num2) {
+    private static int performOperation10(String operator, int num1, int num2) {
         switch (operator) {
             case "+":
                 return num1 + num2;
@@ -423,22 +317,15 @@ public class RPNExpressionEvaluator {
                 throw new IllegalArgumentException("Invalid operator: " + operator);
         }
     }
-}
 
-
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-
-    public static int evaluateExpression(String[] tokens) {
+    public static int evaluateExpression11(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
-            if (isOperator(token)) {
+            if (isOperator11(token)) {
                 int num2 = stack.pop();
                 int num1 = stack.pop();
-                int result = performOperation(token, num1, num2);
+                int result = performOperation11(token, num1, num2);
                 stack.push(result);
             } else {
                 stack.push(Integer.parseInt(token));
@@ -448,11 +335,11 @@ public class ReversePolishNotation {
         return stack.pop();
     }
 
-    private static boolean isOperator(String token) {
+    private static boolean isOperator11(String token) {
         return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
 
-    private static int performOperation(String operation, int num1, int num2) {
+    private static int performOperation11(String operation, int num1, int num2) {
         switch (operation) {
             case "+":
                 return num1 + num2;
@@ -467,21 +354,8 @@ public class ReversePolishNotation {
         }
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println("Result: " + result);
-    }
-}
-
-
-
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-    
-    public static int evaluateExpression(String[] tokens) {
+ 
+    public static int evaluateExpression12(String[] tokens) {
         Stack<String> stack = new Stack<>();
         
         for (String token : tokens) {
@@ -513,28 +387,9 @@ public class ReversePolishNotation {
         return Integer.parseInt(stack.pop());
     }
     
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println("Expression value: " + result);
-    }
-}
 
-
-
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateRPN(tokens);
-        System.out.println("Result: " + result);
-    }
-    
-
-// Java program to evaluate value of a given arithmetic expression in Reverse Polish Notation
-
-// Class to evaluate value of a given expression
-class EvaluateString {
     // Method to evaluate value of a postfix expression
-    static int evaluatePostfix(String expression) {
+    static int evaluatePostfix13(String expression) {
         //create a stack
         Stack<Integer> stack = new Stack<>();
         
@@ -574,19 +429,14 @@ class EvaluateString {
         
         return stack.pop();    
     }
-}
 
-
-import java.util.Stack;
-
-public class RPNCalculator {
-    public static int evaluateExpression(String[] tokens) {
+    public static int evaluateExpression14(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         for (String token : tokens) {
-            if (isOperator(token)) {
+            if (isOperator14(token)) {
                 int num2 = stack.pop();
                 int num1 = stack.pop();
-                int result = performOperation(token, num1, num2);
+                int result = performOperation14(token, num1, num2);
                 stack.push(result);
             } else {
                 stack.push(Integer.parseInt(token));
@@ -595,11 +445,11 @@ public class RPNCalculator {
         return stack.pop();
     }
 
-    private static boolean isOperator(String token) {
+    private static boolean isOperator14(String token) {
         return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
 
-    private static int performOperation(String operator, int num1, int num2) {
+    private static int performOperation14(String operator, int num1, int num2) {
         if (operator.equals("+")) {
             return num1 + num2;
         } else if (operator.equals("-")) {
@@ -611,36 +461,8 @@ public class RPNCalculator {
         }
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateExpression(tokens);
-        System.out.println("Result: " + result);
-    }
-}
 
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        String[] tokens1 = {"2", "1", "+", "3", "*"};
-        int result1 = solution.evalRPN(tokens1);
-        System.out.println(result1); // Output: 9
-
-        String[] tokens2 = {"4", "13", "5", "/", "+"};
-        int result2 = solution.evalRPN(tokens2);
-        System.out.println(result2); // Output: 6
-
-        String[] tokens3 = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};
-        int result3 = solution.evalRPN(tokens3);
-        System.out.println(result3); // Output: 22
-    }
-    
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
-
-    public static int evalRPN(String[] tokens) {
+    public static int evalRPN15(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
@@ -668,27 +490,15 @@ public class ReversePolishNotation {
         return stack.pop();
     }
 
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evalRPN(tokens);
-        System.out.println(result);
-    }
-}
-
-
-
-import java.util.Stack;
-
-public class ReversePolishNotation {
     
-    public static int evaluateRPN(String[] tokens) {
+    public static int evaluateRPN16(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         
         for (String token : tokens) {
-            if (isOperator(token)) {
+            if (isOperator16(token)) {
                 int operand2 = stack.pop();
                 int operand1 = stack.pop();
-                int result = performOperation(token, operand1, operand2);
+                int result = performOperation16(token, operand1, operand2);
                 stack.push(result);
             } else {
                 stack.push(Integer.parseInt(token));
@@ -698,11 +508,11 @@ public class ReversePolishNotation {
         return stack.pop();
     }
     
-    private static boolean isOperator(String token) {
+    private static boolean isOperator16(String token) {
         return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
     
-    private static int performOperation(String operator, int operand1, int operand2) {
+    private static int performOperation16(String operator, int operand1, int operand2) {
         switch (operator) {
             case "+":
                 return operand1 + operand2;
@@ -717,11 +527,6 @@ public class ReversePolishNotation {
         }
     }
     
-    public static void main(String[] args) {
-        String[] tokens = {"2", "1", "+", "3", "*"};
-        int result = evaluateRPN(tokens);
-        System.out.println("Result: " + result);
-    }
-}
+
 
 

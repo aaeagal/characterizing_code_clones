@@ -16,7 +16,7 @@ public class ContainerWithMostWater {
             }
         }
 
-        return maxArea; // please be here
+        return maxArea;
     }
 
 

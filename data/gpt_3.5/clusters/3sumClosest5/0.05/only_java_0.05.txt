@@ -1,0 +1,4326 @@
+
+
+****** Cluster 0 ******
+public static Integer func_4d03e7f6aad34e7d89aa15480a9b9d07(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_5d471e9e17be40da96e7ab5ba94eab02(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_64066104e8b447199e848bbbf76caa2f(Integer target, Integer result, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_2c082850f8cc4e97a01e8fb04b0a4036(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_16315ee5ff464773938e694a4aeba2b9(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_70d85104b0734ab8b017563f5c6841de(Integer target, Integer result, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_ad1a6b8703f1422f97c6bbc70064181d(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_ccbd680d6ada4e2e9af7719ad34a1a9f(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_4800a3af88ac46428045eb14b026ab77(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_1874b26f8999435d958cb4c7c67099c5(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_9f8d3a5647364f3b87cd6e4a5214fca3(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_b811c2171aa8453f98e8a85d0d8b216a(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_d1bc369b5cd8420bbe484516efb4b602(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_0a5a4eaed0c14aac9db9df7752024a02(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_0fcfd7efd0074fed83e7e135abd1fa2d(Integer target, Integer closestSum, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 1 ******
+public static int func_c35725c74a244429ab26decef6291e69(Integer[] nums, Integer target){
+    // 1
+    Arrays.sort(nums);
+    // 2
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_ff3e8436264b4b51b171632ad4f0a89e(Integer[] nums, Integer target){
+    // 32
+    int closestSum = nums[0] + nums[1] + nums[nums.length - 1];
+    // 33
+    Arrays.sort(nums);
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_9fc2f394d0d2427e98c0af3e5b3b1dc0(Integer[] nums, Integer target){
+    // 15
+    int n = nums.length;
+    // 16
+    Arrays.sort(nums);
+    // 17
+    int closestSum = Integer.MAX_VALUE;
+    // 18
+    int minDiff = Integer.MAX_VALUE;
+    for (int i = 0; i < n - 2; i++) {
+        // 19
+        // 20
+        int left = i + 1;
+        // 21
+        int right = n - 1;
+        while (left < right) {
+            // 22
+            // 23
+            int sum = nums[i] + nums[left] + nums[right];
+            // 24
+            int diff = Math.abs(sum - target);
+            if (diff < minDiff) {
+                // 25
+                // 26
+                minDiff = diff;
+                // 27
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 28
+                // 29
+                left++;
+            } else {
+                // 30
+                // 31
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_433d076ada984ac1b15f8bfb06478e5a(Integer[] nums, Integer target){
+    // 45
+    Arrays.sort(nums);
+    // 46
+    int closestSum = Integer.MAX_VALUE;
+    // 47
+    int diff = Integer.MAX_VALUE;
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 48
+        // 49
+        int left = i + 1;
+        // 50
+        int right = nums.length - 1;
+        while (left < right) {
+            // 51
+            // 52
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 53
+                return target;
+            }
+            // 54
+            int newDiff = Math.abs(sum - target);
+            if (newDiff < diff) {
+                // 55
+                // 56
+                diff = newDiff;
+                // 57
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 58
+                // 59
+                left++;
+            } else {
+                // 60
+                // 61
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_7ac5196024604eb4b65688bc8e4e2c55(Integer[] nums, Integer target){
+    // 62
+    Arrays.sort(nums);
+    // 63
+    int result = nums[0] + nums[1] + nums[nums.length - 1];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static int func_4ecb359b12d2434bad26bd5ad8c745c8(Integer[] nums, Integer target){
+    // 74
+    Arrays.sort(nums);
+    // 75
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_dbdaa5503e654f90823c74304c7d6952(Integer[] nums, Integer target){
+    // 88
+    Arrays.sort(nums);
+    // 89
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_1d0093d1defe4479b0a7bb7c2bf1a00c(Integer[] nums, Integer target){
+    // 102
+    int result = nums[0] + nums[1] + nums[nums.length - 1];
+    // 103
+    Arrays.sort(nums);
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static int func_de9af44837794c9bb67a1d4dc3327c46(Integer[] nums, Integer target){
+    // 114
+    Arrays.sort(nums);
+    // 115
+    int closestSum = nums[0] + nums[1] + nums[2];
+    // 116
+    int n = nums.length;
+    for (int i = 0; i < n - 2; i++) {
+        // 117
+        if (i > 0 && nums[i] == nums[i - 1]) {
+            // 119
+            continue;
+        }
+        // 120
+        int left = i + 1;
+        // 121
+        int right = n - 1;
+        while (left < right) {
+            // 122
+            // 123
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 124
+                return sum;
+            } else if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 125
+                // 126
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 127
+                // 128
+                left++;
+            } else {
+                // 129
+                // 130
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_45179cf101a94e8d952900daf837db7d(Integer[] nums, Integer target){
+    // 131
+    Arrays.sort(nums);
+    // 132
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_501120f3c61143d9b32d1a503cda7a50(Integer[] nums, Integer target){
+    // 144
+    Arrays.sort(nums);
+    // 145
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_7e1b483e44bc497b8f5837d7efa9c7de(Integer[] nums, Integer target){
+    // 158
+    Arrays.sort(nums);
+    // 159
+    int closestSum = nums[0] + nums[1] + nums[2];
+    // 160
+    int diff = Math.abs(closestSum - target);
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 161
+        // 162
+        int left = i + 1;
+        // 163
+        int right = nums.length - 1;
+        while (left < right) {
+            // 164
+            // 165
+            int sum = nums[i] + nums[left] + nums[right];
+            // 166
+            int newDiff = Math.abs(sum - target);
+            if (newDiff < diff) {
+                // 167
+                // 168
+                diff = newDiff;
+                // 169
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 170
+                // 171
+                left++;
+            } else if (sum > target) {
+                // 172
+                // 173
+                right--;
+            } else {
+                // 174
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_5fd47fcbfcb34d84a394c369b9f81408(Integer[] nums, Integer target){
+    // 175
+    Arrays.sort(nums);
+    // 176
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_eb6c1c6ca74c40009660aeaba08d7247(Integer[] nums, Integer target){
+    // 189
+    Arrays.sort(nums);
+    // 190
+    int n = nums.length;
+    // 191
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < n - 2; i++) {
+        // 192
+        // 193
+        int left = i + 1;
+        // 194
+        int right = n - 1;
+        while (left < right) {
+            // 195
+            // 196
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 197
+                return target;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 198
+                // 199
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 200
+                // 201
+                left++;
+            } else {
+                // 202
+                // 203
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_460330b52dbd4c008f1183218a4b3b93(Integer[] nums, Integer target){
+    if (nums == null || nums.length < 3) {
+        // 205
+        throw new IllegalArgumentException("Invalid input");
+    }
+    // 206
+    Arrays.sort(nums);
+    // 207
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_c8bff93770964c4cb6f65ce2de4adbae(Integer[] nums, Integer target){
+    // 220
+    Arrays.sort(nums);
+    // 221
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_4e575b78d08c44f5b175a8fbc9abe6fd(Integer[] nums, Integer target){
+    // 234
+    Arrays.sort(nums);
+    // 235
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_411b584ec577403aaabb931d2ec10f85(Integer[] nums, Integer target){
+    // 248
+    Arrays.sort(nums);
+    // 249
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_1ba2d28278e9482e8f80b765616bb1ae(Integer[] nums, Integer target){
+    // 262
+    Arrays.sort(nums);
+    // 263
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_0e20cdcda99a4a61807f769065cd3c5c(Integer[] nums, Integer target){
+    // 275
+    Arrays.sort(nums);
+    // 276
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 2 ******
+public static int func_61abe94c65d741079f5e63041533e524(Integer target, Integer[] nums){
+    // 1
+    Arrays.sort(nums);
+    // 2
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_527cfdf2352349baa48c73e88279d0b4(Integer target, Integer[] nums){
+    // 15
+    int n = nums.length;
+    // 16
+    Arrays.sort(nums);
+    // 17
+    int closestSum = Integer.MAX_VALUE;
+    // 18
+    int minDiff = Integer.MAX_VALUE;
+    for (int i = 0; i < n - 2; i++) {
+        // 19
+        // 20
+        int left = i + 1;
+        // 21
+        int right = n - 1;
+        while (left < right) {
+            // 22
+            // 23
+            int sum = nums[i] + nums[left] + nums[right];
+            // 24
+            int diff = Math.abs(sum - target);
+            if (diff < minDiff) {
+                // 25
+                // 26
+                minDiff = diff;
+                // 27
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 28
+                // 29
+                left++;
+            } else {
+                // 30
+                // 31
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_2f65af59fe0d400288b2159da2e2145b(Integer target, Integer[] nums){
+    // 32
+    int closestSum = nums[0] + nums[1] + nums[nums.length - 1];
+    // 33
+    Arrays.sort(nums);
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_c7c7bb927fd147e5acfd74161ba9e103(Integer target, Integer[] nums){
+    // 45
+    Arrays.sort(nums);
+    // 46
+    int closestSum = Integer.MAX_VALUE;
+    // 47
+    int diff = Integer.MAX_VALUE;
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 48
+        // 49
+        int left = i + 1;
+        // 50
+        int right = nums.length - 1;
+        while (left < right) {
+            // 51
+            // 52
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 53
+                return target;
+            }
+            // 54
+            int newDiff = Math.abs(sum - target);
+            if (newDiff < diff) {
+                // 55
+                // 56
+                diff = newDiff;
+                // 57
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 58
+                // 59
+                left++;
+            } else {
+                // 60
+                // 61
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_044ab23665cf4b208fc63441bf40d739(Integer target, Integer[] nums){
+    // 62
+    Arrays.sort(nums);
+    // 63
+    int result = nums[0] + nums[1] + nums[nums.length - 1];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static int func_9cc15171c496467b9a0b647e647ab06b(Integer target, Integer[] nums){
+    // 74
+    Arrays.sort(nums);
+    // 75
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_0a5ca0de09ef4155b3360fab2eb784ec(Integer target, Integer[] nums){
+    // 88
+    Arrays.sort(nums);
+    // 89
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_6ec227f5fae84fa481d9f16a3d79a3fa(Integer target, Integer[] nums){
+    // 102
+    int result = nums[0] + nums[1] + nums[nums.length - 1];
+    // 103
+    Arrays.sort(nums);
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static int func_0b637bfea0244f8e83aca68fc0343aa9(Integer target, Integer[] nums){
+    // 114
+    Arrays.sort(nums);
+    // 115
+    int closestSum = nums[0] + nums[1] + nums[2];
+    // 116
+    int n = nums.length;
+    for (int i = 0; i < n - 2; i++) {
+        // 117
+        if (i > 0 && nums[i] == nums[i - 1]) {
+            // 119
+            continue;
+        }
+        // 120
+        int left = i + 1;
+        // 121
+        int right = n - 1;
+        while (left < right) {
+            // 122
+            // 123
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 124
+                return sum;
+            } else if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 125
+                // 126
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 127
+                // 128
+                left++;
+            } else {
+                // 129
+                // 130
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_ff9a5030a3fe492387055030b5395738(Integer target, Integer[] nums){
+    // 131
+    Arrays.sort(nums);
+    // 132
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_bd8d395adcd0438d97af03a1625b9989(Integer target, Integer[] nums){
+    // 144
+    Arrays.sort(nums);
+    // 145
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_c37cf3dab6034225ae8e31cbf6cdbfd7(Integer target, Integer[] nums){
+    // 158
+    Arrays.sort(nums);
+    // 159
+    int closestSum = nums[0] + nums[1] + nums[2];
+    // 160
+    int diff = Math.abs(closestSum - target);
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 161
+        // 162
+        int left = i + 1;
+        // 163
+        int right = nums.length - 1;
+        while (left < right) {
+            // 164
+            // 165
+            int sum = nums[i] + nums[left] + nums[right];
+            // 166
+            int newDiff = Math.abs(sum - target);
+            if (newDiff < diff) {
+                // 167
+                // 168
+                diff = newDiff;
+                // 169
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 170
+                // 171
+                left++;
+            } else if (sum > target) {
+                // 172
+                // 173
+                right--;
+            } else {
+                // 174
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_61b1b9f99c3448a79f859edd47242d70(Integer target, Integer[] nums){
+    // 175
+    Arrays.sort(nums);
+    // 176
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_1e6b703ec9ec422ca86df7db7b63bf09(Integer target, Integer[] nums){
+    // 189
+    Arrays.sort(nums);
+    // 190
+    int n = nums.length;
+    // 191
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < n - 2; i++) {
+        // 192
+        // 193
+        int left = i + 1;
+        // 194
+        int right = n - 1;
+        while (left < right) {
+            // 195
+            // 196
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 197
+                return target;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 198
+                // 199
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 200
+                // 201
+                left++;
+            } else {
+                // 202
+                // 203
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_e0babdc2c29a4ba09aa04da52223831f(Integer target, Integer[] nums){
+    if (nums == null || nums.length < 3) {
+        // 205
+        throw new IllegalArgumentException("Invalid input");
+    }
+    // 206
+    Arrays.sort(nums);
+    // 207
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_412bb340980d48b68793db262e3a9d97(Integer target, Integer[] nums){
+    // 220
+    Arrays.sort(nums);
+    // 221
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_ec38af3cbf2d4c63870729cf2ba12eee(Integer target, Integer[] nums){
+    // 234
+    Arrays.sort(nums);
+    // 235
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_82bd5ff3f79a4b7abe49c48afe472d9d(Integer target, Integer[] nums){
+    // 248
+    Arrays.sort(nums);
+    // 249
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_4313396258274db78b8072d4b13bb7c9(Integer target, Integer[] nums){
+    // 262
+    Arrays.sort(nums);
+    // 263
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static int func_2c941f9dc9464057945c4e98cf03bd3d(Integer target, Integer[] nums){
+    // 275
+    Arrays.sort(nums);
+    // 276
+    int closestSum = nums[0] + nums[1] + nums[2];
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 3 ******
+public static Integer func_10482f1b442c4468a8d266bde68189f4(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_3af8efdf01a04cf19860cd583edca550(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_1eb40d1e058549d0b473fd8c3c443a8f(Integer result, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_835d8cfaede543f094541f2ef5cea19e(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_00e7738b039a48d594c95cf6f39fa957(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_ef0f749cfc0c4e9da083b54af024139e(Integer result, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_49501d80853640fab795b40bb7432424(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_3c59ed7b8b5b40c9bfa4f455a06db96b(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_57ea0a91542348aba839cd71f3422c0b(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_ef9eae98faa141ef841be6d7d4255d62(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_85774259c8c64f629afdb80304807677(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_7f6d9cba8f2b4357a1f4cde3a9b2deff(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_98591f6f9e9c4622bcdc48e18c0985d3(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_d8704199bba541f09abf689d78c6e181(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_e219d96406e94a7aaaf262ace22e1d8c(Integer closestSum, Integer target, Integer[] nums){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 4 ******
+public static Integer func_cfd2541d018b4ad1bf0ed6b5f754dfee(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_df57e8baa8874bea8cd8ef5f7865a405(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_8b5e4b99186845e2aa3eb2893eb2e55b(Integer result, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_14a17e18d3de4d4f8e758f9596fbee80(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_981c3cb2356645a3bb1c64fefa32439b(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_6316eedeb3644cbaa80512c49677701d(Integer result, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_89e45fb0d02240f9838b45f1ec1c0d7c(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_7ea7d11e52e54dfea0cdf1e984a5a477(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_e0d86acebe234bf0ac0c94a3250ed2b4(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_d980b2458f8b4cdf9a6233f726b54948(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_a7a01af5c1d94d70970679d3ebd26284(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_9cb60fd79f984042beddbc1d325ad184(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_8e55ff70fb4741829c27a1095a2c10e2(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_b0915fc15dbc4274bef9777a69556bc3(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_7f3ea32acf8f422e883f00bde0d43296(Integer closestSum, Integer[] nums, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 5 ******
+public static Integer func_a22c86e679cc4f868827969c716f6fbe(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_db7eaf057efd42a9929c4eb64aef26d7(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_5d685ef32d0e49258cd41dd9a5d98469(Integer target, Integer[] nums, Integer result){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_3fd85a025f61498286829877ff23c42e(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_a8ceb2eaf7eb4741a745ca1925f7b5a6(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_3e8e6cbaf456465a881c3e473918a10b(Integer target, Integer[] nums, Integer result){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_c837d3ac4a8a47ecaf67c73c1311f8dc(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_b2aee8984cb1467ba3a7e047c559534a(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_9eb0680df3ef4d768259bfdc93459fc3(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_b66300ff3d31447e8407d784c6eeaea7(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_2c91a34c12f64aeab64f1c4311a6d2ce(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_dc31d4a5a0b84ff0ac32506740c82f6e(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_51601ab84bed44ddacf272bf7dc3d011(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_d10da14f9086487cba2794e6574f9d57(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_4ed45041c5614cf094d7d4134cf9f506(Integer target, Integer[] nums, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 6 ******
+public static Integer func_3c7aa44e8fbb4450b4d2d5e0d37a048b(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_f35230a203314743a9d6dcd1ae550253(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_21dcb8b251b24ab4b20348c71fa80cf7(Integer[] nums, Integer result, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_6e81a361ea0e4b1da2e1d390e812d3b0(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_db322cadc3bd4008a3194108427b0b04(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_849e39ae078a4ecbbfa2dc197b03a025(Integer[] nums, Integer result, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_471e2fbefd3145f09a95611a0055b151(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_67881e60c74e40429b1821946e9cfc87(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_f15fe29fcf894c5f8ccd1c7577e2f8af(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_5e260afd9db3439f935c55049c4a5309(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_fb19af493fc24065bee1a2f2a9c508b9(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_b4ab5acc236d46a5a908e81d43c74595(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_39837180e08c48729fd970cb5e03539f(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_571c7d3cc6e54d91949156358808c02a(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_edd1e8ea0bf440b0b760bfb2c279a36a(Integer[] nums, Integer closestSum, Integer target){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+
+
+****** Cluster 7 ******
+public static Integer func_5c2010ca28b74853a376f5068cfc8325(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 3
+        // 4
+        int left = i + 1;
+        // 5
+        int right = nums.length - 1;
+        while (left < right) {
+            // 6
+            // 7
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 8
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 9
+                // 10
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 11
+                // 12
+                left++;
+            } else {
+                // 13
+                // 14
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_474c3df58d82441b8f8ecdbf6118703a(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 34
+        // 35
+        int left = i + 1;
+        // 36
+        int right = nums.length - 1;
+        while (left < right) {
+            // 37
+            // 38
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum <= target) {
+                // 39
+                // 40
+                left++;
+            } else {
+                // 41
+                // 42
+                right--;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 43
+                // 44
+                closestSum = currentSum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_d15489d353b54ca1b5172ded4d339111(Integer[] nums, Integer target, Integer result){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 64
+        // 65
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 66
+            // 67
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 68
+                // 69
+                end--;
+            } else {
+                // 70
+                // 71
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 72
+                // 73
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_be4f382a99e54953a62a785490017247(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 76
+        // 77
+        int left = i + 1;
+        // 78
+        int right = nums.length - 1;
+        while (left < right) {
+            // 79
+            // 80
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 81
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 82
+                // 83
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 84
+                // 85
+                left++;
+            } else {
+                // 86
+                // 87
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_bd785ffd27fb41fa9909e90cdf2bf5a2(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 90
+        // 91
+        int left = i + 1;
+        // 92
+        int right = nums.length - 1;
+        while (left < right) {
+            // 93
+            // 94
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 95
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 96
+                // 97
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 98
+                // 99
+                left++;
+            } else {
+                // 100
+                // 101
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_26e47d8e56b541c29de822f9f4142b0e(Integer[] nums, Integer target, Integer result){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 104
+        // 105
+        int start = i + 1, end = nums.length - 1;
+        while (start < end) {
+            // 106
+            // 107
+            int sum = nums[i] + nums[start] + nums[end];
+            if (sum > target) {
+                // 108
+                // 109
+                end--;
+            } else {
+                // 110
+                // 111
+                start++;
+            }
+            if (Math.abs(sum - target) < Math.abs(result - target)) {
+                // 112
+                // 113
+                result = sum;
+            }
+        }
+    }
+    return result;
+}
+public static Integer func_ccabcf15002b4e5f97fd38b380ac1c33(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 133
+        // 134
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            // 135
+            // 136
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
+                // 137
+                // 138
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 139
+                // 140
+                left++;
+            } else if (sum > target) {
+                // 141
+                // 142
+                right--;
+            } else {
+                // 143
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_804c0435bc254bc1ad861ba06ec400db(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 146
+        // 147
+        int left = i + 1;
+        // 148
+        int right = nums.length - 1;
+        while (left < right) {
+            // 149
+            // 150
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 151
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 152
+                // 153
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 154
+                // 155
+                left++;
+            } else {
+                // 156
+                // 157
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_9abc62d71ac349cfbebc358792dd67b9(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 177
+        // 178
+        int left = i + 1;
+        // 179
+        int right = nums.length - 1;
+        while (left < right) {
+            // 180
+            // 181
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 182
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 183
+                // 184
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 185
+                // 186
+                left++;
+            } else {
+                // 187
+                // 188
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_6d34522c31004c5aae7c1d153989334b(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 208
+        // 209
+        int left = i + 1;
+        // 210
+        int right = nums.length - 1;
+        while (left < right) {
+            // 211
+            // 212
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 213
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 214
+                // 215
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 216
+                // 217
+                left++;
+            } else {
+                // 218
+                // 219
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_07e972cb53884be2a13bfa2c07fbe2af(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 222
+        // 223
+        int left = i + 1;
+        // 224
+        int right = nums.length - 1;
+        while (left < right) {
+            // 225
+            // 226
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 227
+                // 228
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 229
+                // 230
+                left++;
+            } else if (sum > target) {
+                // 231
+                // 232
+                right--;
+            } else {
+                // 233
+                return sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_2ed86a0725c14bd592a726df92d6adab(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 236
+        // 237
+        int left = i + 1;
+        // 238
+        int right = nums.length - 1;
+        while (left < right) {
+            // 239
+            // 240
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 241
+                return sum;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 242
+                // 243
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 244
+                // 245
+                left++;
+            } else {
+                // 246
+                // 247
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_37bf00b45dc442059f5f5888b8c7f124(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 250
+        // 251
+        int left = i + 1;
+        // 252
+        int right = nums.length - 1;
+        while (left < right) {
+            // 253
+            // 254
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == target) {
+                // 255
+                return sum;
+            } else if (sum < target) {
+                // 256
+                // 257
+                left++;
+            } else {
+                // 258
+                // 259
+                right--;
+            }
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 260
+                // 261
+                closestSum = sum;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_422b80674e47411c96ea9761fce801d3(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 264
+        // 265
+        int left = i + 1;
+        // 266
+        int right = nums.length - 1;
+        while (left < right) {
+            // 267
+            // 268
+            int sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                // 269
+                // 270
+                closestSum = sum;
+            }
+            if (sum < target) {
+                // 271
+                // 272
+                left++;
+            } else {
+                // 273
+                // 274
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
+public static Integer func_0f17ea6b91b542dfaf6e9c663454fe0d(Integer[] nums, Integer target, Integer closestSum){
+    for (int i = 0; i < nums.length - 2; i++) {
+        // 277
+        // 278
+        int left = i + 1;
+        // 279
+        int right = nums.length - 1;
+        while (left < right) {
+            // 280
+            // 281
+            int currentSum = nums[i] + nums[left] + nums[right];
+            if (currentSum == target) {
+                // 282
+                return currentSum;
+            }
+            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
+                // 283
+                // 284
+                closestSum = currentSum;
+            }
+            if (currentSum < target) {
+                // 285
+                // 286
+                left++;
+            } else {
+                // 287
+                // 288
+                right--;
+            }
+        }
+    }
+    return closestSum;
+}
