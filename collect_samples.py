@@ -12,7 +12,7 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 
 def get_code(prompt):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=[
         {
             "role": "user",
@@ -29,14 +29,14 @@ def get_code(prompt):
 
 def main():
     # prompt for code samples
-    prompt = " Write a Java function that given a string containing only digits, returns true if it is an additive number or false otherwise. An additive number is a string whose digits can form an additive sequence. A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two. Constraints: 1 <= num.length <= 35, num consists only of digits. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"
-    prompt_id = "additiveNumber30"
+    prompt ="Write a java function that given an integer n and an array of integers primes, return the nth super ugly number. A super ugly number is a positive integer whose prime factors are in the array primes. The nth super ugly number is guaranteed to fit in a 32-bit signed integer. Constraints: 1 <= n <= 10^5, 1 <= primes.length <= 100, 2 <= primes[i] <= 1000, primes[i] is guaranteed to be a prime number. All the values of primes are unique and sorted in ascending order. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND"
+    prompt_id = "superUglyNumber29"
    # Create a directory to store the samples
-    if not os.path.exists("data"):
-        os.mkdir("data")
+    if not os.path.exists("data/gpt4"):
+        os.mkdir("data/gpt4")
 
     # Create a file to store the samples
-    with open(f"data/gpt_3.5/{prompt_id}.Java", "w") as f:
+    with open(f"data/gpt4/{prompt_id}.Java", "w") as f:
         #write the prompt to the file & add a new line
         #f.write(prompt + "\n")
 
@@ -88,5 +88,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

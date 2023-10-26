@@ -205,7 +205,7 @@ public class Interleave{
         return nextUgly;
     }
 
-    public int nthSuperUglyNumber8(int n, int[] primes) {
+    public int nthSuperUglyNumber9(int n, int[] primes) {
         int[] ugly = new int[n];
         int[] idx = new int[primes.length];
         int[] factors = new int[primes.length];
@@ -224,7 +224,7 @@ public class Interleave{
         return ugly[n - 1];
     }
 
-    public int nthSuperUglyNumber9(int n, int[] primes) {
+    public int nthSuperUglyNumber10(int n, int[] primes) {
         int[] ugly = new int[n];
         int[] index = new int[primes.length];
         int[] nextMultiple = new int[primes.length];
