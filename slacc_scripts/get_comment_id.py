@@ -8,7 +8,7 @@ def main():
     args = parser.parse_args()
 
     # Read in preprocessed.Java
-    with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/preprocessed.Java', 'r') as f:
+    with open(f'/home/aeagal/characterizing_code_clones/data/gpt4/clusters/{args.directory}/preprocessed.Java', 'r') as f:
         function_counter = 0
         output_lines = []
         line_counter = 0
@@ -58,7 +58,8 @@ def main():
             output_lines.append(line)
 
     # Do something with output_lines, such as writing to a new file:
-    with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/slacc_input.Java', 'w') as f:
+    with open(f'/home/aeagal/characterizing_code_clones/data/gpt4/clusters/{args.directory}/slacc_input.Java', 'w') as f:
+        print("Writing to file...")
         for line in output_lines:
             f.write(line + '\n')
 
