@@ -78,7 +78,7 @@ public class Main {
         Set<Character> set = new HashSet<>(); // 35
         int ans = 0, i = 0, j = 0; // 36
         while (i < n && j < n) { // 37
-            // try to extend the range [i, j] // 38
+
             if (!set.contains(s.charAt(j))){ // 39
                 set.add(s.charAt(j++)); // 40
                 ans = Math.max(ans, j - i); // 41
@@ -118,13 +118,8 @@ public class Main {
         for (int end = 0, start = 0; end < s.length(); end++) { // 55
             char currentChar = s.charAt(end); // 56
             if (map.containsKey(currentChar)) { // 57
-                // if we have already seen the character, move the start position to either // 58
-                // 1) position of the current character in the map +1, because we're seeing this character for the second time // 59
-                // 2) or to the position of the 'start'. In case where 's' = "tmmzuxt", on second occurrence of 't', we do not // 60
-                // want to move start to position of 't' + 1 which would be less than current start position // 61
                 start = Math.max(map.get(currentChar) + 1, start); // 62
             }
-            // even if we have seen the current character before, we put the new index of it in the map // 63
             map.put(currentChar, end); // 64
             maxLength = Math.max(maxLength, end - start + 1); // 65
         }
@@ -153,7 +148,7 @@ public class Main {
 
     public int lengthOfLongestSubstring9(String s) {
         int n = s.length(), ans = 0; // 75
-        int[] index = new int[128]; // Assuming ASCII 128 // 76
+        int[] index = new int[128]; // 76
 
         for (int j = 0, i = 0; j < n; j++) { // 77
             i = Math.max(index[s.charAt(j)], i); // 78
@@ -223,7 +218,7 @@ public class Main {
         Set<Character> set = new HashSet<>(); // 106
         int ans = 0, i = 0, j = 0; // 107
         while (i < n && j < n) { // 108
-            // try to extend the range [i, j] // 109
+
             if (!set.contains(s.charAt(j))) { // 110
                 set.add(s.charAt(j++)); // 111
                 ans = Math.max(ans, j - i); // 112

@@ -1,0 +1,247 @@
+{
+    "0.01": {
+        "threeSumClosest1": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest2": [
+            "****** Cluster 2 ******",
+            "****** Cluster 8 ******"
+        ],
+        "threeSumClosest3": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest4": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest5": [
+            "****** Cluster 2 ******",
+            "****** Cluster 8 ******"
+        ],
+        "threeSumClosest6": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest7": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest8": [
+            "****** Cluster 2 ******",
+            "****** Cluster 8 ******"
+        ],
+        "threeSumClosest9": [
+            "****** Cluster 2 ******"
+        ],
+        "threeSumClosest10": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest11": [
+            "****** Cluster 2 ******",
+            "****** Cluster 62 ******"
+        ],
+        "threeSumClosest12": [
+            "****** Cluster 2 ******",
+            "****** Cluster 62 ******"
+        ],
+        "threeSumClosest13": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest14": [
+            "****** Cluster 2 ******",
+            "****** Cluster 8 ******"
+        ],
+        "threeSumClosest15": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest16": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest17": [
+            "****** Cluster 2 ******",
+            "****** Cluster 62 ******"
+        ],
+        "threeSumClosest18": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest19": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest20": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ]
+    },
+    "0.05": {
+        "threeSumClosest1": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest2": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest3": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest4": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest5": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest6": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest7": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest8": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest9": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest10": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest11": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest12": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest13": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest14": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest15": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest16": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest17": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest18": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest19": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest20": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ]
+    },
+    "0.25": {
+        "threeSumClosest1": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest2": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest3": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest4": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest5": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest6": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest7": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest8": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest9": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest10": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest11": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest12": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest13": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest14": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest15": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest16": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest17": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest18": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest19": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ],
+        "threeSumClosest20": [
+            "****** Cluster 2 ******",
+            "****** Cluster 3 ******"
+        ]
+    }
+}

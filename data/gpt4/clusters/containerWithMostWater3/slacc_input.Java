@@ -152,7 +152,7 @@ public class Solution {
     }
 
 
-    public int maxArea19(int[] height) {
+    public int maxArea10(int[] height) {
         int maxarea = 0; // 80
         int l = 0; // 81
         int r = height.length - 1; // 82

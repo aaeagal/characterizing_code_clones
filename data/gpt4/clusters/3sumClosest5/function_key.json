@@ -1,0 +1,238 @@
+{
+    "0.01": {
+        "threeSumClosest1": [
+            "func_b8fab81c476348179340a0fe7cb7d4ef",
+            "func_4af5a590c0d14d9993ae6e70baae298e"
+        ],
+        "threeSumClosest2": [
+            "func_7e7c11cba48f4325bb3870dfe09efbe2",
+            "func_179d9cc5adb848c8a62fbeb3f1242016"
+        ],
+        "threeSumClosest3": [
+            "func_1fb8e1091ed3419cb9791695cfeba93e",
+            "func_c299920704f04228afc8820dc66c6837"
+        ],
+        "threeSumClosest4": [
+            "func_ddc96a81ad7547258e0d16e0da1040f4",
+            "func_239c7c36efed42d8a8e29cff9abc6102"
+        ],
+        "threeSumClosest5": [],
+        "threeSumClosest6": [
+            "func_b46548d7a3e445d6a774dd5780d9f72e",
+            "func_c2ad4235ec8d4692a8f4b3b5be089cb2"
+        ],
+        "threeSumClosest7": [
+            "func_956a80d6a7f14261987bf28ce2190130",
+            "func_b58d4c84b8f04169b86ae38a315c7fd5"
+        ],
+        "threeSumClosest8": [
+            "func_b067e1cbe2b2438fa9deaee54f47289c",
+            "func_4ea2194a7bc94a1e88b6c5a7a01db54e"
+        ],
+        "threeSumClosest9": [
+            "func_97ee2bf6b6194f439a21301ebc385917"
+        ],
+        "threeSumClosest10": [
+            "func_0e07a74320ba40fe94d426bc7441c1e9",
+            "func_972fb86bb0cc4085989a6525f3d0d2e7"
+        ],
+        "threeSumClosest11": [
+            "func_0073d3b6b69544c4998099242176dafc",
+            "func_4e1427a5ee054bf19a392a22ab2340ac"
+        ],
+        "threeSumClosest12": [
+            "func_d9db7dd481ca48d1904f9756803c48e4",
+            "func_38af216dc9c74dcf8eadc784abf79295"
+        ],
+        "threeSumClosest13": [
+            "func_9e9883a3fd0d450094becbc980d470f4",
+            "func_085c20ccf25a4fb8b29286312c4252c0"
+        ],
+        "threeSumClosest14": [
+            "func_644a2295b6584bf5b0d8868210560f2d",
+            "func_ae0b676b3a334317a342c3e5ec07f04f"
+        ],
+        "threeSumClosest15": [
+            "func_b8c578ef2dcc4b67882131233797aca0",
+            "func_d15df2480b224e2baaccef3f17f6d3c1"
+        ],
+        "threeSumClosest16": [
+            "func_4774939c863a4dbb9827b82b3947db55",
+            "func_5319db26347e4cd0b17519f5d566589b"
+        ],
+        "threeSumClosest17": [
+            "func_8044461ae5f2477a8a4299f08ed28818",
+            "func_27e8f0165d3444988be59629331bb94d"
+        ],
+        "threeSumClosest18": [
+            "func_f14e78dde27a4fba86a658646323199a",
+            "func_7d751118522b4f10b4bb49ce04729bda"
+        ],
+        "threeSumClosest19": [
+            "func_95c11dfedd5f45e4ac3a242300089ea0",
+            "func_a6a7d0d41e124742ad44941aa093dd59"
+        ],
+        "threeSumClosest20": [
+            "func_476cd4b1063d45a49e6b7a375f90a49d",
+            "func_65a356f4a839461fad4e7f60c102eda6"
+        ]
+    },
+    "0.05": {
+        "threeSumClosest1": [
+            "func_b8fab81c476348179340a0fe7cb7d4ef",
+            "func_4af5a590c0d14d9993ae6e70baae298e"
+        ],
+        "threeSumClosest2": [
+            "func_7e7c11cba48f4325bb3870dfe09efbe2",
+            "func_179d9cc5adb848c8a62fbeb3f1242016"
+        ],
+        "threeSumClosest3": [
+            "func_1fb8e1091ed3419cb9791695cfeba93e",
+            "func_c299920704f04228afc8820dc66c6837"
+        ],
+        "threeSumClosest4": [
+            "func_ddc96a81ad7547258e0d16e0da1040f4",
+            "func_239c7c36efed42d8a8e29cff9abc6102"
+        ],
+        "threeSumClosest5": [],
+        "threeSumClosest6": [
+            "func_b46548d7a3e445d6a774dd5780d9f72e",
+            "func_c2ad4235ec8d4692a8f4b3b5be089cb2"
+        ],
+        "threeSumClosest7": [
+            "func_956a80d6a7f14261987bf28ce2190130",
+            "func_b58d4c84b8f04169b86ae38a315c7fd5"
+        ],
+        "threeSumClosest8": [
+            "func_b067e1cbe2b2438fa9deaee54f47289c",
+            "func_4ea2194a7bc94a1e88b6c5a7a01db54e"
+        ],
+        "threeSumClosest9": [
+            "func_97ee2bf6b6194f439a21301ebc385917",
+            "func_ae8f9ea789be4c9c8a28dd5c743e360d"
+        ],
+        "threeSumClosest10": [
+            "func_0e07a74320ba40fe94d426bc7441c1e9",
+            "func_972fb86bb0cc4085989a6525f3d0d2e7"
+        ],
+        "threeSumClosest11": [
+            "func_0073d3b6b69544c4998099242176dafc",
+            "func_4e1427a5ee054bf19a392a22ab2340ac"
+        ],
+        "threeSumClosest12": [
+            "func_d9db7dd481ca48d1904f9756803c48e4",
+            "func_38af216dc9c74dcf8eadc784abf79295"
+        ],
+        "threeSumClosest13": [
+            "func_9e9883a3fd0d450094becbc980d470f4",
+            "func_085c20ccf25a4fb8b29286312c4252c0"
+        ],
+        "threeSumClosest14": [
+            "func_644a2295b6584bf5b0d8868210560f2d",
+            "func_ae0b676b3a334317a342c3e5ec07f04f"
+        ],
+        "threeSumClosest15": [
+            "func_b8c578ef2dcc4b67882131233797aca0",
+            "func_d15df2480b224e2baaccef3f17f6d3c1"
+        ],
+        "threeSumClosest16": [
+            "func_4774939c863a4dbb9827b82b3947db55",
+            "func_5319db26347e4cd0b17519f5d566589b"
+        ],
+        "threeSumClosest17": [
+            "func_8044461ae5f2477a8a4299f08ed28818",
+            "func_27e8f0165d3444988be59629331bb94d"
+        ],
+        "threeSumClosest18": [
+            "func_f14e78dde27a4fba86a658646323199a",
+            "func_7d751118522b4f10b4bb49ce04729bda"
+        ],
+        "threeSumClosest19": [
+            "func_95c11dfedd5f45e4ac3a242300089ea0",
+            "func_a6a7d0d41e124742ad44941aa093dd59"
+        ],
+        "threeSumClosest20": [
+            "func_476cd4b1063d45a49e6b7a375f90a49d",
+            "func_65a356f4a839461fad4e7f60c102eda6"
+        ]
+    },
+    "0.25": {
+        "threeSumClosest1": [
+            "func_b8fab81c476348179340a0fe7cb7d4ef",
+            "func_4af5a590c0d14d9993ae6e70baae298e"
+        ],
+        "threeSumClosest2": [
+            "func_7e7c11cba48f4325bb3870dfe09efbe2",
+            "func_179d9cc5adb848c8a62fbeb3f1242016"
+        ],
+        "threeSumClosest3": [
+            "func_1fb8e1091ed3419cb9791695cfeba93e",
+            "func_c299920704f04228afc8820dc66c6837"
+        ],
+        "threeSumClosest4": [
+            "func_ddc96a81ad7547258e0d16e0da1040f4",
+            "func_239c7c36efed42d8a8e29cff9abc6102"
+        ],
+        "threeSumClosest5": [],
+        "threeSumClosest6": [
+            "func_b46548d7a3e445d6a774dd5780d9f72e",
+            "func_c2ad4235ec8d4692a8f4b3b5be089cb2"
+        ],
+        "threeSumClosest7": [
+            "func_956a80d6a7f14261987bf28ce2190130",
+            "func_b58d4c84b8f04169b86ae38a315c7fd5"
+        ],
+        "threeSumClosest8": [
+            "func_b067e1cbe2b2438fa9deaee54f47289c",
+            "func_4ea2194a7bc94a1e88b6c5a7a01db54e"
+        ],
+        "threeSumClosest9": [
+            "func_97ee2bf6b6194f439a21301ebc385917",
+            "func_ae8f9ea789be4c9c8a28dd5c743e360d"
+        ],
+        "threeSumClosest10": [
+            "func_0e07a74320ba40fe94d426bc7441c1e9",
+            "func_972fb86bb0cc4085989a6525f3d0d2e7"
+        ],
+        "threeSumClosest11": [
+            "func_0073d3b6b69544c4998099242176dafc",
+            "func_4e1427a5ee054bf19a392a22ab2340ac"
+        ],
+        "threeSumClosest12": [
+            "func_d9db7dd481ca48d1904f9756803c48e4",
+            "func_38af216dc9c74dcf8eadc784abf79295"
+        ],
+        "threeSumClosest13": [
+            "func_9e9883a3fd0d450094becbc980d470f4",
+            "func_085c20ccf25a4fb8b29286312c4252c0"
+        ],
+        "threeSumClosest14": [
+            "func_644a2295b6584bf5b0d8868210560f2d",
+            "func_ae0b676b3a334317a342c3e5ec07f04f"
+        ],
+        "threeSumClosest15": [
+            "func_b8c578ef2dcc4b67882131233797aca0",
+            "func_d15df2480b224e2baaccef3f17f6d3c1"
+        ],
+        "threeSumClosest16": [
+            "func_4774939c863a4dbb9827b82b3947db55",
+            "func_5319db26347e4cd0b17519f5d566589b"
+        ],
+        "threeSumClosest17": [
+            "func_8044461ae5f2477a8a4299f08ed28818",
+            "func_27e8f0165d3444988be59629331bb94d"
+        ],
+        "threeSumClosest18": [
+            "func_f14e78dde27a4fba86a658646323199a",
+            "func_7d751118522b4f10b4bb49ce04729bda"
+        ],
+        "threeSumClosest19": [
+            "func_95c11dfedd5f45e4ac3a242300089ea0",
+            "func_a6a7d0d41e124742ad44941aa093dd59"
+        ],
+        "threeSumClosest20": [
+            "func_476cd4b1063d45a49e6b7a375f90a49d",
+            "func_65a356f4a839461fad4e7f60c102eda6"
+        ]
+    }
+}

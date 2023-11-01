@@ -1,0 +1,519 @@
+
+
+****** Cluster 0 ******
+public static int func_4fee9a59eb584cb08b3516bfe03d309b(Integer[] nums){
+    if (nums.length == 0) {
+        // 1
+        return 0;
+    }
+    // 2
+    int max = nums[0];
+    // 3
+    int min = nums[0];
+    // 4
+    int result = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 5
+        // 6
+        int temp = max;
+        // 7
+        max = Math.max(Math.max(max * nums[i], min * nums[i]), nums[i]);
+        // 8
+        min = Math.min(Math.min(temp * nums[i], min * nums[i]), nums[i]);
+        if (max > result) {
+            // 9
+            // 10
+            result = max;
+        }
+    }
+    return result;
+}
+public static int func_4073c924149d469ebec67d5e3ed09012(Integer[] nums){
+    if (// 11
+    nums.length == 0)
+        return 0;
+    // 12
+    int maxProduct = nums[0];
+    // 13
+    int minProduct = nums[0];
+    // 14
+    int result = maxProduct;
+    for (int i = 1; i < nums.length; i++) {
+        // 15
+        // 16
+        int tempMax = Math.max(nums[i] * maxProduct, Math.max(nums[i] * minProduct, nums[i]));
+        // 17
+        minProduct = Math.min(nums[i] * maxProduct, Math.min(nums[i] * minProduct, nums[i]));
+        // 18
+        maxProduct = tempMax;
+        // 19
+        result = Math.max(maxProduct, result);
+    }
+    return result;
+}
+public static int func_9d50217d2f5b487a85463daa999af89e(Integer[] nums){
+    // 20
+    int maxSoFar = nums[0];
+    // 21
+    int minSoFar = nums[0];
+    // 22
+    int result = maxSoFar;
+    for (int i = 1; i < nums.length; i++) {
+        // 23
+        // 24
+        int curr = nums[i];
+        // 25
+        int tmpMax = Math.max(curr, Math.max(maxSoFar * curr, minSoFar * curr));
+        // 26
+        minSoFar = Math.min(curr, Math.min(maxSoFar * curr, minSoFar * curr));
+        // 27
+        maxSoFar = tmpMax;
+        // 28
+        result = Math.max(maxSoFar, result);
+    }
+    return result;
+}
+public static int func_18ed428ca2804a638bf2f0e52a7b5474(Integer[] nums){
+    if (nums.length == 0) {
+        // 29
+        return 0;
+    }
+    // 30
+    int maxSoFar = nums[0];
+    // 31
+    int minSoFar = nums[0];
+    // 32
+    int result = maxSoFar;
+    for (int i = 1; i < nums.length; i++) {
+        // 33
+        // 34
+        int curr = nums[i];
+        // 35
+        int tempMax = Math.max(curr, Math.max(maxSoFar * curr, minSoFar * curr));
+        // 36
+        minSoFar = Math.min(curr, Math.min(maxSoFar * curr, minSoFar * curr));
+        // 37
+        maxSoFar = tempMax;
+        // 38
+        result = Math.max(result, maxSoFar);
+    }
+    return result;
+}
+public static int func_6deb8f6128794cee9f2db4ebfba9be63(Integer[] nums){
+    if (nums == null || nums.length == 0) {
+        // 39
+        return 0;
+    }
+    // 40
+    int maxSoFar = nums[0];
+    // 41
+    int minSoFar = nums[0];
+    // 42
+    int maxProduct = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 43
+        // 44
+        int temp = maxSoFar;
+        // 45
+        maxSoFar = Math.max(Math.max(maxSoFar * nums[i], minSoFar * nums[i]), nums[i]);
+        // 46
+        minSoFar = Math.min(Math.min(temp * nums[i], minSoFar * nums[i]), nums[i]);
+        // 47
+        maxProduct = Math.max(maxProduct, maxSoFar);
+    }
+    return maxProduct;
+}
+public static int func_bc06db73f6ca41a1bb75f84d7c4c1439(Integer[] nums){
+    if (nums.length == 0) {
+        // 57
+        return 0;
+    }
+    // 58
+    int max = nums[0];
+    // 59
+    int min = nums[0];
+    // 60
+    int result = max;
+    for (int i = 1; i < nums.length; i++) {
+        // 61
+        // 62
+        int temp_max = Math.max(nums[i] * max, Math.max(nums[i] * min, nums[i]));
+        // 63
+        min = Math.min(nums[i] * max, Math.min(nums[i] * min, nums[i]));
+        // 64
+        max = temp_max;
+        if (max > result) {
+            // 65
+            // 66
+            result = max;
+        }
+    }
+    return result;
+}
+public static int func_3745c02bfd79443983a42e1e788f2027(Integer[] nums){
+    if (nums.length == 0)
+        return 0;
+    // 48
+    int max_so_far = nums[0];
+    // 49
+    int min_so_far = nums[0];
+    // 50
+    int result = max_so_far;
+    for (int i = 1; i < nums.length; i++) {
+        // 51
+        // 52
+        int curr_max = Math.max(nums[i] * max_so_far, Math.max(nums[i] * min_so_far, nums[i]));
+        // 53
+        int curr_min = Math.min(nums[i] * max_so_far, Math.min(nums[i] * min_so_far, nums[i]));
+        // 54
+        max_so_far = curr_max;
+        // 55
+        min_so_far = curr_min;
+        // 56
+        result = Math.max(result, max_so_far);
+    }
+    return result;
+}
+public static int func_5c46f4fe40c44a87b41c4533cbb5e76e(Integer[] nums){
+    if (nums == null || nums.length == 0) {
+        // 67
+        return 0;
+    }
+    // 68
+    int max = nums[0], min = nums[0], result = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 69
+        // 70
+        int temp = max;
+        // 71
+        max = Math.max(Math.max(max * nums[i], min * nums[i]), nums[i]);
+        // 72
+        min = Math.min(Math.min(temp * nums[i], min * nums[i]), nums[i]);
+        if (max > result) {
+            // 73
+            // 74
+            result = max;
+        }
+    }
+    return result;
+}
+public static int func_19bb0ae43651403f9204872f682fad24(Integer[] nums){
+    // 75
+    int max = nums[0], min = nums[0], result = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 76
+        // 77
+        int temp_max = Math.max(nums[i] * max, Math.max(nums[i] * min, nums[i]));
+        // 78
+        min = Math.min(nums[i] * max, Math.min(nums[i] * min, nums[i]));
+        // 79
+        max = temp_max;
+        // 80
+        result = Math.max(max, result);
+    }
+    return result;
+}
+public static int func_21d7df4d46424f11beae0f6e3715383e(Integer[] nums){
+    if (nums.length == 0) {
+        // 101
+        return 0;
+    }
+    // 102
+    int maxSoFar = nums[0];
+    // 103
+    int minSoFar = nums[0];
+    // 104
+    int result = maxSoFar;
+    for (int i = 1; i < nums.length; i++) {
+        // 105
+        // 106
+        int curr = nums[i];
+        // 107
+        int tempMax = Math.max(curr, Math.max(maxSoFar * curr, minSoFar * curr));
+        // 108
+        minSoFar = Math.min(curr, Math.min(maxSoFar * curr, minSoFar * curr));
+        // 109
+        maxSoFar = tempMax;
+        // 110
+        result = Math.max(maxSoFar, result);
+    }
+    return result;
+}
+public static int func_34479070c0f24b78b49869bf2e2478b7(Integer[] nums){
+    if (nums.length == 0)
+        return 0;
+    // 92
+    int max = nums[0];
+    // 93
+    int min = nums[0];
+    // 94
+    int result = max;
+    for (int i = 1; i < nums.length; i++) {
+        // 95
+        // 96
+        int temp = max;
+        // 97
+        max = Math.max(nums[i], Math.max(max * nums[i], min * nums[i]));
+        // 98
+        min = Math.min(nums[i], Math.min(temp * nums[i], min * nums[i]));
+        if (max > result) {
+            // 99
+            // 100
+            result = max;
+        }
+    }
+    return result;
+}
+public static int func_facc29e0ecc54b9487d9728345c09530(Integer[] nums){
+    if (nums == null || nums.length == 0)
+        return 0;
+    // 111
+    int maxProduct = nums[0], minProduct = nums[0], result = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 112
+        // 113
+        int tempMax = Math.max(nums[i] * maxProduct, Math.max(nums[i] * minProduct, nums[i]));
+        // 114
+        minProduct = Math.min(nums[i] * maxProduct, Math.min(nums[i] * minProduct, nums[i]));
+        // 115
+        maxProduct = tempMax;
+        // 116
+        result = Math.max(result, maxProduct);
+    }
+    return result;
+}
+public static int func_29025b1f4fb848bbb51dfe7e448fa26d(Integer[] nums){
+    if (nums.length == 0) {
+        // 117
+        return 0;
+    }
+    // 118
+    int maxProduct = nums[0];
+    // 119
+    int minProduct = nums[0];
+    // 120
+    int result = maxProduct;
+    for (int i = 1; i < nums.length; i++) {
+        // 121
+        // 122
+        int temp_max = Math.max(nums[i] * maxProduct, Math.max(nums[i] * minProduct, nums[i]));
+        // 123
+        minProduct = Math.min(nums[i] * maxProduct, Math.min(nums[i] * minProduct, nums[i]));
+        // 124
+        maxProduct = temp_max;
+        // 125
+        result = Math.max(result, maxProduct);
+    }
+    return result;
+}
+public static int func_f39eb5b083214467ac2f4bf6b11a8c0b(Integer[] nums){
+    if (nums.length == 0) {
+        // 135
+        return 0;
+    }
+    // 136
+    int maxProduct = nums[0];
+    // 137
+    int minProduct = nums[0];
+    // 138
+    int result = maxProduct;
+    for (int i = 1; i < nums.length; i++) {
+        // 139
+        // 140
+        int temp = maxProduct;
+        // 141
+        maxProduct = Math.max(nums[i] * maxProduct, Math.max(nums[i] * minProduct, nums[i]));
+        // 142
+        minProduct = Math.min(nums[i] * temp, Math.min(nums[i] * minProduct, nums[i]));
+        if (maxProduct > result) {
+            // 143
+            // 144
+            result = maxProduct;
+        }
+    }
+    return result;
+}
+public static int func_a8a52e02d1bc4bec88cee5289d9c6d62(Integer[] nums){
+    // 126
+    int max = nums[0];
+    // 127
+    int min = nums[0];
+    // 128
+    int result = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 129
+        // 130
+        int temp = max;
+        // 131
+        max = Math.max(Math.max(max * nums[i], min * nums[i]), nums[i]);
+        // 132
+        min = Math.min(Math.min(temp * nums[i], min * nums[i]), nums[i]);
+        if (max > result) {
+            // 133
+            // 134
+            result = max;
+        }
+    }
+    return result;
+}
+public static int func_9973056037a14b1cb52cb85c6abed6ce(Integer[] nums){
+    if (nums.length == 0)
+        return 0;
+    // 145
+    int max_so_far = nums[0];
+    // 146
+    int min_so_far = nums[0];
+    // 147
+    int result = max_so_far;
+    for (int i = 1; i < nums.length; i++) {
+        // 148
+        // 149
+        int curr = nums[i];
+        // 150
+        int temp_max = Math.max(curr, Math.max(max_so_far * curr, min_so_far * curr));
+        // 151
+        min_so_far = Math.min(curr, Math.min(max_so_far * curr, min_so_far * curr));
+        // 152
+        max_so_far = temp_max;
+        // 153
+        result = Math.max(max_so_far, result);
+    }
+    return result;
+}
+public static int func_1e6bf0c247aa4cfc88654269207728af(Integer[] nums){
+    if (nums == null || nums.length == 0) {
+        // 155
+        throw new IllegalArgumentException("Array must not be empty.");
+    }
+    // 156
+    int maxProduct = nums[0];
+    // 157
+    int minProduct = nums[0];
+    // 158
+    int result = maxProduct;
+    for (int i = 1; i < nums.length; i++) {
+        // 159
+        // 160
+        int tempMax = Math.max(nums[i] * maxProduct, Math.max(nums[i] * minProduct, nums[i]));
+        // 161
+        minProduct = Math.min(nums[i] * maxProduct, Math.min(nums[i] * minProduct, nums[i]));
+        // 162
+        maxProduct = tempMax;
+        // 163
+        result = Math.max(result, maxProduct);
+    }
+    return result;
+}
+public static int func_46660233ebb842f8b964a15cae8e1a29(Integer[] nums){
+    if (nums.length == 0) {
+        // 164
+        return 0;
+    }
+    // 165
+    int max = nums[0];
+    // 166
+    int min = nums[0];
+    // 167
+    int result = max;
+    for (int i = 1; i < nums.length; i++) {
+        // 168
+        // 169
+        int temp_max = Math.max(nums[i] * max, Math.max(nums[i] * min, nums[i]));
+        // 170
+        min = Math.min(nums[i] * max, Math.min(nums[i] * min, nums[i]));
+        // 171
+        max = temp_max;
+        // 172
+        result = Math.max(result, max);
+    }
+    return result;
+}
+public static int func_e51ba424fb01433fba4ad764a82bac57(Integer[] nums){
+    if (nums == null || nums.length == 0) {
+        // 173
+        return 0;
+    }
+    // 174
+    int max = nums[0], min = nums[0], result = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        // 175
+        // 176
+        int tmp = max;
+        // 177
+        max = Math.max(Math.max(max * nums[i], min * nums[i]), nums[i]);
+        // 178
+        min = Math.min(Math.min(tmp * nums[i], min * nums[i]), nums[i]);
+        if (max > result) {
+            // 179
+            // 180
+            result = max;
+        }
+    }
+    return result;
+}
+
+
+****** Cluster 8 ******
+public static Integer func_ded2d89601564c5f8f130692eae37383(Integer max_temp, Integer min_temp){
+    // 85
+    // 86
+    int temp = max_temp;
+    // 87
+    max_temp = min_temp;
+    // 88
+    min_temp = temp;
+    return temp;
+}
+public static Integer func_b3591126b8e948a1b550550066f44ae4(Integer max_temp, Integer min_temp){
+    // 85
+    // 86
+    int temp = max_temp;
+    // 87
+    max_temp = min_temp;
+    // 88
+    min_temp = temp;
+    return min_temp;
+}
+public static Integer func_d39f5492047244c0a7df835f1eae458a(Integer min_temp, Integer max_temp){
+    // 85
+    // 86
+    int temp = max_temp;
+    // 87
+    max_temp = min_temp;
+    // 88
+    min_temp = temp;
+    return max_temp;
+}
+
+
+****** Cluster 9 ******
+public static Integer func_3fc729834a104a248b797188c33bda10(Integer max_temp, Integer min_temp){
+    // 85
+    // 86
+    int temp = max_temp;
+    // 87
+    max_temp = min_temp;
+    // 88
+    min_temp = temp;
+    return max_temp;
+}
+public static Integer func_f04ff5295f0949eb88c71f282fda6df1(Integer min_temp, Integer max_temp){
+    // 85
+    // 86
+    int temp = max_temp;
+    // 87
+    max_temp = min_temp;
+    // 88
+    min_temp = temp;
+    return temp;
+}
+public static Integer func_24ff88459e0b4cffbcf62cdcf80e5483(Integer min_temp, Integer max_temp){
+    // 85
+    // 86
+    int temp = max_temp;
+    // 87
+    max_temp = min_temp;
+    // 88
+    min_temp = temp;
+    return min_temp;
+}

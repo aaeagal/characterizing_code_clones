@@ -1,0 +1,80 @@
+{
+    "0.01": {
+        "countPrimes1": [],
+        "countPrimes2": [],
+        "countPrimes3": [
+            "func_3c3ecedd44e54d8d8ea32b14f0b24f75"
+        ],
+        "countPrimes4": [],
+        "countPrimes6": [],
+        "countPrimes7": [
+            "func_c08220210f41439190d8d08079fb29ef"
+        ],
+        "countPrimes8": [
+            "func_9013418d9d944486afb58dee96baaaba"
+        ],
+        "countPrimes9": [
+            "func_0fd5c48947f840699d97756beb1a53ad"
+        ],
+        "countPrimes11": [],
+        "primes12": [
+            "func_c0913ccc4d2948158beb8f924b54ae77"
+        ],
+        "countPrimes17": [],
+        "countPrimes19": [
+            "func_7cdd56e74773485f96590f8671538320"
+        ]
+    },
+    "0.05": {
+        "countPrimes1": [],
+        "countPrimes2": [],
+        "countPrimes3": [
+            "func_3c3ecedd44e54d8d8ea32b14f0b24f75"
+        ],
+        "countPrimes4": [],
+        "countPrimes6": [],
+        "countPrimes7": [
+            "func_c08220210f41439190d8d08079fb29ef"
+        ],
+        "countPrimes8": [
+            "func_9013418d9d944486afb58dee96baaaba"
+        ],
+        "countPrimes9": [
+            "func_0fd5c48947f840699d97756beb1a53ad"
+        ],
+        "countPrimes11": [],
+        "primes12": [
+            "func_c0913ccc4d2948158beb8f924b54ae77"
+        ],
+        "countPrimes17": [],
+        "countPrimes19": [
+            "func_7cdd56e74773485f96590f8671538320"
+        ]
+    },
+    "0.25": {
+        "countPrimes1": [],
+        "countPrimes2": [],
+        "countPrimes3": [
+            "func_3c3ecedd44e54d8d8ea32b14f0b24f75"
+        ],
+        "countPrimes4": [],
+        "countPrimes6": [],
+        "countPrimes7": [
+            "func_c08220210f41439190d8d08079fb29ef"
+        ],
+        "countPrimes8": [
+            "func_9013418d9d944486afb58dee96baaaba"
+        ],
+        "countPrimes9": [
+            "func_0fd5c48947f840699d97756beb1a53ad"
+        ],
+        "countPrimes11": [],
+        "primes12": [
+            "func_c0913ccc4d2948158beb8f924b54ae77"
+        ],
+        "countPrimes17": [],
+        "countPrimes19": [
+            "func_7cdd56e74773485f96590f8671538320"
+        ]
+    }
+}

@@ -8,9 +8,9 @@ public class Solution {
         while (start < end) { // 4
             int mid = start + (end - start) / 2; // 5
 
-            if (nums[mid] > nums[end]) { // the min must be in the right part // 6
+            if (nums[mid] > nums[end]) {  // 6
                 start = mid + 1; // 7
-            } else { // the min must be in the left part or it's the mid point // 8
+            } else {  // 8
                 end = mid; // 9
             }
         }
@@ -405,9 +405,9 @@ public class Solution {
         int start = 0, end = nums.length - 1; // 151
         while (start < end) { // 152
             int mid = start + (end - start) / 2; // 153
-            if (nums[mid] > nums[end]) { // the min must be in the right part // 154
+            if (nums[mid] > nums[end]) {  // 154
                 start = mid + 1; // 155
-            } else { // the min must be in the left part // 156
+            } else { // 156
                 end = mid; // 157
             }
         }

@@ -90,9 +90,9 @@ public class Main {
 
             next = Integer.MAX_VALUE; // 45
             for(int j = 0; j < primes.length; j++) { // 46
-                //skip duplicate and avoid overflow // 47
+
                 if(val[j] == ugly[i]) val[j] = ugly[index[j]++] * primes[j]; // 48
-                //find next ugly number // 49
+
                 next = Math.min(next, val[j]); // 50
             }
         }
@@ -184,51 +184,6 @@ public class Main {
 
 
 
-import java.util.PriorityQueue;
-
-public class Main {
-    public static int nthSuperUglyNumber9(int n, int[] primes) {
-        int[] ugly = new int[n]; // 91
-        PriorityQueue<Num> pq = new PriorityQueue<>(); // 92
-        for (int i = 0; i < primes.length; i++) { // 93
-            pq.add(new Num(primes[i], 1, primes[i])); // 94
-        }
-        ugly[0] = 1; // 95
-
-        for (int i = 1; i < n; i++) { // 96
-            ugly[i] = pq.peek().val; // 97
-            while (pq.peek().val == ugly[i]) { // 98
-                Num nxt = pq.poll(); // 99
-                pq.add(new Num(nxt.p * ugly[nxt.idx], nxt.idx + 1, nxt.p)); // 100
-            }
-        }
-
-        return ugly[n - 1];
-    }
-
-    private static class Num implements Comparable<Num> {
-        int val; // 101
-        int idx; // 102
-        int p; // 103
-
-        public Num(int val, int idx, int p) {
-            this.val = val; // 104
-            this.idx = idx; // 105
-            this.p = p; // 106
-        }
-
-        @Override // 107
-        public int compareTo(Num that) {
-            return this.val - that.val;
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] primes = {2, 7, 13, 19}; // 108
-        int n = 12; // 109
-        System.out.println(nthSuperUglyNumber(n, primes));  // Output: 32 // 110
-    }
-}
 
 
     public int nthSuperUglyNumber10(int n, int[] primes) {
@@ -347,12 +302,12 @@ public class Main {
 
         ugly[0] = 1; // 166
         for (int i = 1; i < n; i++) { // 167
-            // Find next ugly number // 168
+
             ugly[i] = Integer.MAX_VALUE; // 169
             for (int j = 0; j < primes.length; j++) // 170
                 ugly[i] = Math.min(ugly[i], primes[j] * ugly[idx[j]]); // 171
 
-            // Increment the index accordingly // 172
+
             for (int j = 0; j < primes.length; j++) { // 173
                 if (ugly[i] == primes[j] * ugly[idx[j]]) // 174
                     idx[j]++; // 175
@@ -367,16 +322,16 @@ public class Main {
         int[] ugly = new int[n]; // 176
         int[] indexes = new int[primes.length]; // 177
 
-        ugly[0] = 1; // 1 is a super ugly number // 178
+        ugly[0] = 1;  // 178
 
         for (int i = 1; i < n; i++) { // 179
-            // Find next super ugly number // 180
+
             ugly[i] = Integer.MAX_VALUE; // 181
             for (int j = 0; j < primes.length; j++) { // 182
                 ugly[i] = Math.min(ugly[i], primes[j] * ugly[indexes[j]]); // 183
             }
 
-            // Update indexes // 184
+
             for (int j = 0; j < indexes.length; j++) { // 185
                 if (ugly[i] == primes[j] * ugly[indexes[j]]) { // 186
                     indexes[j]++; // 187
@@ -420,9 +375,8 @@ public class Main {
 
             next = Integer.MAX_VALUE; // 205
             for(int j = 0; j < primes.length; j++) { // 206
-                //skip duplicates // 207
+
                 if(val[j] == ugly[i]) val[j] = ugly[index[j]++] * primes[j]; // 208
-                //find next ugly number // 209
                 next = Math.min(next, val[j]); // 210
             }
         }
@@ -436,12 +390,10 @@ public class Main {
 
         ugly[0] = 1; // 213
         for (int i = 1; i < n; i++) { // 214
-            //find next // 215
             ugly[i] = Integer.MAX_VALUE; // 216
             for (int j = 0; j < primes.length; j++) // 217
                 ugly[i] = Math.min(ugly[i], primes[j] * ugly[idx[j]]); // 218
 
-            //skip duplicate // 219
             for (int j = 0; j < primes.length; j++) { // 220
                 while (primes[j] * ugly[idx[j]] == ugly[i]) idx[j]++; // 221
             }

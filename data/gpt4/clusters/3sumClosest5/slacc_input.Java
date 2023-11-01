@@ -97,7 +97,7 @@ public class Solution {
         int n = nums.length; // 54
 
         for (int i = 0; i < n - 2; i++) { // 55
-            if (i > 0 && nums[i] == nums[i - 1]) continue; // Skip same results // 56
+            if (i > 0 && nums[i] == nums[i - 1]) continue; // 56
             int j = i + 1, k = n - 1; // 57
             while (j < k) { // 58
                 int sum = nums[i] + nums[j] + nums[k]; // 59
@@ -310,12 +310,12 @@ public class Solution {
             while (start < end) { // 176
                 int sum = nums[i] + nums[start] + nums[end]; // 177
 
-                if (sum == target) { // If sum equals to target, return immediately
+                if (sum == target) { // 300
                     return sum;
                 }
 
                 int diff = Math.abs(target - sum); // 178
-                if (diff < closestDiff) { // If current diff is less than the closest diff, update the closestDiff and res // 179
+                if (diff < closestDiff) { // 179
                     closestDiff = diff; // 180
                     res = sum; // 181
                 }
@@ -327,7 +327,7 @@ public class Solution {
                 }
             }
         }
-        return res; // return final closest sum
+        return res; 
     }
 
     public int threeSumClosest15(int[] nums, int target) {

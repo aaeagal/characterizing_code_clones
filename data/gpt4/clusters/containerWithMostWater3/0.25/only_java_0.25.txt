@@ -1,0 +1,444 @@
+
+
+****** Cluster 0 ******
+public static int func_4b7641ebbe1a452f874b7d080bf69856(Integer[] height){
+    // 1
+    int maxArea = 0;
+    // 2
+    int left = 0;
+    // 3
+    int right = height.length - 1;
+    while (left < right) {
+        // 4
+        // 5
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 6
+            // 7
+            left++;
+        } else {
+            // 8
+            // 9
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_ffb4c1ab6aae45b8acc998233a99eeef(Integer[] height){
+    // 10
+    int maxArea = 0, left = 0, right = height.length - 1;
+    while (left < right) {
+        // 11
+        // 12
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (// 13
+        height[left] < height[right])
+            // 14
+            left++;
+        else
+            // 15
+            // 16
+            right--;
+    }
+    return maxArea;
+}
+public static int func_0bb0a9251b894006b7444ac25983a8d2(Integer[] height){
+    // 17
+    int left = 0;
+    // 18
+    int right = height.length - 1;
+    // 19
+    int maxArea = 0;
+    while (left < right) {
+        // 20
+        // 21
+        int h = Math.min(height[left], height[right]);
+        // 22
+        int l = right - left;
+        // 23
+        int area = h * l;
+        if (// 24
+        area > maxArea)
+            // 25
+            maxArea = area;
+        if (// 26
+        height[left] < height[right])
+            // 27
+            left++;
+        else
+            // 28
+            // 29
+            right--;
+    }
+    return maxArea;
+}
+public static int func_e67e99f454674140b36fcfe4dd89423e(Integer[] height){
+    // 30
+    int max = 0, left = 0, right = height.length - 1;
+    while (left < right) {
+        // 31
+        // 32
+        max = Math.max(max, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 33
+            // 34
+            left++;
+        } else {
+            // 35
+            // 36
+            right--;
+        }
+    }
+    return max;
+}
+public static int func_810f209e44a04845b24eba37c68c3589(Integer[] height){
+    // 46
+    int maxArea = 0;
+    // 47
+    int left = 0;
+    // 48
+    int right = height.length - 1;
+    while (left < right) {
+        // 49
+        // 50
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 51
+            // 52
+            left++;
+        } else {
+            // 53
+            // 54
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_f31b72f085fe433ea89e30b5afeb6788(Integer[] height){
+    // 37
+    int maxArea = 0;
+    // 38
+    int left = 0;
+    // 39
+    int right = height.length - 1;
+    while (left < right) {
+        // 40
+        // 41
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 42
+            // 43
+            left++;
+        } else {
+            // 44
+            // 45
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_ac0ff7ba622c4c4ebcf925ec0df911ab(Integer[] height){
+    // 55
+    int maxarea = 0, l = 0, r = height.length - 1;
+    while (l < r) {
+        // 56
+        // 57
+        maxarea = Math.max(maxarea, Math.min(height[l], height[r]) * (r - l));
+        if (height[l] < height[r]) {
+            // 58
+            // 59
+            l++;
+        } else {
+            // 60
+            // 61
+            r--;
+        }
+    }
+    return maxarea;
+}
+public static int func_fdda2939f72e49cf88e6e4c201a1187f(Integer[] height){
+    // 62
+    int maxArea = 0;
+    // 63
+    int left = 0;
+    // 64
+    int right = height.length - 1;
+    while (left < right) {
+        // 65
+        // 66
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 67
+            // 68
+            left++;
+        } else {
+            // 69
+            // 70
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_833c03b85e7c413fab8ee867c9c77cf8(Integer[] height){
+    // 71
+    int maxArea = 0;
+    // 72
+    int left = 0;
+    // 73
+    int right = height.length - 1;
+    while (left < right) {
+        // 74
+        // 75
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 76
+            // 77
+            left++;
+        } else {
+            // 78
+            // 79
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_b623767c114c41099bacaee701606253(Integer[] height){
+    // 80
+    int maxarea = 0;
+    // 81
+    int l = 0;
+    // 82
+    int r = height.length - 1;
+    while (l < r) {
+        // 83
+        // 84
+        maxarea = Math.max(maxarea, Math.min(height[l], height[r]) * (r - l));
+        if (height[l] < height[r]) {
+            // 85
+            // 86
+            l++;
+        } else {
+            // 87
+            // 88
+            r--;
+        }
+    }
+    return maxarea;
+}
+public static int func_7bc5d31409114e7196ff1f55fc9b61b0(Integer[] height){
+    // 98
+    int maxArea = 0;
+    // 99
+    int left = 0;
+    // 100
+    int right = height.length - 1;
+    while (left < right) {
+        // 101
+        // 102
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 103
+            // 104
+            left++;
+        } else {
+            // 105
+            // 106
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_629392e3ce7e48e9a4f5f420c561063e(Integer[] height){
+    // 89
+    int max = 0;
+    // 90
+    int left = 0;
+    // 91
+    int right = height.length - 1;
+    while (left < right) {
+        // 92
+        // 93
+        max = Math.max(max, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 94
+            // 95
+            left++;
+        } else {
+            // 96
+            // 97
+            right--;
+        }
+    }
+    return max;
+}
+public static int func_4e7fbb2cfb654dffb9a217a5bb6e490d(Integer[] height){
+    // 107
+    int maxArea = 0, left = 0, right = height.length - 1;
+    while (left < right) {
+        // 108
+        // 109
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (// 110
+        height[left] < height[right])
+            // 111
+            left++;
+        else
+            // 112
+            // 113
+            right--;
+    }
+    return maxArea;
+}
+public static int func_238c998685994232bed9de4ac472ef21(Integer[] height){
+    // 114
+    int max = 0;
+    // 115
+    int left = 0;
+    // 116
+    int right = height.length - 1;
+    while (left < right) {
+        // 117
+        // 118
+        max = Math.max(max, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 119
+            // 120
+            left++;
+        } else {
+            // 121
+            // 122
+            right--;
+        }
+    }
+    return max;
+}
+public static int func_267aa09229f54f2694c5e6f0ddd36226(Integer[] height){
+    // 134
+    int maxArea = 0, left = 0, right = height.length - 1;
+    while (left < right) {
+        // 135
+        // 136
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 137
+            // 138
+            left++;
+        } else {
+            // 139
+            // 140
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_3f32b2200b4540428fa24f66a37788fc(Integer[] height){
+    // 123
+    int max = 0;
+    // 124
+    int left = 0;
+    // 125
+    int right = height.length - 1;
+    while (left < right) {
+        // 126
+        // 127
+        int h = Math.min(height[left], height[right]);
+        // 128
+        int w = right - left;
+        // 129
+        max = Math.max(max, h * w);
+        if (height[left] < height[right]) {
+            // 130
+            // 131
+            left++;
+        } else {
+            // 132
+            // 133
+            right--;
+        }
+    }
+    return max;
+}
+public static int func_1c0db59e613840e1900e5be43ef5e906(Integer[] height){
+    // 141
+    int maxArea = 0;
+    // 142
+    int left = 0;
+    // 143
+    int right = height.length - 1;
+    while (left < right) {
+        // 144
+        // 145
+        maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 146
+            // 147
+            left++;
+        } else {
+            // 148
+            // 149
+            right--;
+        }
+    }
+    return maxArea;
+}
+public static int func_278c4a3b29d54890bdb068a33ece2636(Integer[] height){
+    // 159
+    int max = 0, left = 0, right = height.length - 1;
+    while (left < right) {
+        // 160
+        // 161
+        max = Math.max(max, (right - left) * Math.min(height[left], height[right]));
+        if (height[left] < height[right]) {
+            // 162
+            // 163
+            left++;
+        } else {
+            // 164
+            // 165
+            right--;
+        }
+    }
+    return max;
+}
+public static int func_6f86d5fbef1247d8b192c3ca7f78ceee(Integer[] height){
+    // 166
+    int maxArea = 0, l = 0, r = height.length - 1;
+    while (l < r) {
+        // 167
+        // 168
+        maxArea = Math.max(maxArea, Math.min(height[l], height[r]) * (r - l));
+        if (height[l] < height[r]) {
+            // 169
+            // 170
+            l++;
+        } else {
+            // 171
+            // 172
+            r--;
+        }
+    }
+    return maxArea;
+}
+public static int func_e7b614290d0f4286b43ebd552eb6a865(Integer[] height){
+    // 150
+    int max = 0;
+    // 151
+    int left = 0;
+    // 152
+    int right = height.length - 1;
+    while (left < right) {
+        // 153
+        // 154
+        max = Math.max(max, Math.min(height[left], height[right]) * (right - left));
+        if (height[left] < height[right]) {
+            // 155
+            // 156
+            left++;
+        } else {
+            // 157
+            // 158
+            right--;
+        }
+    }
+    return max;
+}

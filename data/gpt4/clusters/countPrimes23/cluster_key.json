@@ -1,0 +1,114 @@
+{
+    "0.01": {
+        "countPrimes1": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes2": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes3": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes4": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes6": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes7": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes8": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes9": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes11": [
+            "****** Cluster 0 ******"
+        ],
+        "primes12": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes17": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes19": [
+            "****** Cluster 0 ******"
+        ]
+    },
+    "0.05": {
+        "countPrimes1": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes2": [
+            "****** Cluster 0 ******"
+        ],  
+        "countPrimes3": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes4": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes6": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes7": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes8": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes9": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes11": [
+            "****** Cluster 0 ******"
+        ],
+        "primes12": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes17": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes19": [
+            "****** Cluster 0 ******"
+        ]
+    },
+    "0.25": {
+        "countPrimes1": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes2": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes3": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes4": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes6": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes7": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes8": [
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes9": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes11": [],
+        "primes12": [
+            "****** Cluster 3 ******"
+        ],
+        "countPrimes17": [ 
+            "****** Cluster 0 ******"
+        ],
+        "countPrimes19": [
+            "****** Cluster 0 ******"
+        ]
+    }
+}

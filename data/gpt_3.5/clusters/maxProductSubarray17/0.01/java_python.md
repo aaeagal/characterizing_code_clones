@@ -1,5 +1,5 @@
 ## Cluster sizes
-* Number of clusters: 650
+* Number of clusters: 645
 * Number of functions clustered: 1656
 * Number of functions not clustered: 0
 
@@ -10,8 +10,8 @@
     Median : 1.0000
        Q75 : 1.0000
        Max : 10.0000
-      Mean : 2.5477
- Std. Dev. : 3.3340
+      Mean : 2.5674
+ Std. Dev. : 3.3416
        IQR : 0.0000
-      Size : 650
+      Size : 645
 ```

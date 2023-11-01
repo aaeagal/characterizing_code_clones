@@ -9,7 +9,7 @@ def main():
     # Read in slacc_input.Java
     function_dict = {}
     current_function = None
-    with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/slacc_input.Java', 'r') as f:
+    with open(f'/home/aeagal/characterizing_code_clones/data/gpt4/clusters/{args.directory}/slacc_input.Java', 'r') as f:
 
         # Read lines from the file
         lines = f.readlines()
@@ -35,7 +35,7 @@ def main():
                 function_dict[current_function].append(line)
                 
     # Do something with output_lines, such as writing to a new file:
-    with open(f'/home/aeagal/characterizing_code_clones/data/gpt_3.5/clusters/{args.directory}/function_id_info.json', 'w') as f:
+    with open(f'/home/aeagal/characterizing_code_clones/data/gpt4/clusters/{args.directory}/function_id_info.json', 'w') as f:
         json.dump(function_dict, f)
 
 

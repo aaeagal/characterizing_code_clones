@@ -1,0 +1,248 @@
+{
+    "0.01": {
+        "findKthLargest1": [
+            "func_0a8c1ef5fc734363838445d94415d10e",
+            "func_cd16ac635dd145e791b3e891e9f19348"
+        ],
+        "findKthLargest2": [
+            "func_b3d8997d9706432698395377cadfcb0c",
+            "func_f28486bb889041b1871e51bf3f237cfc"
+        ],
+        "findKthLargest3": [
+            "func_5f83ee712c9943668a04db9ade015a0f",
+            "func_5be0592050134ee29f84a141da83dcf4"
+        ],
+        "findKthLargest4": [
+            "func_4b440916930c404ba00b212eb38e77f9",
+            "func_fe0fef77474643ada6055ea8dfbdfbfb"
+        ],
+        "findKthLargest5": [
+            "func_b2bb7fbc29a4416f83cb77de455e4b72",
+            "func_9590b304f99c41f79877edc4dbd0d7c5"
+        ],
+        "findKthLargest6": [
+            "func_4c669dea28434dbf8a612bd598aca383",
+            "func_57f59ba7f70948ce97aaee0d6e514b5f"
+        ],
+        "findKthLargest7": [
+            "func_5ebf39b5dc704d6783403d40e3b7c64d",
+            "func_c6334e1b6b954b91abdf83789d60653e"
+        ],
+        "findKthLargest8": [
+            "func_514c6243fb1b41e7a79a3fd682dd3425",
+            "func_96966d7a0d1e4bd7b8fba562fe54de2a"
+        ],
+        "findKthLargest9": [
+            "func_f9352a1385a4492d8c22faadd6c13b21",
+            "func_8155181daaea4b32b67a4ad845d80969"
+        ],
+        "findKthLargest10": [
+            "func_059cba73d4424c3894b1c63c76873c39",
+            "func_021df7d2a61945d6a71911858df5cf16"
+        ],
+        "findKthLargest11": [
+            "func_9aea2dd6bd564859b96d2626fd1cd82e",
+            "func_ee8bb56c59ff4fb386ea89f66c32dbb7"
+        ],
+        "findKthLargest12": [
+            "func_d413bc6e1bf54d429bbb9af979af06e5",
+            "func_e50df20ecd79435d8e6092d06e47e799"
+        ],
+        "kthLargest13": [
+            "func_2951b5757a2d419ab4a79fef90ddc07d",
+            "func_56f2db40720c41ca9c9e9d9e2afa711d"
+        ],
+        "findKthLargest14": [
+            "func_d3f64dc909804ad38bd7a148ea05b7e6",
+            "func_9615db6b04f54a6cbd9e699491424d11"
+        ],
+        "findKthLargest15": [
+            "func_698587de1cd14ea6b89f90203556975d",
+            "func_077e6dde261043cc865ced94e6e2c82c"
+        ],
+        "findKthLargest16": [
+            "func_9f0d897cf40042099943ef0d3570896d",
+            "func_7b2ef50937594616944ee326120dd3d5"
+        ],
+        "findKthLargest17": [
+            "func_22a623c841854f5cae3e3f055f5a00f5",
+            "func_61ce23c3915740f48babe4a0bf758b17"
+        ],
+        "findKthLargest18": [
+            "func_e32b3eaa73f14eeb80ecc7cd45570f4b",
+            "func_6106787a311346c18d0bb81fe178bdc5"
+        ],
+        "findKthLargest19": [
+            "func_1c59c768bb0d457dbd2cc0ce6382e2c9",
+            "func_77e4e9db66db44eaa80b27a01143c59e"
+        ],
+        "findKthLargest20": [
+            "func_67aa2f8bb2964f6683161d2947587676",
+            "func_02b040bbdee246218eb341912f1ac87a"
+        ]
+    },
+    "0.05": {
+        "findKthLargest1": [
+            "func_0a8c1ef5fc734363838445d94415d10e",
+            "func_cd16ac635dd145e791b3e891e9f19348"
+        ],
+        "findKthLargest2": [
+            "func_b3d8997d9706432698395377cadfcb0c",
+            "func_f28486bb889041b1871e51bf3f237cfc"
+        ],
+        "findKthLargest3": [
+            "func_5f83ee712c9943668a04db9ade015a0f",
+            "func_5be0592050134ee29f84a141da83dcf4"
+        ],
+        "findKthLargest4": [
+            "func_4b440916930c404ba00b212eb38e77f9",
+            "func_fe0fef77474643ada6055ea8dfbdfbfb"
+        ],
+        "findKthLargest5": [
+            "func_b2bb7fbc29a4416f83cb77de455e4b72",
+            "func_9590b304f99c41f79877edc4dbd0d7c5"
+        ],
+        "findKthLargest6": [
+            "func_4c669dea28434dbf8a612bd598aca383",
+            "func_57f59ba7f70948ce97aaee0d6e514b5f"
+        ],
+        "findKthLargest7": [
+            "func_5ebf39b5dc704d6783403d40e3b7c64d",
+            "func_c6334e1b6b954b91abdf83789d60653e"
+        ],
+        "findKthLargest8": [
+            "func_514c6243fb1b41e7a79a3fd682dd3425",
+            "func_96966d7a0d1e4bd7b8fba562fe54de2a"
+        ],
+        "findKthLargest9": [
+            "func_f9352a1385a4492d8c22faadd6c13b21",
+            "func_8155181daaea4b32b67a4ad845d80969"
+        ],
+        "findKthLargest10": [
+            "func_059cba73d4424c3894b1c63c76873c39",
+            "func_021df7d2a61945d6a71911858df5cf16"
+        ],
+        "findKthLargest11": [
+            "func_9aea2dd6bd564859b96d2626fd1cd82e",
+            "func_ee8bb56c59ff4fb386ea89f66c32dbb7"
+        ],
+        "findKthLargest12": [
+            "func_d413bc6e1bf54d429bbb9af979af06e5",
+            "func_e50df20ecd79435d8e6092d06e47e799"
+        ],
+        "kthLargest13": [
+            "func_2951b5757a2d419ab4a79fef90ddc07d",
+            "func_56f2db40720c41ca9c9e9d9e2afa711d"
+        ],
+        "findKthLargest14": [
+            "func_d3f64dc909804ad38bd7a148ea05b7e6",
+            "func_9615db6b04f54a6cbd9e699491424d11"
+        ],
+        "findKthLargest15": [
+            "func_698587de1cd14ea6b89f90203556975d",
+            "func_077e6dde261043cc865ced94e6e2c82c"
+        ],
+        "findKthLargest16": [
+            "func_9f0d897cf40042099943ef0d3570896d",
+            "func_7b2ef50937594616944ee326120dd3d5"
+        ],
+        "findKthLargest17": [
+            "func_22a623c841854f5cae3e3f055f5a00f5",
+            "func_61ce23c3915740f48babe4a0bf758b17"
+        ],
+        "findKthLargest18": [
+            "func_e32b3eaa73f14eeb80ecc7cd45570f4b",
+            "func_6106787a311346c18d0bb81fe178bdc5"
+        ],
+        "findKthLargest19": [
+            "func_1c59c768bb0d457dbd2cc0ce6382e2c9",
+            "func_77e4e9db66db44eaa80b27a01143c59e"
+        ],
+        "findKthLargest20": [
+            "func_67aa2f8bb2964f6683161d2947587676",
+            "func_02b040bbdee246218eb341912f1ac87a"
+        ]
+    },
+    "0.25": {
+        "findKthLargest1": [
+            "func_0a8c1ef5fc734363838445d94415d10e",
+            "func_cd16ac635dd145e791b3e891e9f19348"
+        ],
+        "findKthLargest2": [
+            "func_b3d8997d9706432698395377cadfcb0c",
+            "func_f28486bb889041b1871e51bf3f237cfc"
+        ],
+        "findKthLargest3": [
+            "func_5f83ee712c9943668a04db9ade015a0f",
+            "func_5be0592050134ee29f84a141da83dcf4"
+        ],
+        "findKthLargest4": [
+            "func_4b440916930c404ba00b212eb38e77f9",
+            "func_fe0fef77474643ada6055ea8dfbdfbfb"
+        ],
+        "findKthLargest5": [
+            "func_b2bb7fbc29a4416f83cb77de455e4b72",
+            "func_9590b304f99c41f79877edc4dbd0d7c5"
+        ],
+        "findKthLargest6": [
+            "func_4c669dea28434dbf8a612bd598aca383",
+            "func_57f59ba7f70948ce97aaee0d6e514b5f"
+        ],
+        "findKthLargest7": [
+            "func_5ebf39b5dc704d6783403d40e3b7c64d",
+            "func_c6334e1b6b954b91abdf83789d60653e"
+        ],
+        "findKthLargest8": [
+            "func_514c6243fb1b41e7a79a3fd682dd3425",
+            "func_96966d7a0d1e4bd7b8fba562fe54de2a"
+        ],
+        "findKthLargest9": [
+            "func_f9352a1385a4492d8c22faadd6c13b21",
+            "func_8155181daaea4b32b67a4ad845d80969"
+        ],
+        "findKthLargest10": [
+            "func_059cba73d4424c3894b1c63c76873c39",
+            "func_021df7d2a61945d6a71911858df5cf16"
+        ],
+        "findKthLargest11": [
+            "func_9aea2dd6bd564859b96d2626fd1cd82e",
+            "func_ee8bb56c59ff4fb386ea89f66c32dbb7"
+        ],
+        "findKthLargest12": [
+            "func_d413bc6e1bf54d429bbb9af979af06e5",
+            "func_e50df20ecd79435d8e6092d06e47e799"
+        ],
+        "kthLargest13": [
+            "func_2951b5757a2d419ab4a79fef90ddc07d",
+            "func_56f2db40720c41ca9c9e9d9e2afa711d"
+        ],
+        "findKthLargest14": [
+            "func_d3f64dc909804ad38bd7a148ea05b7e6",
+            "func_9615db6b04f54a6cbd9e699491424d11"
+        ],
+        "findKthLargest15": [
+            "func_698587de1cd14ea6b89f90203556975d",
+            "func_077e6dde261043cc865ced94e6e2c82c"
+        ],
+        "findKthLargest16": [
+            "func_9f0d897cf40042099943ef0d3570896d",
+            "func_7b2ef50937594616944ee326120dd3d5"
+        ],
+        "findKthLargest17": [
+            "func_22a623c841854f5cae3e3f055f5a00f5",
+            "func_61ce23c3915740f48babe4a0bf758b17"
+        ],
+        "findKthLargest18": [
+            "func_e32b3eaa73f14eeb80ecc7cd45570f4b",
+            "func_6106787a311346c18d0bb81fe178bdc5"
+        ],
+        "findKthLargest19": [
+            "func_1c59c768bb0d457dbd2cc0ce6382e2c9",
+            "func_77e4e9db66db44eaa80b27a01143c59e"
+        ],
+        "findKthLargest20": [
+            "func_67aa2f8bb2964f6683161d2947587676",
+            "func_02b040bbdee246218eb341912f1ac87a"
+        ]
+    }
+}

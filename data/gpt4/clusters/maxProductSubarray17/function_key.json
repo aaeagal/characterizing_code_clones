@@ -1,0 +1,152 @@
+{
+    "0.01": {
+        "maxProduct1": [
+            "func_4fee9a59eb584cb08b3516bfe03d309b"
+        ],
+        "maxProduct2": [
+            "func_4073c924149d469ebec67d5e3ed09012"
+        ],
+        "maxProduct3": [
+            "func_9d50217d2f5b487a85463daa999af89e"
+        ],
+        "maxProduct4": [
+            "func_18ed428ca2804a638bf2f0e52a7b5474"
+        ],
+        "maxProduct5": [
+            "func_6deb8f6128794cee9f2db4ebfba9be63"
+        ],
+        "maxProduct6": [],
+        "maxProduct7": [
+            "func_bc06db73f6ca41a1bb75f84d7c4c1439"
+        ],
+        "maxProduct8": [
+            "func_5c46f4fe40c44a87b41c4533cbb5e76e"
+        ],
+        "maxProduct9": [
+            "func_19bb0ae43651403f9204872f682fad24"
+        ],
+        "maxProduct10": [],
+        "maxProduct11": [],
+        "maxProduct12": [
+            "func_21d7df4d46424f11beae0f6e3715383e"
+        ],
+        "maxProduct13": [],
+        "maxProduct14": [
+            "func_29025b1f4fb848bbb51dfe7e448fa26d"
+        ],
+        "maxProduct15": [
+            "func_a8a52e02d1bc4bec88cee5289d9c6d62"
+        ],
+        "maxProduct16": [
+            "func_f39eb5b083214467ac2f4bf6b11a8c0b"
+        ],
+        "maxProduct17": [],
+        "maxProduct18": [],
+        "maxProduct19": [
+            "func_46660233ebb842f8b964a15cae8e1a29"
+        ],
+        "maxProduct20": [
+            "func_e51ba424fb01433fba4ad764a82bac57"
+        ]
+    },
+    "0.05": {
+        "maxProduct1": [
+            "func_4fee9a59eb584cb08b3516bfe03d309b"
+        ],
+        "maxProduct2": [
+            "func_4073c924149d469ebec67d5e3ed09012"
+        ],
+        "maxProduct3": [
+            "func_9d50217d2f5b487a85463daa999af89e"
+        ],
+        "maxProduct4": [
+            "func_18ed428ca2804a638bf2f0e52a7b5474"
+        ],
+        "maxProduct5": [
+            "func_6deb8f6128794cee9f2db4ebfba9be63"
+        ],
+        "maxProduct6": [],
+        "maxProduct7": [
+            "func_bc06db73f6ca41a1bb75f84d7c4c1439"
+        ],
+        "maxProduct8": [
+            "func_5c46f4fe40c44a87b41c4533cbb5e76e"
+        ],
+        "maxProduct9": [
+            "func_19bb0ae43651403f9204872f682fad24"
+        ],
+        "maxProduct10": [],
+        "maxProduct11": [],
+        "maxProduct12": [
+            "func_21d7df4d46424f11beae0f6e3715383e"
+        ],
+        "maxProduct13": [],
+        "maxProduct14": [
+            "func_29025b1f4fb848bbb51dfe7e448fa26d"
+        ],
+        "maxProduct15": [
+            "func_a8a52e02d1bc4bec88cee5289d9c6d62"
+        ],
+        "maxProduct16": [
+            "func_f39eb5b083214467ac2f4bf6b11a8c0b"
+        ],
+        "maxProduct17": [],
+        "maxProduct18": [],
+        "maxProduct19": [
+            "func_46660233ebb842f8b964a15cae8e1a29"
+        ],
+        "maxProduct20": [
+            "func_e51ba424fb01433fba4ad764a82bac57"
+        ]
+    },
+    "0.25": {
+        "maxProduct1": [
+            "func_4fee9a59eb584cb08b3516bfe03d309b"
+        ],
+        "maxProduct2": [
+            "func_4073c924149d469ebec67d5e3ed09012"
+        ],
+        "maxProduct3": [
+            "func_9d50217d2f5b487a85463daa999af89e"
+        ],
+        "maxProduct4": [
+            "func_18ed428ca2804a638bf2f0e52a7b5474"
+        ],
+        "maxProduct5": [
+            "func_6deb8f6128794cee9f2db4ebfba9be63"
+        ],
+        "maxProduct6": [],
+        "maxProduct7": [
+            "func_bc06db73f6ca41a1bb75f84d7c4c1439"
+        ],
+        "maxProduct8": [
+            "func_5c46f4fe40c44a87b41c4533cbb5e76e"
+        ],
+        "maxProduct9": [
+            "func_19bb0ae43651403f9204872f682fad24"
+        ],
+        "maxProduct10": [],
+        "maxProduct11": [],
+        "maxProduct12": [
+            "func_21d7df4d46424f11beae0f6e3715383e"
+        ],
+        "maxProduct13": [],
+        "maxProduct14": [
+            "func_29025b1f4fb848bbb51dfe7e448fa26d"
+        ],
+        "maxProduct15": [
+            "func_a8a52e02d1bc4bec88cee5289d9c6d62"
+        ],
+        "maxProduct16": [
+            "func_f39eb5b083214467ac2f4bf6b11a8c0b"
+        ],
+        "maxProduct17": [],
+        "maxProduct18": [],
+        "maxProduct19": [
+            "func_46660233ebb842f8b964a15cae8e1a29"
+        ],
+        "maxProduct20": [
+            "func_e51ba424fb01433fba4ad764a82bac57"
+        ]
+    }
+}

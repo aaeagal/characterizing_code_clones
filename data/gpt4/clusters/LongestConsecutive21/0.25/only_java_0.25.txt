@@ -1,0 +1,1214 @@
+
+
+****** Cluster 0 ******
+public static Integer func_8e97957301274118998b3a4a1757c9c2(Integer currentNum, Integer currentStreak){
+    // 9
+    // 10
+    currentNum += 1;
+    // 11
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_23ae4da4b0724662b9e3dcd1defd3d0c(Integer currentStreak, Integer currentNum){
+    // 9
+    // 10
+    currentNum += 1;
+    // 11
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_776fc5517a254fd7a1fb5c8bec5f20ca(Integer currentNum, Integer currentStreak){
+    // 21
+    // 22
+    currentNum += 1;
+    // 23
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_27458d6f704c4479b42906ff2cf835c8(Integer currentStreak, Integer currentNum){
+    // 21
+    // 22
+    currentNum += 1;
+    // 23
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_19f1b3f4599c4aea9bf5a164f95d1ee9(Integer currentNum, Integer currentStreak){
+    // 32
+    // 33
+    currentNum = currentNum + 1;
+    // 34
+    currentStreak = currentStreak + 1;
+    return currentNum;
+}
+public static Integer func_5f9d91681d7b43a78ab2f50aecd1f509(Integer currentStreak, Integer currentNum){
+    // 32
+    // 33
+    currentNum = currentNum + 1;
+    // 34
+    currentStreak = currentStreak + 1;
+    return currentStreak;
+}
+public static Integer func_c5ad35ecc3814ddc8845e82cbc2ec9f3(Integer currentStreak, Integer currentNum){
+    // 44
+    // 45
+    currentNum += 1;
+    // 46
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_e0aeb661fc804ad3b89b263f123f3fd0(Integer currentNum, Integer currentStreak){
+    // 44
+    // 45
+    currentNum += 1;
+    // 46
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_900ecceb678344f7b4f7d766154db7e3(Integer currentStreak, Integer currentNum){
+    // 56
+    // 57
+    currentNum += 1;
+    // 58
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_7b0890f5dd224bbe8823a7a5384e5dbb(Integer currentNum, Integer currentStreak){
+    // 56
+    // 57
+    currentNum += 1;
+    // 58
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_46b655c3ddf54dd0935079de22c430aa(Integer currentNum, Integer currentStreak){
+    // 69
+    // 70
+    currentNum += 1;
+    // 71
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_624d8ca6dbeb40d2baf7a429371ab596(Integer currentStreak, Integer currentNum){
+    // 69
+    // 70
+    currentNum += 1;
+    // 71
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_10bcebbe8afb4f7da0ecd93aae311d8e(Integer currentStreak, Integer currentNum){
+    // 81
+    // 82
+    currentNum += 1;
+    // 83
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_b58a3829564e460c974e7d8b698e3e59(Integer currentNum, Integer currentStreak){
+    // 81
+    // 82
+    currentNum += 1;
+    // 83
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_bea23531107c464a80820ccff31f31c7(Integer currentStreak, Integer currentNum){
+    // 93
+    // 94
+    currentNum += 1;
+    // 95
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_fe3b0d4af68c46a8bc35bb13efb35acf(Integer currentNum, Integer currentStreak){
+    // 93
+    // 94
+    currentNum += 1;
+    // 95
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_a074c337a8184e7ba50591df00dd84e7(Integer currentNum, Integer currentStreak){
+    // 123
+    // 124
+    currentNum += 1;
+    // 125
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_6cefad1eb1f845d59e9639610e16f741(Integer currentStreak, Integer currentNum){
+    // 123
+    // 124
+    currentNum += 1;
+    // 125
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_5beb941ba1084a0ba1009bb52b74daa9(Integer currentStreak, Integer currentNum){
+    // 135
+    // 136
+    currentNum += 1;
+    // 137
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_33b0671bc05544bab3599de3305bfdab(Integer currentNum, Integer currentStreak){
+    // 135
+    // 136
+    currentNum += 1;
+    // 137
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_187730f9e5f84acdbb640e21ef3b10c7(Integer currentNum, Integer currentStreak){
+    // 147
+    // 148
+    currentNum += 1;
+    // 149
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_257a1a3c29ea4698a042c14c13456f39(Integer currentStreak, Integer currentNum){
+    // 147
+    // 148
+    currentNum += 1;
+    // 149
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_17fcf08114b84b1c90b6b061cfbcb89c(Integer currentStreak, Integer currentNum){
+    // 159
+    // 160
+    currentNum += 1;
+    // 161
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_779eddff51874d5291cda7f16cd0b51a(Integer currentNum, Integer currentStreak){
+    // 159
+    // 160
+    currentNum += 1;
+    // 161
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_9bc1077ad94d4674b9a93472ce519b3c(Integer currentStreak, Integer currentNum){
+    // 171
+    // 172
+    currentNum += 1;
+    // 173
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_ad39119b4c2b4e06be693348cae89e6e(Integer currentNum, Integer currentStreak){
+    // 171
+    // 172
+    currentNum += 1;
+    // 173
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_8882db0909764675abe0934193cbd190(Integer currentNum, Integer currentStreak){
+    // 192
+    // 193
+    currentNum += 1;
+    // 194
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_72421ea9c3644b6dbe0f31a88c5022f8(Integer currentStreak, Integer currentNum){
+    // 192
+    // 193
+    currentNum += 1;
+    // 194
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_40bc08a4bb1e434582fe46ceb70a2541(Integer currentLength, Integer currentNum){
+    // 204
+    // 205
+    currentNum += 1;
+    // 206
+    currentLength += 1;
+    return currentLength;
+}
+public static Integer func_a2ad255fb929451cbaa5929611565569(Integer currentNum, Integer currentLength){
+    // 204
+    // 205
+    currentNum += 1;
+    // 206
+    currentLength += 1;
+    return currentNum;
+}
+public static Integer func_403f0243a6374dc9ab646c76cc1f6600(Integer currentStreak, Integer currentNum){
+    // 216
+    // 217
+    currentNum += 1;
+    // 218
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_70fc241f6c604eceb31d9ee3abe38505(Integer currentNum, Integer currentStreak){
+    // 216
+    // 217
+    currentNum += 1;
+    // 218
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_a9ffc0bbd02c4f6197f6a9fa65d72922(Integer currentNum, Integer currentStreak){
+    // 228
+    // 229
+    currentNum += 1;
+    // 230
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_94ed1ec86b48403aad6438c104ffa090(Integer currentStreak, Integer currentNum){
+    // 228
+    // 229
+    currentNum += 1;
+    // 230
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_553f4468cd7c4b7a89db7fe30ec9ab1b(Integer currentNum, Integer currentStreak){
+    // 240
+    // 241
+    currentNum += 1;
+    // 242
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_520b42ca4cd841908dbc3ad64cdbf6fb(Integer currentStreak, Integer currentNum){
+    // 240
+    // 241
+    currentNum += 1;
+    // 242
+    currentStreak += 1;
+    return currentStreak;
+}
+
+
+****** Cluster 1 ******
+public static Integer func_00fb5dda3fe546d19a3b51dd77221241(Integer currentStreak, Integer currentNum){
+    // 9
+    // 10
+    currentNum += 1;
+    // 11
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_a69e6718258f494f8e20649f728cce0b(Integer currentNum, Integer currentStreak){
+    // 9
+    // 10
+    currentNum += 1;
+    // 11
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_b2b1179e70d44491b42f05f3165db4ce(Integer currentStreak, Integer currentNum){
+    // 21
+    // 22
+    currentNum += 1;
+    // 23
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_9910dd1261354f1ea0457425a7dfb979(Integer currentNum, Integer currentStreak){
+    // 21
+    // 22
+    currentNum += 1;
+    // 23
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_ff6a0bc024224e8ca9f0f3f29bddb3ba(Integer currentStreak, Integer currentNum){
+    // 32
+    // 33
+    currentNum = currentNum + 1;
+    // 34
+    currentStreak = currentStreak + 1;
+    return currentNum;
+}
+public static Integer func_cfc8c00a02ac46b9830b3b2f7f6285f0(Integer currentNum, Integer currentStreak){
+    // 32
+    // 33
+    currentNum = currentNum + 1;
+    // 34
+    currentStreak = currentStreak + 1;
+    return currentStreak;
+}
+public static Integer func_6c527c7efc73499fbf485de528b2e537(Integer currentStreak, Integer currentNum){
+    // 44
+    // 45
+    currentNum += 1;
+    // 46
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_2df85106ae4b49f5b0faeb85793c5abf(Integer currentNum, Integer currentStreak){
+    // 44
+    // 45
+    currentNum += 1;
+    // 46
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_dd928a69208c4de48e099154d4196f26(Integer currentNum, Integer currentStreak){
+    // 56
+    // 57
+    currentNum += 1;
+    // 58
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_474231fa9e284bf396258e89b48ee36a(Integer currentStreak, Integer currentNum){
+    // 56
+    // 57
+    currentNum += 1;
+    // 58
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_36713769882047f992493f3f1dde776a(Integer currentStreak, Integer currentNum){
+    // 69
+    // 70
+    currentNum += 1;
+    // 71
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_42488a73268c475c897942ce1deb2e74(Integer currentNum, Integer currentStreak){
+    // 69
+    // 70
+    currentNum += 1;
+    // 71
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_bcdf3c2d002f430baed8761ee03848b4(Integer currentNum, Integer currentStreak){
+    // 81
+    // 82
+    currentNum += 1;
+    // 83
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_7852ff0ac5114eaf8e55fa742779c461(Integer currentStreak, Integer currentNum){
+    // 81
+    // 82
+    currentNum += 1;
+    // 83
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_c558eaa07bf241da8e4b431529a02973(Integer currentNum, Integer currentStreak){
+    // 93
+    // 94
+    currentNum += 1;
+    // 95
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_14ef679bcf7347bc90bd8d7e4f558579(Integer currentStreak, Integer currentNum){
+    // 93
+    // 94
+    currentNum += 1;
+    // 95
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_af31907bb5724cde9f04966522a69e6b(Integer currentStreak, Integer currentNum){
+    // 123
+    // 124
+    currentNum += 1;
+    // 125
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_85966ba8d63e40cd9e1504863bb96344(Integer currentNum, Integer currentStreak){
+    // 123
+    // 124
+    currentNum += 1;
+    // 125
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_049383b6a2ef4abfa8d5f03e88f0a6c1(Integer currentNum, Integer currentStreak){
+    // 135
+    // 136
+    currentNum += 1;
+    // 137
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_09b0c3f9cfa34e24b78b22b90c1101bd(Integer currentStreak, Integer currentNum){
+    // 135
+    // 136
+    currentNum += 1;
+    // 137
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_f9569166941040e0b051303089b35ca1(Integer currentStreak, Integer currentNum){
+    // 147
+    // 148
+    currentNum += 1;
+    // 149
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_ef6270991ac54c549edd4625f6b553c5(Integer currentNum, Integer currentStreak){
+    // 147
+    // 148
+    currentNum += 1;
+    // 149
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_b6c5bfe09b7a4a63ab2eb2b871aab7eb(Integer currentNum, Integer currentStreak){
+    // 159
+    // 160
+    currentNum += 1;
+    // 161
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_6480fcfc662f4101ba1c1b13d397d4dd(Integer currentStreak, Integer currentNum){
+    // 159
+    // 160
+    currentNum += 1;
+    // 161
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_3bf4e0ee79834211a5e41cd9b871101c(Integer currentNum, Integer currentStreak){
+    // 171
+    // 172
+    currentNum += 1;
+    // 173
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_ce14a317b4e74f4c830e0a7e07daa517(Integer currentStreak, Integer currentNum){
+    // 171
+    // 172
+    currentNum += 1;
+    // 173
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_639b14ebb52448e598d8fb6d839ace79(Integer currentStreak, Integer currentNum){
+    // 192
+    // 193
+    currentNum += 1;
+    // 194
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_478e07921e6b405c9f1f78cdcddb4b55(Integer currentNum, Integer currentStreak){
+    // 192
+    // 193
+    currentNum += 1;
+    // 194
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_f311b28c856c4fef87fadcb5e5c9cb02(Integer currentNum, Integer currentLength){
+    // 204
+    // 205
+    currentNum += 1;
+    // 206
+    currentLength += 1;
+    return currentLength;
+}
+public static Integer func_8d2025130403407d82b7d3a03d61a989(Integer currentLength, Integer currentNum){
+    // 204
+    // 205
+    currentNum += 1;
+    // 206
+    currentLength += 1;
+    return currentNum;
+}
+public static Integer func_1c9f29426c2f42c7881864ac929cf06c(Integer currentNum, Integer currentStreak){
+    // 216
+    // 217
+    currentNum += 1;
+    // 218
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_30f53bc8f53f4fe88a7d4c64611fe167(Integer currentStreak, Integer currentNum){
+    // 216
+    // 217
+    currentNum += 1;
+    // 218
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_210c8832b64e41909d66905ec5484e54(Integer currentStreak, Integer currentNum){
+    // 228
+    // 229
+    currentNum += 1;
+    // 230
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_5c2a57f4519c441cb7132adf1462a9a6(Integer currentNum, Integer currentStreak){
+    // 228
+    // 229
+    currentNum += 1;
+    // 230
+    currentStreak += 1;
+    return currentStreak;
+}
+public static Integer func_9cda9108fccb494496d57668ced78882(Integer currentStreak, Integer currentNum){
+    // 240
+    // 241
+    currentNum += 1;
+    // 242
+    currentStreak += 1;
+    return currentNum;
+}
+public static Integer func_164dff6466e94f84a4780c886b0a68ec(Integer currentNum, Integer currentStreak){
+    // 240
+    // 241
+    currentNum += 1;
+    // 242
+    currentStreak += 1;
+    return currentStreak;
+}
+
+
+****** Cluster 5 ******
+public static int func_6b60bc8af1bc41ce841024c9e7b84495(Integer[] nums){
+    // 1
+    Set<Integer> numSet = new HashSet<Integer>();
+    for (int num : nums) {
+        // 2
+        // 3
+        numSet.add(num);
+    }
+    // 4
+    int longestStreak = 0;
+    for (int num : numSet) {
+        // 5
+        if (!numSet.contains(num - 1)) {
+            // 6
+            // 7
+            int currentNum = num;
+            // 8
+            int currentStreak = 1;
+            while (numSet.contains(currentNum + 1)) {
+                // 9
+                // 10
+                currentNum += 1;
+                // 11
+                currentStreak += 1;
+            }
+            // 12
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_228a54467f6443cc9c7f79184d5b8a2f(Integer[] nums){
+    // 13
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 14
+        // 15
+        num_set.add(num);
+    }
+    // 16
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 17
+        if (!num_set.contains(num - 1)) {
+            // 18
+            // 19
+            int currentNum = num;
+            // 20
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 21
+                // 22
+                currentNum += 1;
+                // 23
+                currentStreak += 1;
+            }
+            // 24
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_c723b821922347f58d5476a9d0840f26(Integer[] nums){
+    // 25
+    HashSet<Integer> set = new HashSet<Integer>();
+    // 26
+    for (int num : nums) set.add(num);
+    // 27
+    int longestStreak = 0;
+    for (int num : set) {
+        // 28
+        if (!set.contains(num - 1)) {
+            // 29
+            // 30
+            int currentNum = num;
+            // 31
+            int currentStreak = 1;
+            while (set.contains(currentNum + 1)) {
+                // 32
+                // 33
+                currentNum = currentNum + 1;
+                // 34
+                currentStreak = currentStreak + 1;
+            }
+            // 35
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_e9ccfd9b8fc04f779ba199ed78bd3ec9(Integer[] nums){
+    // 36
+    Set<Integer> numSet = new HashSet<Integer>();
+    for (int num : nums) {
+        // 37
+        // 38
+        numSet.add(num);
+    }
+    // 39
+    int longestStreak = 0;
+    for (int num : numSet) {
+        // 40
+        if (!numSet.contains(num - 1)) {
+            // 41
+            // 42
+            int currentNum = num;
+            // 43
+            int currentStreak = 1;
+            while (numSet.contains(currentNum + 1)) {
+                // 44
+                // 45
+                currentNum += 1;
+                // 46
+                currentStreak += 1;
+            }
+            // 47
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_f9aeea51d4d44d3bb8d0d7900adb312f(Integer[] nums){
+    // 48
+    HashSet<Integer> set = new HashSet<>();
+    for (int num : nums) {
+        // 49
+        // 50
+        set.add(num);
+    }
+    // 51
+    int longestStreak = 0;
+    for (int num : set) {
+        // 52
+        if (!set.contains(num - 1)) {
+            // 53
+            // 54
+            int currentNum = num;
+            // 55
+            int currentStreak = 1;
+            while (set.contains(currentNum + 1)) {
+                // 56
+                // 57
+                currentNum += 1;
+                // 58
+                currentStreak += 1;
+            }
+            // 59
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_f8f0b140c0b14bc7a5417003a4c31419(Integer[] nums){
+    if (nums.length == 0) {
+        // 60
+        return 0;
+    }
+    // 61
+    Set<Integer> numSet = new HashSet<Integer>();
+    for (int num : nums) {
+        // 62
+        // 63
+        numSet.add(num);
+    }
+    // 64
+    int longestStreak = 0;
+    for (int num : numSet) {
+        // 65
+        if (!numSet.contains(num - 1)) {
+            // 66
+            // 67
+            int currentNum = num;
+            // 68
+            int currentStreak = 1;
+            while (numSet.contains(currentNum + 1)) {
+                // 69
+                // 70
+                currentNum += 1;
+                // 71
+                currentStreak += 1;
+            }
+            // 72
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_2e0228d8f2bb430e95cb71794e1e687d(Integer[] nums){
+    // 73
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 74
+        // 75
+        num_set.add(num);
+    }
+    // 76
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 77
+        if (!num_set.contains(num - 1)) {
+            // 78
+            // 79
+            int currentNum = num;
+            // 80
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 81
+                // 82
+                currentNum += 1;
+                // 83
+                currentStreak += 1;
+            }
+            // 84
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_29bf8e7d82fe4a2aa450365e5ba8c3bc(Integer[] nums){
+    // 85
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 86
+        // 87
+        num_set.add(num);
+    }
+    // 88
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 89
+        if (!num_set.contains(num - 1)) {
+            // 90
+            // 91
+            int currentNum = num;
+            // 92
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 93
+                // 94
+                currentNum += 1;
+                // 95
+                currentStreak += 1;
+            }
+            // 96
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_c8112d6628bc42ca9d601ccfeb4db27c(Integer[] nums){
+    if (// 97
+    nums == null || nums.length == 0)
+        return 0;
+    // 98
+    HashSet<Integer> set = new HashSet<Integer>();
+    // 99
+    int max = 1;
+    for (// 100
+    int num : // 101
+    nums) set.add(num);
+    for (int num : nums) {
+        // 102
+        // 103
+        int left = num - 1;
+        // 104
+        int right = num + 1;
+        // 105
+        int count = 1;
+        while (set.contains(left)) {
+            // 106
+            // 107
+            set.remove(left);
+            // 108
+            left--;
+            // 109
+            count++;
+        }
+        while (set.contains(right)) {
+            // 110
+            // 111
+            set.remove(right);
+            // 112
+            right++;
+            // 113
+            count++;
+        }
+        // 114
+        max = Math.max(count, max);
+    }
+    return max;
+}
+public static int func_ba36418b9ee44e91a9579b3a60b0fad4(Integer[] nums){
+    // 115
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 116
+        // 117
+        num_set.add(num);
+    }
+    // 118
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 119
+        if (!num_set.contains(num - 1)) {
+            // 120
+            // 121
+            int currentNum = num;
+            // 122
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 123
+                // 124
+                currentNum += 1;
+                // 125
+                currentStreak += 1;
+            }
+            // 126
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_f77786452d0c4203b6bf43d3ec3ccf97(Integer[] nums){
+    if (nums.length == 0)
+        return 0;
+    // 127
+    Set<Integer> numSet = new HashSet<>();
+    for (int num : nums) {
+        // 128
+        // 129
+        numSet.add(num);
+    }
+    // 130
+    int longestStreak = 0;
+    for (int num : numSet) {
+        // 131
+        if (!numSet.contains(num - 1)) {
+            // 132
+            // 133
+            int currentNum = num;
+            // 134
+            int currentStreak = 1;
+            while (numSet.contains(currentNum + 1)) {
+                // 135
+                // 136
+                currentNum += 1;
+                // 137
+                currentStreak += 1;
+            }
+            // 138
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_cce9b6ce98f3478b88c025750f963b88(Integer[] nums){
+    // 139
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 140
+        // 141
+        num_set.add(num);
+    }
+    // 142
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 143
+        if (!num_set.contains(num - 1)) {
+            // 144
+            // 145
+            int currentNum = num;
+            // 146
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 147
+                // 148
+                currentNum += 1;
+                // 149
+                currentStreak += 1;
+            }
+            // 150
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_606e455878584d688ec8ea3a2a5977c1(Integer[] nums){
+    // 151
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 152
+        // 153
+        num_set.add(num);
+    }
+    // 154
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 155
+        if (!num_set.contains(num - 1)) {
+            // 156
+            // 157
+            int currentNum = num;
+            // 158
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 159
+                // 160
+                currentNum += 1;
+                // 161
+                currentStreak += 1;
+            }
+            // 162
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_04284973fe924443828559701fe2d3b6(Integer[] nums){
+    // 163
+    Set<Integer> num_set = new HashSet<>();
+    for (int num : nums) {
+        // 164
+        // 165
+        num_set.add(num);
+    }
+    // 166
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 167
+        if (!num_set.contains(num - 1)) {
+            // 168
+            // 169
+            int currentNum = num;
+            // 170
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 171
+                // 172
+                currentNum += 1;
+                // 173
+                currentStreak += 1;
+            }
+            // 174
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_4fa88e649ea9430f8d6d7bc3371b8387(Integer[] num){
+    // 175
+    HashSet<Integer> set = new HashSet<Integer>();
+    // 176
+    int max = 0;
+    // 177
+    for (int n : num) set.add(n);
+    for (int n : num) {
+        // 178
+        if (!set.contains(n - 1)) {
+            // 179
+            // 180
+            int m = n + 1;
+            while (set.contains(m)) {
+                // 181
+                // 182
+                m++;
+            }
+            // 183
+            max = Math.max(max, m - n);
+        }
+    }
+    return max;
+}
+public static int func_1ff9bbf19af443a2969cc8a0d6988456(Integer[] nums){
+    // 184
+    HashSet<Integer> set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 185
+        // 186
+        set.add(num);
+    }
+    // 187
+    int longestStreak = 0;
+    for (int num : set) {
+        // 188
+        if (!set.contains(num - 1)) {
+            // 189
+            // 190
+            int currentNum = num;
+            // 191
+            int currentStreak = 1;
+            while (set.contains(currentNum + 1)) {
+                // 192
+                // 193
+                currentNum += 1;
+                // 194
+                currentStreak += 1;
+            }
+            // 195
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_6e6b0340cc5a42ff88ce444531573d4e(Integer[] nums){
+    if (nums.length == 0)
+        return 0;
+    // 196
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 197
+        // 198
+        num_set.add(num);
+    }
+    // 199
+    int longestLength = 0;
+    for (int num : num_set) {
+        // 200
+        if (!num_set.contains(num - 1)) {
+            // 201
+            // 202
+            int currentNum = num;
+            // 203
+            int currentLength = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 204
+                // 205
+                currentNum += 1;
+                // 206
+                currentLength += 1;
+            }
+            // 207
+            longestLength = Math.max(longestLength, currentLength);
+        }
+    }
+    return longestLength;
+}
+public static int func_8ba271ff22d643e1941cfb6c94d0ba60(Integer[] nums){
+    // 208
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 209
+        // 210
+        num_set.add(num);
+    }
+    // 211
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 212
+        if (!num_set.contains(num - 1)) {
+            // 213
+            // 214
+            int currentNum = num;
+            // 215
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 216
+                // 217
+                currentNum += 1;
+                // 218
+                currentStreak += 1;
+            }
+            // 219
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_7d1dc22fc4f14cd78229c7a9872070d3(Integer[] nums){
+    // 220
+    Set<Integer> numSet = new HashSet<Integer>();
+    for (int num : nums) {
+        // 221
+        // 222
+        numSet.add(num);
+    }
+    // 223
+    int longestStreak = 0;
+    for (int num : numSet) {
+        // 224
+        if (!numSet.contains(num - 1)) {
+            // 225
+            // 226
+            int currentNum = num;
+            // 227
+            int currentStreak = 1;
+            while (numSet.contains(currentNum + 1)) {
+                // 228
+                // 229
+                currentNum += 1;
+                // 230
+                currentStreak += 1;
+            }
+            // 231
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}
+public static int func_062a4aa04bdd40c5ab4b09e77b0aaf0e(Integer[] nums){
+    // 232
+    Set<Integer> num_set = new HashSet<Integer>();
+    for (int num : nums) {
+        // 233
+        // 234
+        num_set.add(num);
+    }
+    // 235
+    int longestStreak = 0;
+    for (int num : num_set) {
+        // 236
+        if (!num_set.contains(num - 1)) {
+            // 237
+            // 238
+            int currentNum = num;
+            // 239
+            int currentStreak = 1;
+            while (num_set.contains(currentNum + 1)) {
+                // 240
+                // 241
+                currentNum += 1;
+                // 242
+                currentStreak += 1;
+            }
+            // 243
+            longestStreak = Math.max(longestStreak, currentStreak);
+        }
+    }
+    return longestStreak;
+}

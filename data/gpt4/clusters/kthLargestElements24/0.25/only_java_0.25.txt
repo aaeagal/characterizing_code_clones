@@ -1,0 +1,608 @@
+
+
+****** Cluster 0 ******
+public static int func_b3d8997d9706432698395377cadfcb0c(Integer k, Integer[] nums){
+    // 6
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int num : nums) {
+        // 7
+        // 8
+        queue.add(num);
+        if (queue.size() > k) {
+            // 9
+            // 10
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_0a8c1ef5fc734363838445d94415d10e(Integer k, Integer[] nums){
+    // 1
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 2
+        // 3
+        queue.add(num);
+        if (queue.size() > k) {
+            // 4
+            // 5
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_5f83ee712c9943668a04db9ade015a0f(Integer k, Integer[] nums){
+    // 11
+    PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+    for (int val : nums) {
+        // 12
+        // 13
+        pq.offer(val);
+        if (pq.size() > k) {
+            // 14
+            // 15
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+public static int func_4b440916930c404ba00b212eb38e77f9(Integer k, Integer[] nums){
+    // 16
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 17
+        // 18
+        queue.add(num);
+        if (// 19
+        queue.size() > k)
+            // 20
+            queue.poll();
+    }
+    return queue.poll();
+}
+public static int func_b2bb7fbc29a4416f83cb77de455e4b72(Integer k, Integer[] nums){
+    // 21
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int i : nums) {
+        // 22
+        // 23
+        queue.add(i);
+        if (// 24
+        queue.size() > k)
+            // 25
+            queue.poll();
+    }
+    return queue.peek();
+}
+public static int func_514c6243fb1b41e7a79a3fd682dd3425(Integer k, Integer[] nums){
+    // 36
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
+    for (int val : nums) {
+        // 37
+        // 38
+        pq.offer(val);
+        if (pq.size() > k) {
+            // 39
+            // 40
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+public static int func_059cba73d4424c3894b1c63c76873c39(Integer k, Integer[] nums){
+    // 46
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 47
+        // 48
+        queue.add(num);
+        if (queue.size() > k) {
+            // 49
+            // 50
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_d413bc6e1bf54d429bbb9af979af06e5(Integer k, Integer[] nums){
+    // 56
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 57
+        // 58
+        queue.offer(num);
+        if (queue.size() > k) {
+            // 59
+            // 60
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_2951b5757a2d419ab4a79fef90ddc07d(Integer k, Integer[] nums){
+    // 61
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 62
+        // 63
+        queue.add(num);
+        if (queue.size() > k) {
+            // 64
+            // 65
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_d3f64dc909804ad38bd7a148ea05b7e6(Integer k, Integer[] nums){
+    // 66
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int num : nums) {
+        // 67
+        // 68
+        queue.add(num);
+        if (queue.size() > k) {
+            // 69
+            // 70
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_9f0d897cf40042099943ef0d3570896d(Integer k, Integer[] nums){
+    // 76
+    PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+    for (int num : nums) {
+        // 77
+        // 78
+        minHeap.add(num);
+        if (minHeap.size() > k) {
+            // 79
+            // 80
+            minHeap.poll();
+        }
+    }
+    return minHeap.peek();
+}
+public static int func_e32b3eaa73f14eeb80ecc7cd45570f4b(Integer k, Integer[] nums){
+    // 86
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 87
+        // 88
+        queue.add(num);
+        if (queue.size() > k) {
+            // 89
+            // 90
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_1c59c768bb0d457dbd2cc0ce6382e2c9(Integer k, Integer[] nums){
+    // 91
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int num : nums) {
+        // 92
+        // 93
+        queue.add(num);
+        if (queue.size() > k) {
+            // 94
+            // 95
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_67aa2f8bb2964f6683161d2947587676(Integer k, Integer[] nums){
+    // 96
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 97
+        // 98
+        queue.add(num);
+        if (queue.size() > k) {
+            // 99
+            // 100
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+
+
+****** Cluster 1 ******
+public static int func_f28486bb889041b1871e51bf3f237cfc(Integer[] nums, Integer k){
+    // 6
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int num : nums) {
+        // 7
+        // 8
+        queue.add(num);
+        if (queue.size() > k) {
+            // 9
+            // 10
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_cd16ac635dd145e791b3e891e9f19348(Integer[] nums, Integer k){
+    // 1
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 2
+        // 3
+        queue.add(num);
+        if (queue.size() > k) {
+            // 4
+            // 5
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_5be0592050134ee29f84a141da83dcf4(Integer[] nums, Integer k){
+    // 11
+    PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+    for (int val : nums) {
+        // 12
+        // 13
+        pq.offer(val);
+        if (pq.size() > k) {
+            // 14
+            // 15
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+public static int func_fe0fef77474643ada6055ea8dfbdfbfb(Integer[] nums, Integer k){
+    // 16
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 17
+        // 18
+        queue.add(num);
+        if (// 19
+        queue.size() > k)
+            // 20
+            queue.poll();
+    }
+    return queue.poll();
+}
+public static int func_9590b304f99c41f79877edc4dbd0d7c5(Integer[] nums, Integer k){
+    // 21
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int i : nums) {
+        // 22
+        // 23
+        queue.add(i);
+        if (// 24
+        queue.size() > k)
+            // 25
+            queue.poll();
+    }
+    return queue.peek();
+}
+public static int func_96966d7a0d1e4bd7b8fba562fe54de2a(Integer[] nums, Integer k){
+    // 36
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
+    for (int val : nums) {
+        // 37
+        // 38
+        pq.offer(val);
+        if (pq.size() > k) {
+            // 39
+            // 40
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+public static int func_021df7d2a61945d6a71911858df5cf16(Integer[] nums, Integer k){
+    // 46
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 47
+        // 48
+        queue.add(num);
+        if (queue.size() > k) {
+            // 49
+            // 50
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_e50df20ecd79435d8e6092d06e47e799(Integer[] nums, Integer k){
+    // 56
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 57
+        // 58
+        queue.offer(num);
+        if (queue.size() > k) {
+            // 59
+            // 60
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_56f2db40720c41ca9c9e9d9e2afa711d(Integer[] nums, Integer k){
+    // 61
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 62
+        // 63
+        queue.add(num);
+        if (queue.size() > k) {
+            // 64
+            // 65
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_9615db6b04f54a6cbd9e699491424d11(Integer[] nums, Integer k){
+    // 66
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int num : nums) {
+        // 67
+        // 68
+        queue.add(num);
+        if (queue.size() > k) {
+            // 69
+            // 70
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_7b2ef50937594616944ee326120dd3d5(Integer[] nums, Integer k){
+    // 76
+    PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+    for (int num : nums) {
+        // 77
+        // 78
+        minHeap.add(num);
+        if (minHeap.size() > k) {
+            // 79
+            // 80
+            minHeap.poll();
+        }
+    }
+    return minHeap.peek();
+}
+public static int func_6106787a311346c18d0bb81fe178bdc5(Integer[] nums, Integer k){
+    // 86
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 87
+        // 88
+        queue.add(num);
+        if (queue.size() > k) {
+            // 89
+            // 90
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_77e4e9db66db44eaa80b27a01143c59e(Integer[] nums, Integer k){
+    // 91
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+    for (int num : nums) {
+        // 92
+        // 93
+        queue.add(num);
+        if (queue.size() > k) {
+            // 94
+            // 95
+            queue.poll();
+        }
+    }
+    return queue.poll();
+}
+public static int func_02b040bbdee246218eb341912f1ac87a(Integer[] nums, Integer k){
+    // 96
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    for (int num : nums) {
+        // 97
+        // 98
+        queue.add(num);
+        if (queue.size() > k) {
+            // 99
+            // 100
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+
+
+****** Cluster 11 ******
+public static int func_4c669dea28434dbf8a612bd598aca383(Integer[] nums, Integer k){
+    // 26
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 27
+        // 28
+        q.offer(i);
+        if (q.size() > k) {
+            // 29
+            // 30
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+public static int func_5ebf39b5dc704d6783403d40e3b7c64d(Integer[] nums, Integer k){
+    // 31
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 32
+        // 33
+        q.offer(i);
+        if (q.size() > k) {
+            // 34
+            // 35
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+public static int func_f9352a1385a4492d8c22faadd6c13b21(Integer[] nums, Integer k){
+    // 41
+    PriorityQueue<Integer> pq = new PriorityQueue<>(k);
+    for (int val : nums) {
+        // 42
+        // 43
+        pq.offer(val);
+        if (pq.size() > k) {
+            // 44
+            // 45
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+public static int func_9aea2dd6bd564859b96d2626fd1cd82e(Integer[] nums, Integer k){
+    // 51
+    PriorityQueue<Integer> queue = new PriorityQueue<>(k);
+    for (int i : nums) {
+        // 52
+        // 53
+        queue.offer(i);
+        if (queue.size() > k) {
+            // 54
+            // 55
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_698587de1cd14ea6b89f90203556975d(Integer[] nums, Integer k){
+    // 71
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 72
+        // 73
+        q.offer(i);
+        if (q.size() > k) {
+            // 74
+            // 75
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+public static int func_22a623c841854f5cae3e3f055f5a00f5(Integer[] nums, Integer k){
+    // 81
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 82
+        // 83
+        q.offer(i);
+        if (q.size() > k) {
+            // 84
+            // 85
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+
+
+****** Cluster 9 ******
+public static int func_57f59ba7f70948ce97aaee0d6e514b5f(Integer k, Integer[] nums){
+    // 26
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 27
+        // 28
+        q.offer(i);
+        if (q.size() > k) {
+            // 29
+            // 30
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+public static int func_c6334e1b6b954b91abdf83789d60653e(Integer k, Integer[] nums){
+    // 31
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 32
+        // 33
+        q.offer(i);
+        if (q.size() > k) {
+            // 34
+            // 35
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+public static int func_8155181daaea4b32b67a4ad845d80969(Integer k, Integer[] nums){
+    // 41
+    PriorityQueue<Integer> pq = new PriorityQueue<>(k);
+    for (int val : nums) {
+        // 42
+        // 43
+        pq.offer(val);
+        if (pq.size() > k) {
+            // 44
+            // 45
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+public static int func_ee8bb56c59ff4fb386ea89f66c32dbb7(Integer k, Integer[] nums){
+    // 51
+    PriorityQueue<Integer> queue = new PriorityQueue<>(k);
+    for (int i : nums) {
+        // 52
+        // 53
+        queue.offer(i);
+        if (queue.size() > k) {
+            // 54
+            // 55
+            queue.poll();
+        }
+    }
+    return queue.peek();
+}
+public static int func_077e6dde261043cc865ced94e6e2c82c(Integer k, Integer[] nums){
+    // 71
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 72
+        // 73
+        q.offer(i);
+        if (q.size() > k) {
+            // 74
+            // 75
+            q.poll();
+        }
+    }
+    return q.peek();
+}
+public static int func_61ce23c3915740f48babe4a0bf758b17(Integer k, Integer[] nums){
+    // 81
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+        // 82
+        // 83
+        q.offer(i);
+        if (q.size() > k) {
+            // 84
+            // 85
+            q.poll();
+        }
+    }
+    return q.peek();
+}

@@ -1,0 +1,248 @@
+{
+    "0.01": {
+        "findKthLargest1": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest2": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest3": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest4": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest5": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest6": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest7": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest8": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest9": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest10": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest11": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest12": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "kthLargest13": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest14": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest15": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest16": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest17": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest18": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest19": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest20": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ]
+    },
+    "0.05": {
+        "findKthLargest1": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest2": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest3": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest4": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest5": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest6": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest7": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest8": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest9": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest10": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest11": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest12": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "kthLargest13": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest14": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest15": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest16": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest17": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest18": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest19": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest20": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ]
+    },
+    "0.25": {
+        "findKthLargest1": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest2": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest3": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest4": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest5": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest6": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest7": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest8": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest9": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest10": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest11": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest12": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "kthLargest13": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest14": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest15": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest16": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest17": [
+            "****** Cluster 11 ******",
+            "****** Cluster 9 ******"
+        ],
+        "findKthLargest18": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest19": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ],
+        "findKthLargest20": [
+            "****** Cluster 0 ******",
+            "****** Cluster 1 ******"
+        ]
+    }
+}

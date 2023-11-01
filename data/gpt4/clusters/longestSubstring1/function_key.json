@@ -1,0 +1,152 @@
+{
+    "0.01": {
+        "lengthOfLongestSubstring1": [
+            "func_2a54652efe5446a782ea30dc009cb0a8"
+        ],
+        "lengthOfLongestSubstring2": [
+            "func_76525ccbd9a9493c9e02396db201d5d1"
+        ],
+        "lengthOfLongestSubstring3": [
+            "func_ab8ae389953645a6b224f6689966da38"
+        ],
+        "lengthOfLongestSubstring4": [
+            "func_6784a1aad3fd4a9aac48fc440a72aae4"
+        ],
+        "lengthOfLongestSubstring5": [],
+        "lengthOfLongestSubstring6": [
+            "func_3de329b861764dd6aa69163e99d73ca9"
+        ],
+        "lengthOfLongestSubstring7": [],
+        "lengthOfLongestSubstring8": [
+            "func_dae14f3ad14b4c7a98c9eff11bcc462e"
+        ],
+        "lengthOfLongestSubstring9": [
+            "func_91465e685b9346368e08008a0723a67d"
+        ],
+        "lengthOfLongestSubstring10": [
+            "func_8f1a632700e645a5900ae1b35c0d93e8"
+        ],
+        "lengthOfLongestSubstring11": [
+            "func_0e65ebf7088b46c5b1bae6a4a15f8584"
+        ],
+        "lengthOfLongestSubstring12": [],
+        "lengthOfLongestSubstring13": [],
+        "lengthOfLongestSubstring14": [
+            "func_6de02f6030eb4ffb858368780ccbd9aa"
+        ],
+        "lengthOfLongestSubstring15": [],
+        "lengthOfLongestSubstring16": [],
+        "lengthOfLongestSubstring17": [
+            "func_67533d15a2a0449da7b401e43bbc8227"
+        ],
+        "lengthOfLongestSubstring18": [
+            "func_4d5d8c0f9fa84b098b4681eba920c6e4"
+        ],
+        "lengthOfLongestSubstring19": [
+            "func_1f0f1060071e4b07ae383c1fdc7d8092"
+        ],
+        "lengthOfLongestSubstring20": [
+            "func_dfc4183ff50d42dca6592c1473934776"
+        ]
+    },
+    "0.05": {
+        "lengthOfLongestSubstring1": [
+            "func_2a54652efe5446a782ea30dc009cb0a8"
+        ],
+        "lengthOfLongestSubstring2": [
+            "func_76525ccbd9a9493c9e02396db201d5d1"
+        ],
+        "lengthOfLongestSubstring3": [
+            "func_ab8ae389953645a6b224f6689966da38"
+        ],
+        "lengthOfLongestSubstring4": [
+            "func_6784a1aad3fd4a9aac48fc440a72aae4"
+        ],
+        "lengthOfLongestSubstring5": [],
+        "lengthOfLongestSubstring6": [
+            "func_3de329b861764dd6aa69163e99d73ca9"
+        ],
+        "lengthOfLongestSubstring7": [],
+        "lengthOfLongestSubstring8": [
+            "func_dae14f3ad14b4c7a98c9eff11bcc462e"
+        ],
+        "lengthOfLongestSubstring9": [
+            "func_91465e685b9346368e08008a0723a67d"
+        ],
+        "lengthOfLongestSubstring10": [
+            "func_8f1a632700e645a5900ae1b35c0d93e8"
+        ],
+        "lengthOfLongestSubstring11": [
+            "func_0e65ebf7088b46c5b1bae6a4a15f8584"
+        ],
+        "lengthOfLongestSubstring12": [],
+        "lengthOfLongestSubstring13": [],
+        "lengthOfLongestSubstring14": [
+            "func_6de02f6030eb4ffb858368780ccbd9aa"
+        ],
+        "lengthOfLongestSubstring15": [],
+        "lengthOfLongestSubstring16": [],
+        "lengthOfLongestSubstring17": [
+            "func_67533d15a2a0449da7b401e43bbc8227"
+        ],
+        "lengthOfLongestSubstring18": [
+            "func_4d5d8c0f9fa84b098b4681eba920c6e4"
+        ],
+        "lengthOfLongestSubstring19": [
+            "func_1f0f1060071e4b07ae383c1fdc7d8092"
+        ],
+        "lengthOfLongestSubstring20": [
+            "func_dfc4183ff50d42dca6592c1473934776"
+        ]
+    },
+    "0.25": {
+        "lengthOfLongestSubstring1": [
+            "func_2a54652efe5446a782ea30dc009cb0a8"
+        ],
+        "lengthOfLongestSubstring2": [
+            "func_76525ccbd9a9493c9e02396db201d5d1"
+        ],
+        "lengthOfLongestSubstring3": [
+            "func_ab8ae389953645a6b224f6689966da38"
+        ],
+        "lengthOfLongestSubstring4": [
+            "func_6784a1aad3fd4a9aac48fc440a72aae4"
+        ],
+        "lengthOfLongestSubstring5": [],
+        "lengthOfLongestSubstring6": [
+            "func_3de329b861764dd6aa69163e99d73ca9"
+        ],
+        "lengthOfLongestSubstring7": [],
+        "lengthOfLongestSubstring8": [
+            "func_dae14f3ad14b4c7a98c9eff11bcc462e"
+        ],
+        "lengthOfLongestSubstring9": [
+            "func_91465e685b9346368e08008a0723a67d"
+        ],
+        "lengthOfLongestSubstring10": [
+            "func_8f1a632700e645a5900ae1b35c0d93e8"
+        ],
+        "lengthOfLongestSubstring11": [
+            "func_0e65ebf7088b46c5b1bae6a4a15f8584"
+        ],
+        "lengthOfLongestSubstring12": [],
+        "lengthOfLongestSubstring13": [],
+        "lengthOfLongestSubstring14": [
+            "func_6de02f6030eb4ffb858368780ccbd9aa"
+        ],
+        "lengthOfLongestSubstring15": [],
+        "lengthOfLongestSubstring16": [],
+        "lengthOfLongestSubstring17": [
+            "func_67533d15a2a0449da7b401e43bbc8227"
+        ],
+        "lengthOfLongestSubstring18": [
+            "func_4d5d8c0f9fa84b098b4681eba920c6e4"
+        ],
+        "lengthOfLongestSubstring19": [
+            "func_1f0f1060071e4b07ae383c1fdc7d8092"
+        ],
+        "lengthOfLongestSubstring20": [
+            "func_dfc4183ff50d42dca6592c1473934776"
+        ]
+    }
+}

@@ -1,0 +1,443 @@
+
+
+****** Cluster 0 ******
+public static int func_2a54652efe5446a782ea30dc009cb0a8(String s){
+    // 1
+    int n = s.length(), ans = 0;
+    // 2
+    int[] index = new int[128];
+    for (int j = 0, i = 0; j < n; j++) {
+        // 3
+        // 4
+        i = Math.max(index[s.charAt(j)], i);
+        // 5
+        ans = Math.max(ans, j - i + 1);
+        // 6
+        index[s.charAt(j)] = j + 1;
+    }
+    return ans;
+}
+public static int func_ab8ae389953645a6b224f6689966da38(String s){
+    // 16
+    int n = s.length();
+    // 17
+    Set<Character> set = new HashSet<>();
+    // 18
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 19
+        if (!set.contains(s.charAt(j))) {
+            // 20
+            // 21
+            set.add(s.charAt(j++));
+            // 22
+            ans = Math.max(ans, j - i);
+        } else {
+            // 23
+            // 24
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_76525ccbd9a9493c9e02396db201d5d1(String s){
+    // 7
+    int n = s.length();
+    // 8
+    Set<Character> set = new HashSet<>();
+    // 9
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 10
+        if (!set.contains(s.charAt(j))) {
+            // 11
+            // 12
+            set.add(s.charAt(j++));
+            // 13
+            ans = Math.max(ans, j - i);
+        } else {
+            // 14
+            // 15
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_6784a1aad3fd4a9aac48fc440a72aae4(String s){
+    // 25
+    int n = s.length();
+    // 26
+    HashSet<Character> set = new HashSet<>();
+    // 27
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 28
+        if (!set.contains(s.charAt(j))) {
+            // 29
+            // 30
+            set.add(s.charAt(j++));
+            // 31
+            ans = Math.max(ans, j - i);
+        } else {
+            // 32
+            // 33
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_3de329b861764dd6aa69163e99d73ca9(String s){
+    // 44
+    int n = s.length();
+    // 45
+    Set<Character> set = new HashSet<>();
+    // 46
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 47
+        if (!set.contains(s.charAt(j))) {
+            // 48
+            // 49
+            set.add(s.charAt(j++));
+            // 50
+            ans = Math.max(ans, j - i);
+        } else {
+            // 51
+            // 52
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_dae14f3ad14b4c7a98c9eff11bcc462e(String s){
+    // 66
+    int n = s.length();
+    // 67
+    Set<Character> set = new HashSet<>();
+    // 68
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 69
+        if (!set.contains(s.charAt(j))) {
+            // 70
+            // 71
+            set.add(s.charAt(j++));
+            // 72
+            ans = Math.max(ans, j - i);
+        } else {
+            // 73
+            // 74
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_44f3ecc3797f45e692b9f6b7b6c6b109(String s){
+    // 34
+    int n = s.length();
+    // 35
+    Set<Character> set = new HashSet<>();
+    // 36
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        if (!set.contains(s.charAt(j))) {
+            // 39
+            // 40
+            set.add(s.charAt(j++));
+            // 41
+            ans = Math.max(ans, j - i);
+        } else {
+            // 42
+            // 43
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_4641f380eca843c68d670989d3cd08cf(String s){
+    if (s == null || s.length() == 0)
+        return 0;
+    // 53
+    HashMap<Character, Integer> map = new HashMap<>();
+    // 54
+    int maxLength = 0;
+    for (int end = 0, start = 0; end < s.length(); end++) {
+        // 55
+        // 56
+        char currentChar = s.charAt(end);
+        if (map.containsKey(currentChar)) {
+            // 57
+            // 62
+            start = Math.max(map.get(currentChar) + 1, start);
+        }
+        // 64
+        map.put(currentChar, end);
+        // 65
+        maxLength = Math.max(maxLength, end - start + 1);
+    }
+    return maxLength;
+}
+public static int func_91465e685b9346368e08008a0723a67d(String s){
+    // 75
+    int n = s.length(), ans = 0;
+    // 76
+    int[] index = new int[128];
+    for (int j = 0, i = 0; j < n; j++) {
+        // 77
+        // 78
+        i = Math.max(index[s.charAt(j)], i);
+        // 79
+        ans = Math.max(ans, j - i + 1);
+        // 80
+        index[s.charAt(j)] = j + 1;
+    }
+    return ans;
+}
+public static int func_8f1a632700e645a5900ae1b35c0d93e8(String s){
+    if (s == null || s.length() == 0) {
+        // 81
+        return 0;
+    }
+    // 82
+    HashMap<Character, Integer> map = new HashMap<>();
+    // 83
+    int max = 0;
+    for (int right = 0, left = 0; right < s.length(); right++) {
+        // 84
+        if (map.containsKey(s.charAt(right))) {
+            // 85
+            // 86
+            left = Math.max(left, map.get(s.charAt(right)) + 1);
+        }
+        // 87
+        map.put(s.charAt(right), right);
+        // 88
+        max = Math.max(max, right - left + 1);
+    }
+    return max;
+}
+public static int func_0e65ebf7088b46c5b1bae6a4a15f8584(String s){
+    // 89
+    int n = s.length();
+    // 90
+    Set<Character> set = new HashSet<>();
+    // 91
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 92
+        if (!set.contains(s.charAt(j))) {
+            // 93
+            // 94
+            set.add(s.charAt(j++));
+            // 95
+            ans = Math.max(ans, j - i);
+        } else {
+            // 96
+            // 97
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_45225f222bd849e3a0e176b045f7a292(String s){
+    if (s.length() == 0)
+        return 0;
+    // 98
+    HashMap<Character, Integer> map = new HashMap<>();
+    // 99
+    int max = 0;
+    for (int i = 0, j = 0; i < s.length(); ++i) {
+        // 100
+        if (map.containsKey(s.charAt(i))) {
+            // 101
+            // 102
+            j = Math.max(j, map.get(s.charAt(i)) + 1);
+        }
+        // 103
+        map.put(s.charAt(i), i);
+        // 104
+        max = Math.max(max, i - j + 1);
+    }
+    return max;
+}
+public static int func_b244784163ca4eefae3f01961b3fd527(String s){
+    // 105
+    int n = s.length();
+    // 106
+    Set<Character> set = new HashSet<>();
+    // 107
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        if (!set.contains(s.charAt(j))) {
+            // 110
+            // 111
+            set.add(s.charAt(j++));
+            // 112
+            ans = Math.max(ans, j - i);
+        } else {
+            // 113
+            // 114
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_bc50e10f5db84b4eb0b4717b10a93fd9(String s){
+    if (s.length() == 0)
+        return 0;
+    // 124
+    HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+    // 125
+    int max = 0;
+    // 126
+    int left = 0;
+    for (int i = 0; i < s.length(); i++) {
+        // 127
+        if (map.containsKey(s.charAt(i))) {
+            // 128
+            // 129
+            left = Math.max(left, map.get(s.charAt(i)) + 1);
+        }
+        // 130
+        map.put(s.charAt(i), i);
+        // 131
+        max = Math.max(max, i - left + 1);
+    }
+    return max;
+}
+public static int func_6de02f6030eb4ffb858368780ccbd9aa(String s){
+    // 115
+    int n = s.length();
+    // 116
+    Set<Character> set = new HashSet<>();
+    // 117
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 118
+        if (!set.contains(s.charAt(j))) {
+            // 119
+            // 120
+            set.add(s.charAt(j++));
+            // 121
+            ans = Math.max(ans, j - i);
+        } else {
+            // 122
+            // 123
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_de029a8195a5495c82ca213d550c23e8(String s){
+    if (s.length() == 0)
+        return 0;
+    // 132
+    HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+    // 133
+    int max = 0;
+    for (int i = 0, j = 0; i < s.length(); ++i) {
+        // 134
+        if (map.containsKey(s.charAt(i))) {
+            // 135
+            // 136
+            j = Math.max(j, map.get(s.charAt(i)) + 1);
+        }
+        // 137
+        map.put(s.charAt(i), i);
+        // 138
+        max = Math.max(max, i - j + 1);
+    }
+    return max;
+}
+public static int func_67533d15a2a0449da7b401e43bbc8227(String s){
+    // 139
+    int n = s.length();
+    // 140
+    HashSet<Character> set = new HashSet<>();
+    // 141
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 142
+        if (!set.contains(s.charAt(j))) {
+            // 143
+            // 144
+            set.add(s.charAt(j++));
+            // 145
+            ans = Math.max(ans, j - i);
+        } else {
+            // 146
+            // 147
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_dfc4183ff50d42dca6592c1473934776(String s){
+    if (s == null || s.length() == 0) {
+        // 166
+        return 0;
+    }
+    // 167
+    HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+    // 168
+    int max = 0;
+    for (int i = 0, j = 0; i < s.length(); ++i) {
+        // 169
+        if (map.containsKey(s.charAt(i))) {
+            // 170
+            // 171
+            j = Math.max(j, map.get(s.charAt(i)) + 1);
+        }
+        // 172
+        map.put(s.charAt(i), i);
+        // 173
+        max = Math.max(max, i - j + 1);
+    }
+    return max;
+}
+public static int func_1f0f1060071e4b07ae383c1fdc7d8092(String s){
+    // 157
+    int n = s.length();
+    // 158
+    Set<Character> set = new HashSet<>();
+    // 159
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 160
+        if (!set.contains(s.charAt(j))) {
+            // 161
+            // 162
+            set.add(s.charAt(j++));
+            // 163
+            ans = Math.max(ans, j - i);
+        } else {
+            // 164
+            // 165
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}
+public static int func_4d5d8c0f9fa84b098b4681eba920c6e4(String s){
+    // 148
+    int n = s.length();
+    // 149
+    Set<Character> set = new HashSet<>();
+    // 150
+    int ans = 0, i = 0, j = 0;
+    while (i < n && j < n) {
+        // 151
+        if (!set.contains(s.charAt(j))) {
+            // 152
+            // 153
+            set.add(s.charAt(j++));
+            // 154
+            ans = Math.max(ans, j - i);
+        } else {
+            // 155
+            // 156
+            set.remove(s.charAt(i++));
+        }
+    }
+    return ans;
+}

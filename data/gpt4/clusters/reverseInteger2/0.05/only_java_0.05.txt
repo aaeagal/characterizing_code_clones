@@ -1,0 +1,833 @@
+
+
+****** Cluster 0 ******
+public static int func_634e62920a704ff788e3e60bc3a19468(Integer x){
+    // 1
+    long reversed = 0;
+    while (x != 0) {
+        // 2
+        // 3
+        reversed = (reversed * 10) + (x % 10);
+        // 4
+        x = x / 10;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 5
+            return 0;
+        }
+    }
+    return (int) reversed;
+}
+public static int func_79f335cc3c844f6b802d16a55b135eb9(Integer x){
+    // 6
+    long res = 0;
+    while (x != 0) {
+        // 7
+        // 8
+        res = res * 10 + x % 10;
+        // 9
+        x = x / 10;
+        if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+            // 10
+            return 0;
+        }
+    }
+    return (int) res;
+}
+public static int func_28779de0df134093b4da9f77be258bd7(Integer x){
+    // 11
+    long res = 0;
+    while (x != 0) {
+        // 12
+        // 13
+        res = res * 10 + x % 10;
+        // 14
+        x = x / 10;
+        if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+            return 0;
+    }
+    return (int) res;
+}
+public static int func_b502ce7936594d58aaaba3c7af696bc6(Integer x){
+    // 27
+    long res = 0;
+    while (x != 0) {
+        // 28
+        // 29
+        res = res * 10 + x % 10;
+        // 30
+        x = x / 10;
+        if (// 31
+        res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+            return 0;
+    }
+    return (int) res;
+}
+public static int func_363e234d7f034735a6f4bce9b06fa5d1(Integer x){
+    // 32
+    long res = 0;
+    while (x != 0) {
+        // 33
+        // 34
+        res = res * 10 + x % 10;
+        // 35
+        x = x / 10;
+        if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+            // 36
+            return 0;
+        }
+    }
+    return (int) res;
+}
+public static int func_af9e5cf08da24dc4ab9a46a77f66be9b(Integer x){
+    // 37
+    long res = 0;
+    while (x != 0) {
+        // 38
+        // 39
+        res = res * 10 + x % 10;
+        // 40
+        x = x / 10;
+        if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+            // 41
+            return 0;
+        }
+    }
+    return (int) res;
+}
+public static int func_805b5060a532487c9c17039ccd32731d(Integer x){
+    // 42
+    long reversed = 0;
+    while (x != 0) {
+        // 43
+        // 44
+        reversed = reversed * 10 + x % 10;
+        // 45
+        x /= 10;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 46
+            return 0;
+        }
+    }
+    return (int) reversed;
+}
+public static int func_5a96815883724c3cb25c0627686bdd6c(Integer x){
+    // 47
+    long res = 0;
+    while (x != 0) {
+        // 48
+        // 49
+        res = res * 10 + x % 10;
+        // 50
+        x = x / 10;
+        if (// 51
+        res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+            return 0;
+    }
+    return (int) res;
+}
+public static int func_f35110bb9494416b96756afd004fcc40(Integer x){
+    // 52
+    long rev = 0;
+    while (x != 0) {
+        // 53
+        // 54
+        rev = rev * 10 + x % 10;
+        // 55
+        x = x / 10;
+        if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+            // 56
+            return 0;
+        }
+    }
+    return (int) rev;
+}
+public static int func_861cc3c5b2f546b4880076a86d1f412c(Integer x){
+    // 57
+    long reversed = 0;
+    while (x != 0) {
+        // 58
+        // 59
+        reversed = reversed * 10 + x % 10;
+        // 60
+        x /= 10;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 61
+            return 0;
+        }
+    }
+    return (int) reversed;
+}
+public static int func_028a65960eac48fba09a40747de68cd3(Integer x){
+    // 62
+    long res = 0;
+    while (x != 0) {
+        // 63
+        // 64
+        res = (res * 10) + (x % 10);
+        // 65
+        x = x / 10;
+        if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+            // 66
+            return 0;
+        }
+    }
+    return (int) res;
+}
+public static int func_7b949a88fdd047208f11ec6b2c430256(Integer x){
+    // 67
+    long reversed = 0;
+    while (x != 0) {
+        // 68
+        // 69
+        reversed = reversed * 10 + x % 10;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 70
+            return 0;
+        }
+        // 71
+        x = x / 10;
+    }
+    return (int) reversed;
+}
+public static int func_3ed30400f96e4f3b90322b0b353fd344(Integer x){
+    // 72
+    long reversed = 0;
+    while (x != 0) {
+        // 73
+        // 74
+        reversed = reversed * 10 + x % 10;
+        // 75
+        x = x / 10;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 76
+            return 0;
+        }
+    }
+    return (int) reversed;
+}
+public static int func_6d11e24498354dd89be9b8d7387b223a(Integer x){
+    // 77
+    long reversed = 0;
+    while (x != 0) {
+        // 78
+        // 79
+        reversed = reversed * 10 + x % 10;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 80
+            return 0;
+        }
+        // 81
+        x /= 10;
+    }
+    return (int) reversed;
+}
+public static int func_90ed35616191406891aba55d33b4d119(Integer x){
+    // 82
+    long reversed = 0;
+    while (x != 0) {
+        // 83
+        // 84
+        int remainder = x % 10;
+        // 85
+        x /= 10;
+        // 86
+        reversed = reversed * 10 + remainder;
+        if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+            // 87
+            return 0;
+        }
+    }
+    return (int) reversed;
+}
+public static int func_33e7d83aeaac4ed58143192b4f3c767c(Integer x){
+    // 88
+    long res = 0;
+    while (x != 0) {
+        // 89
+        // 90
+        res = res * 10 + x % 10;
+        // 91
+        x = x / 10;
+        if (// 92
+        res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+            return 0;
+    }
+    return (int) res;
+}
+public static int func_dd1a0a92c62e4e02842fd7809467b98c(Integer x){
+    // 93
+    long reverse = 0;
+    while (x != 0) {
+        // 94
+        // 95
+        reverse = reverse * 10 + x % 10;
+        // 96
+        x /= 10;
+        if (reverse > Integer.MAX_VALUE || reverse < Integer.MIN_VALUE) {
+            // 97
+            return 0;
+        }
+    }
+    return (int) reverse;
+}
+public static int func_ac188a9bdc70404fab50a1e1261820af(Integer x){
+    // 98
+    long res = 0;
+    while (x != 0) {
+        // 99
+        // 100
+        res = res * 10 + x % 10;
+        // 101
+        x = x / 10;
+        if (// 102
+        res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+            return 0;
+    }
+    return (int) res;
+}
+
+
+****** Cluster 1 ******
+public static Integer func_da0b4eeb85da43ca8a98c66800c65a55(Long reversed, Integer x){
+    // 2
+    // 3
+    reversed = (reversed * 10) + (x % 10);
+    // 4
+    x = x / 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 5
+        return 0;
+    }
+    return x;
+}
+public static Integer func_f64ef1abaaff4c22bb0bec5c9f391ef3(Long res, Integer x){
+    // 7
+    // 8
+    res = res * 10 + x % 10;
+    // 9
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 10
+        return 0;
+    }
+    return x;
+}
+public static Integer func_cc3dc12f6e8a4f9e82b5e7dacc7dab13(Long res, Integer x){
+    // 12
+    // 13
+    res = res * 10 + x % 10;
+    // 14
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_a527ba135b394487bd9272777a5e13eb(Long res, Integer x){
+    // 16
+    // 17
+    res = res * 10 + x % 10;
+    // 18
+    x = x / 10;
+    return x;
+}
+public static Integer func_9c4d6da5125a4d2ca7ff5db2ed5a9db2(Long reverse, Integer x){
+    // 22
+    // 23
+    reverse = reverse * 10 + x % 10;
+    // 24
+    x = x / 10;
+    return x;
+}
+public static Integer func_a92671327a6e45f2897e13a620f0a1f3(Long res, Integer x){
+    // 28
+    // 29
+    res = res * 10 + x % 10;
+    // 30
+    x = x / 10;
+    if (// 31
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_e5d7f283ab89426580204423012a2015(Long res, Integer x){
+    // 33
+    // 34
+    res = res * 10 + x % 10;
+    // 35
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 36
+        return 0;
+    }
+    return x;
+}
+public static Integer func_43d28649daa1493b8e191a5439f8bd6f(Long res, Integer x){
+    // 38
+    // 39
+    res = res * 10 + x % 10;
+    // 40
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 41
+        return 0;
+    }
+    return x;
+}
+public static Integer func_6452e12eecaf4c9491a68c0379be97ba(Long reversed, Integer x){
+    // 43
+    // 44
+    reversed = reversed * 10 + x % 10;
+    // 45
+    x /= 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 46
+        return 0;
+    }
+    return x;
+}
+public static Integer func_2bd4c534c69c48529731a13a5db91f57(Long res, Integer x){
+    // 48
+    // 49
+    res = res * 10 + x % 10;
+    // 50
+    x = x / 10;
+    if (// 51
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_17c8c82f63cd49318ae21cc81ca42910(Long rev, Integer x){
+    // 53
+    // 54
+    rev = rev * 10 + x % 10;
+    // 55
+    x = x / 10;
+    if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+        // 56
+        return 0;
+    }
+    return x;
+}
+public static Integer func_7e292e78305643b3ad18d1c51adb666a(Long reversed, Integer x){
+    // 58
+    // 59
+    reversed = reversed * 10 + x % 10;
+    // 60
+    x /= 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 61
+        return 0;
+    }
+    return x;
+}
+public static Integer func_6c304d2cc2fe4766a123eaad168ef32c(Long res, Integer x){
+    // 63
+    // 64
+    res = (res * 10) + (x % 10);
+    // 65
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 66
+        return 0;
+    }
+    return x;
+}
+public static Integer func_bb9d3e3bd62543d2874e895c6f244d20(Long reversed, Integer x){
+    // 68
+    // 69
+    reversed = reversed * 10 + x % 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 70
+        return 0;
+    }
+    // 71
+    x = x / 10;
+    return x;
+}
+public static Integer func_8cae78c76fdb420d8f379faf18c81269(Long reversed, Integer x){
+    // 73
+    // 74
+    reversed = reversed * 10 + x % 10;
+    // 75
+    x = x / 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 76
+        return 0;
+    }
+    return x;
+}
+public static Integer func_d311d4adf820496caa2ef6c21ce8c3a8(Long reversed, Integer x){
+    // 78
+    // 79
+    reversed = reversed * 10 + x % 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 80
+        return 0;
+    }
+    // 81
+    x /= 10;
+    return x;
+}
+public static Integer func_072d17ca5594428aa37f2381cae659b0(Long reversed, Integer x){
+    // 83
+    // 84
+    int remainder = x % 10;
+    // 85
+    x /= 10;
+    // 86
+    reversed = reversed * 10 + remainder;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 87
+        return 0;
+    }
+    return x;
+}
+public static Integer func_5581bc117e4a44daa246db22627390ef(Long res, Integer x){
+    // 89
+    // 90
+    res = res * 10 + x % 10;
+    // 91
+    x = x / 10;
+    if (// 92
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_b74dd06caf12485baa13271a0de158b1(Long reverse, Integer x){
+    // 94
+    // 95
+    reverse = reverse * 10 + x % 10;
+    // 96
+    x /= 10;
+    if (reverse > Integer.MAX_VALUE || reverse < Integer.MIN_VALUE) {
+        // 97
+        return 0;
+    }
+    return x;
+}
+public static Integer func_824a73ff75cd4edca0849b970a409f51(Long res, Integer x){
+    // 99
+    // 100
+    res = res * 10 + x % 10;
+    // 101
+    x = x / 10;
+    if (// 102
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+
+
+****** Cluster 2 ******
+public static Integer func_38db7fe26d144d4683831abc544466c0(Integer x, Long reversed){
+    // 2
+    // 3
+    reversed = (reversed * 10) + (x % 10);
+    // 4
+    x = x / 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 5
+        return 0;
+    }
+    return x;
+}
+public static Integer func_da350cc0200947059618f64de311f628(Integer x, Long res){
+    // 7
+    // 8
+    res = res * 10 + x % 10;
+    // 9
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 10
+        return 0;
+    }
+    return x;
+}
+public static Integer func_847768cdc7cc43b184df2ebff5ffa177(Integer x, Long res){
+    // 12
+    // 13
+    res = res * 10 + x % 10;
+    // 14
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_2386bebb53b84b59845c24a523c4be7f(Integer x, Long res){
+    // 16
+    // 17
+    res = res * 10 + x % 10;
+    // 18
+    x = x / 10;
+    return x;
+}
+public static Integer func_f485eeec4b5b42c283d32141865a55a8(Integer x, Long reverse){
+    // 22
+    // 23
+    reverse = reverse * 10 + x % 10;
+    // 24
+    x = x / 10;
+    return x;
+}
+public static Integer func_96882562d5044c93b5fc5099e5a23597(Integer x, Long res){
+    // 28
+    // 29
+    res = res * 10 + x % 10;
+    // 30
+    x = x / 10;
+    if (// 31
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_f544b311846e4412ac7c70c986857157(Integer x, Long res){
+    // 33
+    // 34
+    res = res * 10 + x % 10;
+    // 35
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 36
+        return 0;
+    }
+    return x;
+}
+public static Integer func_14ff3f461cc043f68e2268a87aca1f7b(Integer x, Long res){
+    // 38
+    // 39
+    res = res * 10 + x % 10;
+    // 40
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 41
+        return 0;
+    }
+    return x;
+}
+public static Integer func_78c009079cc44c018921f1e98f4cc264(Integer x, Long reversed){
+    // 43
+    // 44
+    reversed = reversed * 10 + x % 10;
+    // 45
+    x /= 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 46
+        return 0;
+    }
+    return x;
+}
+public static Integer func_c5fcd8484b9742eaa7dbbcc49e3ab159(Integer x, Long res){
+    // 48
+    // 49
+    res = res * 10 + x % 10;
+    // 50
+    x = x / 10;
+    if (// 51
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_258ed81f6b434f83bc78232028d1e9ed(Integer x, Long rev){
+    // 53
+    // 54
+    rev = rev * 10 + x % 10;
+    // 55
+    x = x / 10;
+    if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+        // 56
+        return 0;
+    }
+    return x;
+}
+public static Integer func_64432a44bed045d3aa2e9c42c191308b(Integer x, Long reversed){
+    // 58
+    // 59
+    reversed = reversed * 10 + x % 10;
+    // 60
+    x /= 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 61
+        return 0;
+    }
+    return x;
+}
+public static Integer func_848eb4cb2875436384a4bc9f738bb2b7(Integer x, Long res){
+    // 63
+    // 64
+    res = (res * 10) + (x % 10);
+    // 65
+    x = x / 10;
+    if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
+        // 66
+        return 0;
+    }
+    return x;
+}
+public static Integer func_b039b2997e5c4b698eba5f646c585d5c(Integer x, Long reversed){
+    // 68
+    // 69
+    reversed = reversed * 10 + x % 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 70
+        return 0;
+    }
+    // 71
+    x = x / 10;
+    return x;
+}
+public static Integer func_84e0553f54554888a2654b4f45a19609(Integer x, Long reversed){
+    // 73
+    // 74
+    reversed = reversed * 10 + x % 10;
+    // 75
+    x = x / 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 76
+        return 0;
+    }
+    return x;
+}
+public static Integer func_8d6aaaa6268f4cd3b4287ebd6da12dac(Integer x, Long reversed){
+    // 78
+    // 79
+    reversed = reversed * 10 + x % 10;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 80
+        return 0;
+    }
+    // 81
+    x /= 10;
+    return x;
+}
+public static Integer func_4fb2ba3803f34cdeabf80c4ab9627113(Integer x, Long reversed){
+    // 83
+    // 84
+    int remainder = x % 10;
+    // 85
+    x /= 10;
+    // 86
+    reversed = reversed * 10 + remainder;
+    if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
+        // 87
+        return 0;
+    }
+    return x;
+}
+public static Integer func_764a251c1242480fb34bf41caeca0b9f(Integer x, Long res){
+    // 89
+    // 90
+    res = res * 10 + x % 10;
+    // 91
+    x = x / 10;
+    if (// 92
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+public static Integer func_f9d206865f1149eaac451a5870e4ab60(Integer x, Long reverse){
+    // 94
+    // 95
+    reverse = reverse * 10 + x % 10;
+    // 96
+    x /= 10;
+    if (reverse > Integer.MAX_VALUE || reverse < Integer.MIN_VALUE) {
+        // 97
+        return 0;
+    }
+    return x;
+}
+public static Integer func_6a8b9871eaa54b5c8a847e65a88498ed(Integer x, Long res){
+    // 99
+    // 100
+    res = res * 10 + x % 10;
+    // 101
+    x = x / 10;
+    if (// 102
+    res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+        return 0;
+    return x;
+}
+
+
+****** Cluster 9 ******
+public static Long func_529efab391c64de4a0325e9f09f47338(Long res, Integer x){
+    // 16
+    // 17
+    res = res * 10 + x % 10;
+    // 18
+    x = x / 10;
+    return res;
+}
+public static Long func_2343bd4b5b0d4e708cbba179fec0274d(Long reverse, Integer x){
+    // 22
+    // 23
+    reverse = reverse * 10 + x % 10;
+    // 24
+    x = x / 10;
+    return reverse;
+}
+
+
+****** Cluster 10 ******
+public static Long func_6edbc17998fd4a0890c0d97aa35c9f7a(Integer x, Long res){
+    // 16
+    // 17
+    res = res * 10 + x % 10;
+    // 18
+    x = x / 10;
+    return res;
+}
+public static Long func_f4c087115dbb40b0ae6e8f4492249428(Integer x, Long reverse){
+    // 22
+    // 23
+    reverse = reverse * 10 + x % 10;
+    // 24
+    x = x / 10;
+    return reverse;
+}
+
+
+****** Cluster 13 ******
+public static Long func_5daa441131cd4b80b3ac27d8f7dad5a8(Long res, Integer x){
+    while (x != 0) {
+        // 16
+        // 17
+        res = res * 10 + x % 10;
+        // 18
+        x = x / 10;
+    }
+    return res;
+}
+public static Long func_afb000a2eeff47b387ca451820bb5904(Long reverse, Integer x){
+    while (x != 0) {
+        // 22
+        // 23
+        reverse = reverse * 10 + x % 10;
+        // 24
+        x = x / 10;
+    }
+    return reverse;
+}
+
+
+****** Cluster 14 ******
+public static Long func_5f55784f745d4d2ba96fd33ad89937fd(Integer x, Long res){
+    while (x != 0) {
+        // 16
+        // 17
+        res = res * 10 + x % 10;
+        // 18
+        x = x / 10;
+    }
+    return res;
+}
+public static Long func_ba8163131bb24f21bc87693e264cf466(Integer x, Long reverse){
+    while (x != 0) {
+        // 22
+        // 23
+        reverse = reverse * 10 + x % 10;
+        // 24
+        x = x / 10;
+    }
+    return reverse;
+}

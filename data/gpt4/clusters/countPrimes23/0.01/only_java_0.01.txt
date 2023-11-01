@@ -1,0 +1,343 @@
+
+
+****** Cluster 0 ******
+public static int func_8163ca34f3c841f1ac13ce3e5be4d15a(Integer n){
+    if (// 11
+    n <= 2)
+        return 0;
+    // 12
+    boolean[] isParity = new boolean[n];
+    // 13
+    int count = 1;
+    for (int i = 3; i < n; i += 2) {
+        // 14
+        if (// 15
+        isParity[i])
+            // 16
+            continue;
+        // 17
+        count++;
+        if (// 18
+        i > Math.sqrt(n))
+            // 19
+            continue;
+        for (// 20
+        int j = i * i; // 20
+        j < n; // 21
+        j += 2 * i) isParity[j] = true;
+    }
+    return count;
+}
+public static int func_19b7060f22e649278f0bd6ebaca3cff9(Integer n){
+    if (n < 3)
+        return 0;
+    // 1
+    boolean[] primes = new boolean[n];
+    // 2
+    Arrays.fill(primes, true);
+    // 3
+    primes[0] = primes[1] = false;
+    for (int i = 2; i * i < n; i++) {
+        // 5
+        if (!primes[i])
+            continue;
+        for (int j = i * i; j < n; j += i) {
+            // 6
+            // 7
+            primes[j] = false;
+        }
+    }
+    // 8
+    int count = 0;
+    for (boolean prime : primes) {
+        // 10
+        if (prime)
+            count++;
+    }
+    return count;
+}
+public static int func_b3b394d6c6634b4ca0b36f7f7a85ad82(Integer n){
+    if (// 29
+    n <= 2)
+        return 0;
+    // 30
+    boolean[] primes = new boolean[n + 1];
+    for (int p = 2; p * p <= n; p++) {
+        // 31
+        if (primes[p] == false) {
+            // 32
+            for (// 33
+            int i = p * p; // 33
+            i <= n; // 34
+            i += p) primes[i] = true;
+        }
+    }
+    // 35
+    int countPrimes = 0;
+    for (int i = 2; i < n; i++) {
+        // 36
+        if (// 37
+        primes[i] == false)
+            // 38
+            countPrimes++;
+    }
+    return countPrimes;
+}
+public static int func_84aca45abf434c17a0166a6bd0223839(Integer n){
+    if (n <= 2)
+        return 0;
+    // 54
+    boolean[] isPrime = new boolean[n];
+    // 55
+    Arrays.fill(isPrime, true);
+    for (int i = 2; i * i < n; i++) {
+        // 56
+        if (isPrime[i]) {
+            // 57
+            for (int multiples = i * i; multiples < n; multiples += i) {
+                // 58
+                // 59
+                isPrime[multiples] = false;
+            }
+        }
+    }
+    // 60
+    int count = 0;
+    for (int i = 2; i < n; i++) {
+        // 61
+        if (isPrime[i]) {
+            // 62
+            // 63
+            count++;
+        }
+    }
+    return count;
+}
+public static int func_c08220210f41439190d8d08079fb29ef(Integer n){
+    if (n <= 2) {
+        // 64
+        return 0;
+    }
+    // 65
+    boolean[] primes = new boolean[n];
+    // 66
+    Arrays.fill(primes, true);
+    // 67
+    primes[0] = primes[1] = false;
+    for (int i = 2; i * i < n; i++) {
+        // 68
+        if (primes[i]) {
+            // 69
+            for (int j = i * i; j < n; j += i) {
+                // 70
+                // 71
+                primes[j] = false;
+            }
+        }
+    }
+    // 72
+    int numOfPrimes = 0;
+    for (boolean prime : primes) {
+        // 73
+        // 74
+        numOfPrimes += prime ? 1 : 0;
+    }
+    return numOfPrimes;
+}
+public static int func_9013418d9d944486afb58dee96baaaba(Integer n){
+    if (n <= 2) {
+        // 75
+        return 0;
+    }
+    // 76
+    boolean[] primes = new boolean[n];
+    // 77
+    Arrays.fill(primes, true);
+    // 78
+    primes[0] = primes[1] = false;
+    for (int i = 2; i * i < n; i++) {
+        // 79
+        if (primes[i]) {
+            // 80
+            for (int j = i * i; j < n; j += i) {
+                // 81
+                // 82
+                primes[j] = false;
+            }
+        }
+    }
+    // 83
+    int count = 0;
+    for (boolean prime : primes) {
+        // 84
+        if (prime) {
+            // 85
+            // 86
+            count++;
+        }
+    }
+    return count;
+}
+public static int func_0e62a43b650e435f8c5dc7b3a9ae1b9c(Integer n){
+    if (// 111
+    n < 2)
+        return 0;
+    // 112
+    boolean[] primes = new boolean[n];
+    // 113
+    primes[0] = primes[1] = false;
+    for (// 114
+    int i = 2; // 114
+    i < n; // 115
+    i++) primes[i] = true;
+    for (// 116
+    int i = 2; // 116
+    i * i < n; i++) if (// 117
+    primes[i])
+        for (// 118
+        int j = i * i; // 118
+        j < n; // 119
+        j += i) primes[j] = false;
+    // 120
+    int count = 0;
+    for (// 121
+    int i = 2; // 121
+    i < n; i++) if (// 122
+    primes[i])
+        // 123
+        count++;
+    return count;
+}
+public static int func_0863281ab22943a2b2c1c46eabcf2a6e(Integer n){
+    if (n <= 2)
+        return 0;
+    // 199
+    boolean[] isPrime = new boolean[n];
+    // 200
+    Arrays.fill(isPrime, true);
+    // 201
+    isPrime[0] = false;
+    // 202
+    isPrime[1] = false;
+    // 203
+    int count = 0;
+    for (int i = 2; i < n; i++) {
+        // 204
+        if (isPrime[i]) {
+            // 205
+            // 206
+            count++;
+            for (int j = 2; i * j < n; j++) {
+                // 207
+                // 208
+                isPrime[i * j] = false;
+            }
+        }
+    }
+    return count;
+}
+public static int func_7cdd56e74773485f96590f8671538320(Integer n){
+    if (// 224
+    n < 3)
+        return 0;
+    // 225
+    boolean[] primes = new boolean[n];
+    // 226
+    Arrays.fill(primes, true);
+    // 227
+    primes[0] = primes[1] = false;
+    for (int i = 2; i * i < n; i++) {
+        // 228
+        if (// 229
+        !primes[i])
+            // 230
+            continue;
+        for (int j = i * i; j < n; j += i) {
+            // 231
+            // 232
+            primes[j] = false;
+        }
+    }
+    // 233
+    int count = 0;
+    for (// 234
+    boolean prime : primes) if (// 235
+    prime)
+        // 236
+        count++;
+    return count;
+}
+
+
+****** Cluster 3 ******
+public static int func_3c3ecedd44e54d8d8ea32b14f0b24f75(Integer n){
+    // 22
+    boolean[] isNotPrime = new boolean[n];
+    // 23
+    int count = 0;
+    for (int i = 2; i < n; i++) {
+        // 24
+        if (isNotPrime[i] == false) {
+            // 25
+            // 26
+            count++;
+            for (int j = 2; i * j < n; j++) {
+                // 27
+                // 28
+                isNotPrime[i * j] = true;
+            }
+        }
+    }
+    return count;
+}
+public static int func_0fd5c48947f840699d97756beb1a53ad(Integer n){
+    // 87
+    boolean[] notPrime = new boolean[n];
+    // 88
+    int count = 0;
+    for (int i = 2; i < n; i++) {
+        // 89
+        if (notPrime[i] == false) {
+            // 90
+            // 91
+            count++;
+            for (int j = 2; j * i < n; j++) {
+                // 92
+                // 93
+                notPrime[i * j] = true;
+            }
+        }
+    }
+    return count;
+}
+public static int func_c0913ccc4d2948158beb8f924b54ae77(Integer n){
+    // 124
+    boolean prime[] = new boolean[n + 1];
+    for (int i = 0; i <= n; i++) {
+        // 125
+        // 126
+        prime[i] = true;
+    }
+    for (int p = 2; p * p <= n; p++) {
+        // 127
+        if (prime[p]) {
+            // 128
+            for (int i = p * p; i <= n; i += p) {
+                // 129
+                // 130
+                prime[i] = false;
+            }
+        }
+    }
+    // 131
+    int primeCount = 0;
+    for (int i = 2; i < n; i++) {
+        // 132
+        if (prime[i]) {
+            // 133
+            // 134
+            primeCount++;
+        }
+    }
+    return primeCount;
+}

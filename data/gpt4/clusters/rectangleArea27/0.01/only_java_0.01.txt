@@ -1,0 +1,41 @@
+
+
+****** Cluster 8 ******
+public static Integer func_91cc439633b843f79326aa83f0a4bcfd(Integer overlapWidth, Integer overlapHeight, Integer overlapArea) { 
+if (// 49
+overlapWidth > 0 && overlapHeight > 0)
+    // 50
+    overlapArea = overlapWidth * overlapHeight;
+return overlapArea;
+}
+
+
+public static Integer func_02a42bf5cad3424da125ee2d37de42fe(Integer y_overlap, Integer x_overlap, Integer intersectArea) { 
+if (x_overlap > 0 && y_overlap > 0) {
+    // 65
+    // 66
+    intersectArea = x_overlap * y_overlap;
+}
+return intersectArea;
+}
+
+
+public static Integer func_8c568a5cfc854d27acbfac7bc8ee0117(Integer overlapWidth, Integer overlapHeight, Integer overlapArea) { 
+if (overlapWidth > 0 && overlapHeight > 0) {
+    // 109
+    // 110
+    overlapArea = overlapWidth * overlapHeight;
+}
+return overlapArea;
+}
+
+
+public static Integer func_6a41ab24cdc54c818122b35014d592ea(Integer intersectY, Integer intersectX, Integer intersection) { 
+if (intersectX > 0 && intersectY > 0) {
+    // 148
+    // 149
+    intersection = intersectX * intersectY;
+}
+return intersection;
+}
+

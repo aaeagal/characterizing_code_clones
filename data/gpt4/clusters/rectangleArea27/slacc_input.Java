@@ -36,11 +36,11 @@ public class Main {
     }
 
     public static int totalArea3(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
-        // Calculate the area of both rectangles. // 19
+
         int area1 = (ax2 - ax1) * (ay2 - ay1); // 20
         int area2 = (bx2 - bx1) * (by2 - by1); // 21
 
-        // Calculate the overlap area. // 22
+
         int left = Math.max(ax1, bx1); // 23
         int right = Math.min(ax2, bx2); // 24
         int top = Math.min(ay2, by2); // 25
@@ -50,23 +50,20 @@ public class Main {
         if(right > left && top > bottom) // 28
             overlap = (right - left) * (top - bottom); // 29
 
-        // Return the sum of the areas of the rectangles, minus the overlapping area. // 30
         return area1 + area2 - overlap;
     }
 
 
 
     public int rectangleArea4(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
-        // Calculate the area of both rectangles // 31
+
         int rect1 = (ax2 - ax1) * (ay2 - ay1); // 32
         int rect2 = (bx2 - bx1) * (by2 - by1); // 33
 
-        // Calculate the area of overlap // 34
         int x_overlap = Math.max(0, Math.min(ax2, bx2) - Math.max(ax1, bx1)); // 35
         int y_overlap = Math.max(0, Math.min(ay2, by2) - Math.max(ay1, by1)); // 36
         int overlapArea = x_overlap * y_overlap; // 37
 
-        // The total area covered by the two rectangles is the sum of the areas of the rectangles minus the area of overlap // 38
         return rect1 + rect2 - overlapArea;
     }
 
@@ -148,17 +145,14 @@ public class Main {
     }
 
     public static int area11(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
-        //Calculating areas of the two rectangles // 71
         int area1 = (ax2 - ax1) * (ay2 - ay1); // 72
         int area2 = (bx2 - bx1) * (by2 - by1); // 73
 
-        //Calculating overlapping area // 74
         int overlapWidth = Math.max(0, Math.min(ax2, bx2) - Math.max(ax1, bx1)); // 75
         int overlapHeight = Math.max(0, Math.min(ay2, by2) - Math.max(ay1, by1)); // 76
 
         int overlappingArea = overlapWidth * overlapHeight; // 77
 
-        //Adding the areas of the two rectangles and removing the overlapping area (if any) // 78
         return area1 + area2 - overlappingArea;
     }
 
@@ -179,16 +173,14 @@ public class Main {
     }
 
     public static int rectangleArea13(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2){
-        // Calculate area of both rectangles // 88
+
         int areaA = (ax2 - ax1) * (ay2 - ay1); // 89
         int areaB = (bx2 - bx1) * (by2 - by1); // 90
 
-        // Calculate overlap area // 91
         int overlapX = Math.max(0, Math.min(ax2, bx2) - Math.max(ax1, bx1)); // 92
         int overlapY = Math.max(0, Math.min(ay2, by2) - Math.max(ay1, by1)); // 93
         int overlapArea = overlapX * overlapY; // 94
 
-        // Total area covered by both rectangles is sum of their areas minus overlap area // 95
         return areaA + areaB - overlapArea;
     }
 
@@ -205,21 +197,18 @@ public class Main {
     }
 
     public int calculateTotalArea15(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
-        // Calculate the area of both rectangles // 101
+
         int area1 = (ax2 - ax1) * (ay2 - ay1); // 102
         int area2 = (bx2 - bx1) * (by2 - by1); // 103
 
-        // Calculate the overlapping area // 104
         int overlapWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1); // 105
         int overlapHeight = Math.min(ay2, by2) - Math.max(ay1, by1); // 106
         int overlapArea = 0; // 107
 
-        // If there's an overlap, calculate its area // 108
         if (overlapWidth > 0 && overlapHeight > 0) { // 109
             overlapArea = overlapWidth * overlapHeight; // 110
         }
 
-        // Return the total area // 111
         return area1 + area2 - overlapArea;
     }
 
@@ -236,19 +225,17 @@ public class Main {
     }
 
     public static int totalCoveredArea17(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
-        // calculate total area of both rectangles // 117
+
         int totalArea = (ax2 - ax1) * (ay2 - ay1) + (bx2 - bx1) * (by2 - by1); // 118
 
-        // calculate overlap area // 119
         int overlapWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1); // 120
         int overlapHeight = Math.min(ay2, by2) - Math.max(ay1, by1); // 121
 
-        // if no intersection occurs // 122
+
         if (overlapWidth <= 0 || overlapHeight <= 0) { // 123
             return totalArea;
         }
 
-        // subtracting overlapped area // 124
         totalArea -= overlapWidth * overlapHeight; // 125
 
         return totalArea;

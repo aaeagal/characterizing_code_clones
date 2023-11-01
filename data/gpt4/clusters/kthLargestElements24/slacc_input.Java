@@ -66,7 +66,7 @@ public class Solution {
 
 
     public static int findKthLargest6(int[] nums, int k) {
-        PriorityQueue<Integer> q = new PriorityQueue<Integer>(k); // java's priority queue is a min heap // 26
+        PriorityQueue<Integer> q = new PriorityQueue<Integer>(k); // 26
         for(int i: nums){ // 27
             q.offer(i); // 28
             if(q.size() > k){ // 29
